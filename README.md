@@ -1,9 +1,9 @@
 This project is about building knowledge graphs for Transportation
 
 The team consists of
-Antonio Luigi Stefani - Project Manager + Knowledge Engineer
-Fivos Kapidis - Data Expert + Knowledge Engineer
-Alberto Carbognin - Data Scientist
+Antonio Luigi Stefani - Project Manager + Knowledge Engineer\
+Fivos Kapidis - Data Expert + Knowledge Engineer\
+Alberto Carbognin - Data Scientist\
 Omid Jadidi - Data Scientist
 
 Q&A project session with tutors.
