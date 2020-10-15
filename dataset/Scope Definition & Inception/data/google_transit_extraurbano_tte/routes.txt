@@ -1,0 +1,134 @@
+﻿route_id,agency_id,route_short_name,route_long_name,route_type
+1,12,B101,Cavalese-Predazzo-Moena-Canazei-Penia,3
+3,12,B102,Trento -  Cembra - Capriana - Cavalese,3
+7,12,B114,Casatta di Valfloriana - Palu' - Sicina,3
+55,12,B104,Trento-S.Michele a/A-Salorno-Egna-Ora-Cavalese,3
+60,12,B105,Verla - Valternigo - Palu' di Giovo,3
+63,12,B121,Montesover - Sover,3
+65,12,B109,Cavalese - Masi di Cavalese,3
+67,12,B111,Cavalese - Carano - Villaggio Veronza,3
+69,12,B402,Trento - Nogarè - Baselga di Pinè -Montesover,3
+71,12,B201,Trento-Vezzano Apt-Sarche-Tione,3
+73,12,B216,Tione-Bolbeno-Ragoli-Montagne,3
+76,12,B202,Trento-Sardagna-Candriai-Vaneze-Vason-Viote,3
+78,12,B203,Vezzano-Ciago-Ranzo-Margone,3
+80,12,B206,Trento-Cadine-Candriai-Sopramonte-Terlago-MTerlago,3
+84,12,B429,Centrale - Regnana,3
+86,12,B408,Borgo Valsugana - Olle,3
+90,12,B415,Levico Terme - Barco - S.Giuliana - Lochere,3
+92,12,B431,Baselga di Pinè - S.Mauro,3
+94,12,B413,Brusago-Valcava,3
+96,12,B428,Bedollo-Svaldi,3
+98,12,B410,Borgo Valsugana - Tezze - Primolano,3
+102,12,B501,S.Martino di Castrozza-Fiera di Primiero-Feltre,3
+106,12,B504,Canal S.Bovo - Ronco Fosse - Ronco Chiesa,3
+108,12,B512,Borgo Valsugana-Arten-Feltre,3
+110,12,B301,Trento-Besenello-Calliano-Rovereto,3
+112,12,B503,Fiera di Primiero-Passo Cereda-Mis-Sagron,3
+116,12,B506,Fiera di Primiero-Imer-Canal S.Bovo-Caoria,3
+117,12,B112,Cavalese - Daiano - Varena,3
+120,12,B103,Trento - Civezzano - Sover - Cavalese,3
+123,12,B514,(Borgo) Arten-Fiera di P.-S.Martino di Castrozza,3
+130,12,B122,Predazzo-P.sso Rolle-Fiera di P.,3
+132,12,B409,Borgo Valsugana -Roncegno Terme -Ronchi,3
+134,12,B205,Trento-Vezzano-Sarche-Dro-Arco-Riva,3
+136,12,B113,Cavalese - Daiano - Carano - Tesero - Cavalese,3
+138,12,B404,Baselga di Pinè - Faida  - Montagnaga,3
+151,12,B116,Trento - Civezzano - S.Agnese - Bosco,3
+153,12,B211,Riva del G.-Tenno-Fiave'-Ponte Arche,3
+155,12,B210,Ponte Arche-S.Croce-Cavrasto-Bivedo,3
+157,12,B215,Tione-Pieve di Bono-Storo-Baitoni-Ponte Caffaro,3
+159,12,B209,Ponte Arche-Lundo,3
+161,12,B208,Ponte Arche-S.Lorenzo in B.-Molveno,3
+164,12,B213,Pieve di Bono-Castel Condino-Por,3
+167,12,B212,Pieve di Bono-Praso-Daone,3
+169,12,B406,Borgo Valsugana -Carzano -Strigno -Samone,3
+171,12,B214,Riva-Pregasina-Bezzecca-Storo-Pieve di Bono,3
+175,12,B204,Trento-Vezzano Apt-Vigo Cavedine-Riva del Garda,3
+177,12,B418,Pergine-Kamauz-Frassilongo-S.Felice F.-Hacleri,3
+179,12,B417,Pergine -Canezza -Viarago -S.Orsola -Palù,3
+181,12,B302,Trento -Ravina -Mattarello -Aldeno -Garniga Terme,3
+184,12,B407,Borgo Valsugana - Telve - Torcegno,3
+186,12,B303,Trento-V.Vattaro-Centa-Carbonare-Lavarone-Luserna,3
+188,12,B423,Pergine Vals.-Ischia-Tenna-Levico Terme,3
+190,12,B316,Rovereto-Trambileno-Vanza-Pozzacchio,3
+194,12,B311,Rovereto-Villa-Nomi-Aldeno,3
+196,12,B306,Rovereto-Calliano-Folgaria-Lavarone,3
+198,12,B315,Rovereto-Terragnolo-Serrada-Folgaria,3
+200,12,B307,Rovereto-Mori-Chizzola-Cornè-Ala-Avio,3
+203,12,B314,Rovereto-Riva-Obra di Vallarsa-Ometto,3
+215,12,B312,Rovereto-Pozzacchio-Raossi-P.Vallarsa-P.Fugazze,3
+220,12,B310,Rovereto-Mori-S.Felice-Ronzo Chienis,3
+227,12,B507,Caoria-Canal S.Bovo-Feltre,3
+229,12,B230,Trento-Ciago-Monte Terlago-Ranzo-Margone,3
+231,12,B305,Rovereto-Mori-Brentonico-Saccone,3
+233,12,B319,Besagno-Crosano-Cornè-Saccone,3
+235,12,B318,Valle S.Felice-Manzano-Nomesino,3
+300,12,B115,Pergine - Civezzano,3
+309,12,B425,Pergine Vals.-Masetti-Assizzi-Vignola-Falesina,3
+311,12,B511,Siror - Fiera di Primiero - Imer - Masi Imer,3
+316,12,B123,Moena-Passo  S.Pellegrino-Falcade,3
+320,12,B217,Tione - Tione Ospedale Civile,3
+322,12,B218,Vigo Cavedine - Masi di Vigo Cavedine,3
+324,12,B640,Malè - Rabbi Bagni - Somrabbi,3
+326,12,B642,Malè - Folgarida - Madonna di Campiglio,3
+328,12,B644,Pellizzano - Menas,3
+330,12,B641,Malè - Bolentina,3
+332,12,B646,Malè -Mezzana -Fucine -Vermiglio -Passo Tonale,3
+334,12,B643,Malè - Mezzana - Marilleva 1400,3
+336,12,B645,Malè -Mezzana -Fucine -Cogolo -Peio,3
+340,12,B107,Mezzolombardo - Roverè della Luna,3
+343,12,B106,Mezzocorona Ferrovia - S.Michele - Faedo Pineta,3
+345,12,B611,Trento-Mezzocorona-Fai d/Paganella-Andalo-Molveno,3
+352,12,R35, FERROVIA TRENTO - MALE' - MARILLEVA 900 - MEZZANA,2
+354,12,B624,Cles - Mechel,3
+357,12,B634,Cles - Livo - Bresimo - Lanza di Rumo,3
+362,12,B635,Livo - Baselga - Bresimo,3
+364,12,B632,Cles - Revò - Castelfondo - Fondo,3
+366,12,B620,Mezzolombardo-Campodenno-Denno-Cles,3
+368,12,B627,Cles - Dermulo - Coredo - Smarano - Sfruz,3
+371,12,B631,Fondo - Tret,3
+375,12,B630,Cles -Dermulo -Dambel -Don -Fondo -P.Mendola,3
+378,12,B633,Cles - Mostizzolo - Cis,3
+395,12,B615,Mezzolombardo - Vigo di Ton -  Toss,3
+397,12,B623,Cles - Pavillo - Tuenno - Nanno - Portolo,3
+401,12,B625,Mollaro - Priò - Vervò - Tres,3
+417,12,B863,Linea 3 integrata:Nago-Torbole-Riva-Arco-Bolognano,3
+420,12,B861,Linea 1: Riva -Varone -Arco -S.Giorgio-Brione-Riva,3
+423,12,B862,Linea 2: Riva-Brione-S.Giorgio-Arco-Varone-Riva,3
+433,12,B505,Fiera di Primiero-Imer-Totoga-Caoria,3
+439,12,B543,Siror-Fiera di Primiero-Mis-Agordo,3
+490,12,B441,Trento-diretta:via Gallerie-Borgo V.-Castello T.,3
+494,12,B403,Trento - Pergine - Baselga di Pinè - Montesover,3
+503,12,B335,Rovereto-Ala-Masi d'Avio-Avio-Rovereto,3
+507,12,B334,Rovereto-Ala-Sabbionara-Avio-Masi-Rovereto,3
+520,12,B401,Trento-Pergine V.-Levico T.-Borgo V.,3
+522,12,B405,Borgo V.- Strigno - Castello Tesino,3
+547,12,B132,Valcava-Scancio-Faver-Verla-Palù-S.Michele,3
+549,12,B461,Linea 1 Pergine Valsugana - Madrano - Nogarè,3
+551,12,B462,Linea 2 Pergine-Zivignago-Canezza-Viarago-Serso,3
+552,12,B466,Linea 6 Pergine Valsugana-Costasavina-Roncogno,3
+554,12,B464,Linea 4 Pergine Valsugana - Ischia,3
+556,12,B463,Linea 3 Pergine Valsugana-Masetti-Assizzi-Zava,3
+562,12,B465,Linea 5 Pergine V-Susà-S.Vito-Canale-S.Caterina,3
+565,12,B236,Sopramonte-Baselga-Vigolo B.-Terlago-M.Terlago,3
+578,12,751,Servizi Trenitalia - Brennero Andata,2
+580,12,B336,Ala-Ronchi di Ala-Ponzolotti,3
+604,12,B120,Cavalese Autostazione - Ospedale,3
+618,12,B503,Caoria-Imer-Fiera di Primiero-Voltago-Agordo,3
+634,12,B332,Rovereto-Mori-Riva-Arco-Bolognano,3
+636,12,B231,Tione-Pinzolo-Madonna di C.-C.C.Magno,3
+638,12,B140,SAD: Ora-S.Lugano-Castello di Fiemme-Cavalese,3
+640,12,B468,Linea 8: Pergine I.-Ospedale Villa Rosa-Zivignago,3
+667,12,B661,Servizio Urbano Predaia: Taio - Smarano,3
+669,12,B662,Servizio Urbano Predaia: Taio-Vervo'-Mollaro,3
+672,12,B869, Riva del Garda-Deva-Pranzo-Campi,3
+681,12,B665,SU.Ville Anaunia:Portolo-Nanno-Rallo-Pavillo-Cles,3
+687,12,B261,SU Vallelaghi: Terlago-M.Terlago-Ciago-Lon-Vezzano,3
+691,12,R25,Trento-Bassano Trentino Trasporti Spa,2
+693,12,R26,Trento-Borgo Trentino Trasporti Spa,2
+695,12,R25,Servizi Trenitalia - Andata Tn-Bassano,2
+696,12,R26,Servizi Trenitalia - AndataTn-Borgo,2
+703,12,B621,Trento-Lavis-Zambana-Nave S.Rocco-Mezzolombardo,3
+713,12,B601,Trento-Dermulo-Cles-Malè,3
+717,12,B450,Servizio sostitutivo treno-Andata,3

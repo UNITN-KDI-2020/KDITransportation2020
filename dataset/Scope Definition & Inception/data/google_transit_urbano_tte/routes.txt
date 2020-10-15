@@ -1,0 +1,38 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+396,12,3,Cortesano Gardolo P.Dante Villazzano 3,3,C52720,FFFFFF
+400,12,5,Piazza Dante P.Fiera Povo Oltrecastello,3,F5C500,000000
+402,12,7,Canova Melta Piazza Dante Gocciadoro,3,0A9B86,FFFFFF
+404,12,8,Centochiavi Piazza Dante Mattarello,3,52332A,FFFFFF
+406,12,9,P.Dante S.Donà Cognola Villamontagna,3,8B4E2B,FFFFFF
+408,12,10,P.Dante Martignano Cognola / Montevaccino,3,0A5543,FFFFFF
+411,12,12,P.Dante Via Ghiaie Ravina Romagnano,3,95293B,FFFFFF
+415,12,14,P.Dante Via Sanseverino Belvedere Ravina,3,E490B0,000000
+425,12,11,Piazza Dante Via Brennero Gardolo Spini,3,582E79,FFFFFF
+460,12,NP,Navetta Parcheggi: Zuffo M.Te Baldo Zuffo,3,000000,FFFFFF
+466,12,13,P.Dante Rosmini S.Rocco Povo Polo Soc.,3,BF6092,000000
+478,12,15,Piazza Dante Interporto Spini Di Gardolo,3,72E006,FFFFFF
+484,12,16,Centochiavi Martignano Cognola Povo,3,3564B1,FFFFFF
+512,12,7,Moietto Rosmini Campana Dei Caduti,3,,
+531,12,Fu,Funivia Trento Sardagna,5,,
+533,12,C,Rsa "S.Bart." "Angeli Custodi" Laste,3,000000,FFFFFF
+535,12,5/,P.Dante P.Fiera Università Mesiano Povo,3,,
+536,12,1,Ospedale P.Dante Sopramonte,3,1D3F72,FFFFFF
+538,12,2,Piedic. Stazione Osp.S.Chiara Regione Piedic.,3,DB5826,FFFFFF
+539,12,4,Gardolo Roncafort Stazione V.Deg. Mad.Bianca,3,007BC3,FFFFFF
+541,12,6,Vela P.Dante Villazzano Grotta,3,70B442,FFFFFF
+543,12,17,Piazza Dante Via Bolzano Lamar Lavis,3,1F9ACF,FFFFFF
+562,12,A,Brione Cesari Ospedale Podesta' Brione,3,,
+563,12,B,Ossario Osp. S.Giorgio Osp. Ossario,3,,
+566,12,AB,Via Magazol S.Giorgio Cornacalda,3,,
+568,12,G,Gardolo Gardolo Di Mezzo E Spini,3,,
+570,12,CM,Povo Borino Celva Passo Cimirlo,3,,
+578,12,1,(Volano) Bettini Staz. Lizzana Marco,3,,
+580,12,6,Costa Corso Rosmini S.Giorgio/Ospedale,3,,
+582,12,2,Nomi Villa Lagarina Stazione Mori,3,,
+590,12,3,03 Peders. Brione Stazione Isera (Lenzima),3,,
+592,12,4,Villa Lag. Brione Staz. Isera Lenzima,3,,
+594,12,5,Ospedale Stazione Isera Villa Lagar.,3,,
+598,12,V,Volano Besenello Calliano Nomi,3,,
+601,12,P,Castellano Molini Villa Lagarina,3,,
+602,12,S,Savignano Pomarolo,3,,
+614,12,A,P.Dante Ospedale Fersina Clarina P.Dante,3,BABAB7,000000
