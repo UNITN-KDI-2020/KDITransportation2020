@@ -1,0 +1,297 @@
+FARE_ID, ROUTE_ID, ORIGIN_ID, DESTINATION_ID, CONTAINS_ID, INSTR_ID
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,0001
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,0935
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,0937
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,0944
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,0946
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,1010
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,10110
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,11015
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,15650
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,19025
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,19030
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,2010
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,20110
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,2030
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,2620
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,2621
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,3010
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,3020
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,3610
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,3620
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,3710
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,3720
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,3730
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,4005
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,4010
+URB_CARTASCALARE 427-Biglietto Urbano Trento 70 Minuti,,,,7007
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,0001
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,0935
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,0937
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,0944
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,0946
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,1010
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,10110
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,11015
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,15650
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,19025
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,19030
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,2010
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,20110
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,2030
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,2620
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,2621
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,3010
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,3020
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,3610
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,3620
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,3710
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,3720
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,3730
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,4005
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,4010
+URB_CARTASCALARE 436-Biglietto Urbano Trento 120 Min,,,,7007
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,0001
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,0935
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,0937
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,0944
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,0946
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,1010
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,10110
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,11015
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,15650
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,19025
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,19030
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,2010
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,20110
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,2030
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,2620
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,2621
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,3010
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,3020
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,3610
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,3620
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,3710
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,3720
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,3730
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,4005
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,4010
+URB_CARTASCALARE 437-Biglietto Urbano Giornaliero Trento,,,,7007
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,10101
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,10121
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,11096
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,13041
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,14051
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,15091
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,16011
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,16501
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,17031
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,18041
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,18511
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,19011
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3030
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3040
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3055
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3070
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3100
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3101
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3102
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3103
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3104
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3105
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3111
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3150
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3198
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3201
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3230
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3264
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3310
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3312
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3320
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3341
+URB_CARTASCALARE 443-Biglietto Urbano Pda Rovereto 70 Min,,,,3542
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,10101
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,10121
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,11096
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,13041
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,14051
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,15091
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,16011
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,16501
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,17031
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,18041
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,18511
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,19011
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3030
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3040
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3055
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3070
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3100
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3101
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3102
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3103
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3104
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3105
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3111
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3150
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3198
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3201
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3230
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3264
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3310
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3312
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3320
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3341
+URB_CARTASCALARE 446-Biglietto Urbano Giornaliero Pda Rovereto,,,,3542
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,0960
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,19500
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,19600
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,19650
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,19700
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,19750
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,19800
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,19900
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,19950
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,2136
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,2160
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,2163
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,2179
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,3465
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,3470
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,3480
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,3510
+URB_CARTASCALARE 450-Biglietto Urbano Alto Garda 120 Min,,,,3520
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,0960
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,19500
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,19600
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,19650
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,19700
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,19750
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,19800
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,19900
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,19950
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,2136
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,2160
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,2163
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,2179
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,3465
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,3470
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,3480
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,3510
+URB_CARTASCALARE 607-Biglietto Urbano Giornaliero Alto Garda,,,,3520
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4020
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4022
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4023
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4080
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4100
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4111
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4112
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4120
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4127
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4130
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4132
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4133
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4134
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4137
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4200
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4210
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4250
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4280
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4281
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4282
+URB_CARTASCALARE 709-Biglietto Urbano Pergine 150 Minuti,,,,4290
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,10101
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,10121
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,11096
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,13041
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,14051
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,15091
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,16011
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,16501
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,17031
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,18041
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,18511
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,19011
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3030
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3040
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3055
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3070
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3100
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3101
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3102
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3103
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3104
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3105
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3111
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3150
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3198
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3201
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3230
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3264
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3310
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3312
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3320
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3341
+URB_CARTASCALARE 720-Biglietto Urbano Pda Rovereto 180 Min,,,,3542
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,0960
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,19500
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,19600
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,19650
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,19700
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,19750
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,19800
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,19900
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,19950
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,2136
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,2160
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,2163
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,2179
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,3465
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,3470
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,3480
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,3510
+URB_CARTASCALARE 721-Biglietto Urbano Alto Garda 70 Min,,,,3520
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4020
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4022
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4023
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4080
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4100
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4111
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4112
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4120
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4127
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4130
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4132
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4133
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4134
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4137
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4200
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4210
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4250
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4280
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4281
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4282
+URB_CARTASCALARE 722-Biglietto Urbano Pergine 70 Minuti,,,,4290
+URB_CARTASCALARE 729-Biglietto Giornaliero Linea A Rovereto,,,,10121
+URB_CARTASCALARE 729-Biglietto Giornaliero Linea A Rovereto,,,,11096
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4020
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4022
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4023
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4080
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4100
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4111
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4112
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4120
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4127
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4130
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4132
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4133
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4134
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4137
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4200
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4210
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4250
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4280
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4281
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4282
+URB_CARTASCALARE 814-Biglietto Urbano Giornaliero Pergine,,,,4290
