@@ -1,0 +1,14 @@
+FARE_ID, PRICE, CURRENCY_TYPE, PAYMENT_METHOD, TRANSFERS, TRANSFER_DURATION
+URB_MOBILE 314-Biglietto Urbano Alto Garda 70 Min,0.90,EUR,1,,4200
+URB_MOBILE 442-Biglietto Urbano Pda Rovereto 70 Min,0.90,EUR,1,,4200
+URB_MOBILE 702-Biglietto Urbano Pergine 70 Minuti,0.90,EUR,1,,4200
+URB_MOBILE 318-Biglietto Urbano Trento 70 Minuti,1.10,EUR,1,,4200
+URB_MOBILE 450-Biglietto Urbano Alto Garda 120 Min,1.15,EUR,1,,7200
+URB_MOBILE 709-Biglietto Urbano Pergine 150 Minuti,1.15,EUR,1,,9000
+URB_MOBILE 445-Biglietto Urbano Pda Rovereto 180 Min,1.25,EUR,1,,10800
+URB_MOBILE 435-Biglietto Urbano Trento 120 Min,1.35,EUR,1,,7200
+URB_MOBILE 729-Biglietto Giornaliero Linea A Rovereto,1.35,EUR,1,,86400
+URB_MOBILE 446-Biglietto Urbano Giornaliero Pda Rovereto,2.25,EUR,1,,86400
+URB_MOBILE 607-Biglietto Urbano Giornaliero Alto Garda,2.25,EUR,1,,86400
+URB_MOBILE 742-Biglietto Urbano Giornaliero Pergine,2.35,EUR,1,,86400
+URB_MOBILE 397-Biglietto Urbano Giornaliero Trento,2.70,EUR,1,,86400

@@ -1,0 +1,16 @@
+FARE_ID, PRICE, CURRENCY_TYPE, PAYMENT_METHOD, TRANSFERS, TRANSFER_DURATION
+URB_INTERA 314-Biglietto Urbano Alto Garda 70 Min,1.00,EUR,1,,4200
+URB_INTERA 442-Biglietto Urbano Pda Rovereto 70 min,1.00,EUR,1,,4200
+URB_INTERA 702-Biglietto Urbano Pergine 70 Minuti,1.00,EUR,1,,4200
+URB_INTERA 318-Biglietto Urbano Trento 70 Minuti,1.20,EUR,1,,4200
+URB_INTERA 450-Biglietto Urbano Alto Garda 120 Min,1.30,EUR,1,,7200
+URB_INTERA 709-Biglietto Urbano Pergine 150 Minuti,1.30,EUR,1,,9000
+URB_INTERA 445-Biglietto Urbano Pda Rovereto 180 Min,1.40,EUR,1,,10800
+URB_INTERA 435-Biglietto Urbano Trento 120 Min,1.50,EUR,1,,7200
+URB_INTERA 729-Biglietto Giornaliero Linea A Rovereto,1.50,EUR,1,,86400
+URB_INTERA 446-Biglietto Urbano Giornaliero Pda Rovereto,2.50,EUR,1,,86400
+URB_INTERA 607-Biglietto Urbano Giornaliero Alto Garda,2.50,EUR,1,,86400
+URB_INTERA 742-Biglietto Urbano Giornaliero Pergine,2.60,EUR,1,,86400
+URB_INTERA 397-Biglietto Urbano Giornaliero Trento,3.00,EUR,1,,86400
+URB_INTERA 613-Biglietto Funivia Trento-Sardagna Andata,3.00,EUR,1,,86400
+URB_INTERA 794-Biglietto Funivia Sardagna Andata E Ritorno,5.00,EUR,1,,86400
