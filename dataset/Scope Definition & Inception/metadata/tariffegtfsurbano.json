@@ -21,7 +21,7 @@
 	
 	"Files Contained":[
 		{
-			"Name": "fare_attributes_urbano.txt"
+			"Name": "fare_attributes_urbano.txt",
 			"Fields":[
 				{
 					"Name": "FARE_ID",
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"Name": "fare_attributes_urbano_cartascalare.txt"
+			"Name": "fare_attributes_urbano_cartascalare.txt",
 			"Fields":[
 				{
 					"Name": "FARE_ID",
@@ -79,7 +79,7 @@
 			]
 		},
 		{
-			"Name": "fare_attributes_urbano_mobile.txt"
+			"Name": "fare_attributes_urbano_mobile.txt",
 			"Fields":[
 				{
 					"Name": "FARE_ID",
@@ -108,7 +108,7 @@
 			]
 		},
 		{
-			"Name": "fare_rules_urbano.txt"
+			"Name": "fare_rules_urbano.txt",
 			"Fields":[
 				{
 					"Name": "FARE_ID",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"Name": "fare_rules_urbano_cartascalare.txt"
+			"Name": "fare_rules_urbano_cartascalare.txt",
 			"Fields":[
 				{
 					"Name": "FARE_ID",
@@ -166,7 +166,7 @@
 			]
 		},
 		{
-			"Name": "fare_rules_urbano_mobile.txt"
+			"Name": "fare_rules_urbano_mobile.txt",
 			"Fields":[
 				{
 					"Name": "FARE_ID",
@@ -195,7 +195,7 @@
 			]
 		},
 		{
-			"Name": "zones_urbano.txt"
+			"Name": "zones_urbano.txt",
 			"Fields":[
 				{
 					"Name": "ZONE_ID",

@@ -1,201 +1,250 @@
 {
 	"Files Contained":[
 		{
-			"Name": "Provincia-di-Trento---Sentieri.csv"
+			"Name": "Provincia-di-Trento---Elenco-strutture-extra-alberghiere.csv",
 			"Fields":[
 				{
 					"Name": "Comune",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's municipality"
 				},
 				{
 					"Name": "Provincia",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's province"
 				},
 				{
 					"Name": "Tipologia",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's type"
 				},
 				{
 					"Name": "Categoria",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's category"
 				},
 				{
 					"Name": "Denominazione",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's name"
 				},
 				{
 					"Name": "Indirizzo",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's address"
 				},
 				{
 					"Name": "Frazione",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's part of the municipality"
 				},
 				{
 					"Name": "Telefono",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's phone number"
 				},
 				{
 					"Name": "FAX",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's fax"
 				},
 				{
 					"Name": "Indirizzo posta elettronica",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's email address"
 				},
 				{
 					"Name": "Sito internet",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's website url"
 				},
 				{
 					"Name": "Periodo apertura",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's period of opening"
 				},
 				{
 					"Name": "Codice esercizio ricettivo",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's code"
 				},
 				{
 					"Name": "Partita IVA",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's VAT number"
 				},
 				{
 					"Name": "Prezzo massimo letto aggiunto",
-					"Type": "double"
+					"Type": "double",
+					"Description": "Accomodation's max price for added bed"
 				},
 				{
 					"Name": "Prezzo massimo consumazione pasto",
-					"Type": "double"
+					"Type": "double",
+					"Description": "Accomodation's max meal's price"
 				},
 				{
 					"Name": "Prezzo massimo colazione",
-					"Type": "double"
+					"Type": "double",
+					"Description": "Accomodation's max breakfast's price"
 				},
 				{
 					"Name": "Numero camere",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's number of rooms"
 				},
 				{
 					"Name": "Numero posti letto",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's number of beds"
 				},
 				{
 					"Name": "Numero bagni comuni",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's common restroom"
 				},
 				{
 					"Name": "Numero posti per tipo unità",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's number of places for unit type"
 				},
 				{
 					"Name": "Tipologia unità",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's type"
 				},
 				{
 					"Name": "Prezzo",
-					"Type": "double"
+					"Type": "double",
+					"Description": "Accomodation's price"
 				},
 				{
 					"Name": "Mobili",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's forniture"
 				},
 				{
 					"Name": "Numero posti",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's number of places"
 				},
 				{
 					"Name": "Tipologia piazzola",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation's type of lay-by"
 				},
 				{
 					"Name": "Prezzo piazzola",
-					"Type": "double"
+					"Type": "double",
+					"Description": "Accomodation's price of lay-by"
 				},
 				{
 					"Name": "Numero lavelli",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's number of sinks"
 				},
 				{
 					"Name": "Numero WC",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's number of toilets"
 				},
 				{
 					"Name": "Numero docce",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's showers"
 				},
 				{
 					"Name": "Numero piazzole",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's number of lay-by"
 				},
 				{
 					"Name": "Allestimenti stabili",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's stable set-ups"
 				},
 				{
 					"Name": "Allestimenti mobili",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation's mobile fittings"
 				},
 				{
 					"Name": "Capacita ricettiva",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Accomodation capacity"
 				},
 				{
 					"Name": "Codice servizio",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation service code"
 				},
 				{
 					"Name": "Descrizione servizio",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation service's description"
 				},
 				{
 					"Name": "Tipo servizio",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation service type"
 				},
 				{
 					"Name": "Codice altro servizio",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation other service code"
 				},
 				{
 					"Name": "Descrizione altro servizio",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Accomodation other service's description"
 				},
 				{
 					"Name": "Denominazione localita turistica",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Name of tourist location"
 				},
 				{
 					"Name": "Denominazione annuario localita turistica",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Yearbook denomination of tourist location"
 				},
 				{
 					"Name": "Denominazione ente annuario localita turistica",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Name of the tourist locality yearbook"
 				},
 				{
 					"Name": "Altitudine localita turistica",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Altitude tourist resort"
 				},
 				{
 					"Name": "Cap localita turistica",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Zip code of tourist location"
 				},
 				{
 					"Name": "Denominazione localita",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Tourist location's name"
 				},
 				{
 					"Name": "Altitudine localita",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Altitude of location"
 				},
 				{
 					"Name": "Codice localita",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Location code"
 				},
 				{
 					"Name": "CAP localita",
-					"Type": "int"
+					"Type": "int",
+					"Description": "Zip code of location"
 				}
-			]
+			],
+			"Description": "This dataset contains information about the tourist accomodation in trentino area"
 		}
 	]
 }

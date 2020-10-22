@@ -21,81 +21,105 @@
 	
 	"Files Contained":[
 		{
-			"Name": "agency.txt"
+			"Name": "agency.txt",
 			"Fields":[
 				{
 					"Name": "agency_id",
-					"Type": "int"
+					"Type": "int",
+					"Required": "Conditionally Required",
+					"Description": "This contains the information of the transit agency."
 				},
 				{
 					"Name": "agency_name",
-					"Type": "string"
+					"Type": "string",
+					"Required": "Required",
+					"Description": "Full name of the transit agency."
 				},
 				{
 					"Name": "agency_url",
-					"Type": "string"
+					"Type": "string",
+					"Required": "Required",
+					"Description": "URL of the transit agency"
 				},
 				{
 					"Name": "agency_timezone",
-					"Type": "string"
+					"Type": "string",
+					"Required": "Required",
+					"Description": "imezone where the transit agency is located"
 				},
 				{
 					"Name": "agency_phone",
-					"Type": "string"
+					"Type": "string",
+					"Required": "Optional",
+					"Description": ""
 				},
 				{
 					"Name": "agency_lang",
-					"Type": "string"
+					"Type": "string",
+					"Required": "Optional",
+					"Description": ""
 				}
-			]
+			],
+			"Description": "this file contains the agency information that provides the data."
 		},
 		{
-			"Name": "calendar.txt"
+			"Name": "calendar.txt",
 			"Fields":[
 				{
 					"Name": "service_id",
-					"Type": "int"
+					"Type": "int",
+					"Description": ""
 				},
 				{
 					"Name": "monday",
-					"Type": "bool"
+					"Type": "bool",
+					"Description": ""
 				},
 				{
 					"Name": "tuesday",
-					"Type": "bool"
+					"Type": "bool",
+					"Description": ""
 				},
 				{
 					"Name": "wednesday",
-					"Type": "bool"
+					"Type": "bool",
+					"Description": ""
 				},
 				{
 					"Name": "thursday",
-					"Type": "bool"
+					"Type": "bool",
+					"Description": ""
 				},
 				{
 					"Name": "friday",
-					"Type": "bool"
+					"Type": "bool",
+					"Description": ""
 				},
 				{
 					"Name": "saturday",
-					"Type": "bool"
+					"Type": "bool",
+					"Description": ""
 				},
 				{
 					"Name": "sunday",
-					"Type": "bool"
+					"Type": "bool",
+					"Description": ""
 				},
 				{
 					"Name": "start_day",
-					"Type": "int"
+					"Type": "int",
+					"Description": ""
 				},
 				{
 					"Name": "end_data",
-					"Type": "int"
+					"Type": "int",
+					"Description": ""
 				}
-			]
+			],
+			"Description": ""
 		},
 		{
-			"Name": "calendar_dates.txt"
+			"Name": "calendar_dates.txt",
 			"Fields":[
 				{
 					"Name": "service_id",
@@ -112,7 +136,7 @@
 			]
 		},
 		{
-			"Name": "feed_info.txt"
+			"Name": "feed_info.txt",
 			"Fields":[
 				{
 					"Name": "feed_publisher_name",
@@ -141,7 +165,7 @@
 			]
 		},
 		{
-			"Name": "routes.txt"
+			"Name": "routes.txt",
 			"Fields":[
 				{
 					"Name": "route_id",
@@ -166,7 +190,7 @@
 			]
 		},
 		{
-			"Name": "shapes.txt"
+			"Name": "shapes.txt",
 			"Fields":[
 				{
 					"Name": "shape_id",
@@ -187,7 +211,7 @@
 			]
 		},
 		{
-			"Name": "stop_times.txt"
+			"Name": "stop_times.txt",
 			"Fields":[
 				{
 					"Name": "trip_id",
@@ -212,7 +236,7 @@
 			]
 		},
 		{
-			"Name": "stops.txt"
+			"Name": "stops.txt",
 			"Fields":[
 				{
 					"Name": "stop_id",
@@ -245,7 +269,7 @@
 			]
 		},
 		{
-			"Name": "stopslevel.txt"
+			"Name": "stopslevel.txt",
 			"Fields":[
 				{
 					"Name": "stop_id",
@@ -258,7 +282,7 @@
 			]
 		},
 		{
-			"Name": "transfers.txt"
+			"Name": "transfers.txt",
 			"Fields":[
 				{
 					"Name": "from_stop_id",
@@ -279,7 +303,7 @@
 			]
 		},
 		{
-			"Name": "trips.txt"
+			"Name": "trips.txt",
 			"Fields":[
 				{
 					"Name": "route_id",

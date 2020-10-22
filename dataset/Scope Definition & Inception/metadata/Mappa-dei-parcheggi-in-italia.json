@@ -1,45 +1,55 @@
 {
 	"Files Contained":[
 		{
-			"Name": "Mappa-dei-distributori-di-carburante-in-italia.csv"
+			"Name": "Mappa-dei-distributori-di-carburante-in-italia.csv",
 			"Fields":[
 				{
 					"Name": "Comune",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Location's municipality"
 				},
 				{
 					"Name": "Provincia",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Province of location."
 				},
 				{
 					"Name": "Regione",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Region of location."
 				},
 				{
 					"Name": "Nome",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Name of parking area."
 				},
 				{
 					"Name": "Identificatore in OpenStreetMap",
-					"Type": "int"
+					"Type": "int",
+					"Description": "OpenStreetMap identifier."
 				},
 				{
 					"Name": "Anno inserimento",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Year of creation"
 				},
 				{
 					"Name": "Data e ora inserimento",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Date and hour of creation."
 				},
 				{
 					"Name": "Longitudine",
-					"Type": "double"
+					"Type": "double",
+					"Description": "Longitude coordinate."
 				},
 				{
 					"Name": "Latitudine",
-					"Type": "double"
+					"Type": "double",
+					"Description": "Latitude coordinate."
 				}
-			]
+			],
+			"Description": "It contains information about parking areas around Italy."
 		}
 	]
 }

@@ -1,73 +1,90 @@
 {
 	"Files Contained":[
 		{
-			"Name": "Provincia-di-Trento---Sentieri.csv"
+			"Name": "Provincia-di-Trento---Sentieri.csv",
 			"Fields":[
 				{
 					"Name": "Numero sentiero tratta",
-					"Type": "string"
+					"Type": "string",
+					"Description": "path section number"
 				},
 				{
 					"Name": "Competenza",
-					"Type": "string"
+					"Type": "string",
+					"Description": "competence"
 				},
 				{
 					"Name": "Denominazione",
-					"Type": "string"
+					"Type": "string",
+					"Description": "name of the path"
 				},
 				{
 					"Name": "Difficoltà",
-					"Type": "string"
+					"Type": "string",
+					"Description": "difficulty"
 				},
 				{
 					"Name": "Località inizio",
-					"Type": "int"
+					"Type": "int",
+					"Description": "initial location"
 				},
 				{
 					"Name": "Località fine",
-					"Type": "string"
+					"Type": "string",
+					"Description": "final location"
 				},
 				{
 					"Name": "Quota inizio",
-					"Type": "double"
+					"Type": "double",
+					"Description": "initial altitude"
 				},
 				{
 					"Name": "Quota fine",
-					"Type": "double"
+					"Type": "double",
+					"Description": "final altitude"
 				},
 				{
 					"Name": "Quota minima",
-					"Type": "double"
+					"Type": "double",
+					"Description": "min altitude"
 				},
 				{
 					"Name": "Quota massima",
-					"Type": "double"
+					"Type": "double",
+					"Description": "max altitude"
 				},
 				{
 					"Name": "Lunghezza planimetrica",
-					"Type": "double"
+					"Type": "double",
+					"Description": "planimetric length"
 				},
 				{
 					"Name": "Lunghezza inclinata",
-					"Type": "double"
+					"Type": "double",
+					"Description": "slope length"
 				},
 				{
 					"Name": "Tempo andata",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Hiking path's forward time"
 				},
 				{
 					"Name": "Tempo ritorno",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Return time"
 				},
 				{
 					"Name": "Gruppo montagne interessate",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Mountains group location of the hiking path"
 				},
 				{
 					"Name": "Comuni toccati",
-					"Type": "string"
+					"Type": "string",
+					"Description": "Municipalities overlapping"
 				}
-			]
+			],
+			"Description": "This dataset contains information about hiking path in Trentino"
 		}
 	]
 }

@@ -21,7 +21,7 @@
 	
 	"Files Contained":[
 		{
-			"Name": "agency.txt"
+			"Name": "agency.txt",
 			"Fields":[
 				{
 					"Name": "agency_id",
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"Name": "calendar.txt"
+			"Name": "calendar.txt",
 			"Fields":[
 				{
 					"Name": "service_id",
@@ -95,7 +95,7 @@
 			]
 		},
 		{
-			"Name": "calendar_dates.txt"
+			"Name": "calendar_dates.txt",
 			"Fields":[
 				{
 					"Name": "service_id",
@@ -112,7 +112,7 @@
 			]
 		},
 		{
-			"Name": "feed_info.txt"
+			"Name": "feed_info.txt",
 			"Fields":[
 				{
 					"Name": "feed_publisher_name",
@@ -141,7 +141,7 @@
 			]
 		},
 		{
-			"Name": "routes.txt"
+			"Name": "routes.txt",
 			"Fields":[
 				{
 					"Name": "route_id",
@@ -174,7 +174,7 @@
 			]
 		},
 		{
-			"Name": "shapes.txt"
+			"Name": "shapes.txt",
 			"Fields":[
 				{
 					"Name": "shape_id",
@@ -195,7 +195,7 @@
 			]
 		},
 		{
-			"Name": "stop_times.txt"
+			"Name": "stop_times.txt",
 			"Fields":[
 				{
 					"Name": "trip_id",
@@ -220,7 +220,7 @@
 			]
 		},
 		{
-			"Name": "stops.txt"
+			"Name": "stops.txt",
 			"Fields":[
 				{
 					"Name": "stop_id",
@@ -257,7 +257,7 @@
 			]
 		},
 		{
-			"Name": "stopslevel.txt"
+			"Name": "stopslevel.txt",
 			"Fields":[
 				{
 					"Name": "stop_id",
@@ -270,7 +270,7 @@
 			]
 		},
 		{
-			"Name": "transfers.txt"
+			"Name": "transfers.txt",
 			"Fields":[
 				{
 					"Name": "from_stop_id",
@@ -291,7 +291,7 @@
 			]
 		},
 		{
-			"Name": "trips.txt"
+			"Name": "trips.txt",
 			"Fields":[
 				{
 					"Name": "route_id",
