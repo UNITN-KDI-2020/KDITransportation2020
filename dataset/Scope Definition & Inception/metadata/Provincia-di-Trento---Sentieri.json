@@ -1,0 +1,84 @@
+{
+	"Files Contained":[
+		{
+			"Name": "Provincia-di-Trento---Sentieri.csv"
+			"Fields":[
+				{
+					"Name": "Numero sentiero tratta",
+					"Type": "string"
+				},
+				{
+					"Name": "Competenza",
+					"Type": "string"
+				},
+				{
+					"Name": "Denominazione",
+					"Type": "string"
+				},
+				{
+					"Name": "Difficoltà",
+					"Type": "string"
+				},
+				{
+					"Name": "Località inizio",
+					"Type": "int"
+				},
+				{
+					"Name": "Località fine",
+					"Type": "string"
+				},
+				{
+					"Name": "Quota inizio",
+					"Type": "double"
+				},
+				{
+					"Name": "Quota fine",
+					"Type": "double"
+				},
+				{
+					"Name": "Quota minima",
+					"Type": "double"
+				},
+				{
+					"Name": "Quota massima",
+					"Type": "double"
+				},
+				{
+					"Name": "Lunghezza planimetrica",
+					"Type": "double"
+				},
+				{
+					"Name": "Lunghezza inclinata",
+					"Type": "double"
+				},
+				{
+					"Name": "Tempo andata",
+					"Type": "string"
+				},
+				{
+					"Name": "Tempo ritorno",
+					"Type": "string"
+				},
+				{
+					"Name": "Gruppo montagne interessate",
+					"Type": "string"
+				},
+				{
+					"Name": "Comuni toccati",
+					"Type": "string"
+				}
+			]
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
