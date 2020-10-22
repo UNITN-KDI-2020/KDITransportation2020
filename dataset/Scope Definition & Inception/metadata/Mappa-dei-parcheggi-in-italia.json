@@ -1,0 +1,45 @@
+{
+	"Files Contained":[
+		{
+			"Name": "Mappa-dei-distributori-di-carburante-in-italia.csv"
+			"Fields":[
+				{
+					"Name": "Comune",
+					"Type": "string"
+				},
+				{
+					"Name": "Provincia",
+					"Type": "string"
+				},
+				{
+					"Name": "Regione",
+					"Type": "string"
+				},
+				{
+					"Name": "Nome",
+					"Type": "string"
+				},
+				{
+					"Name": "Identificatore in OpenStreetMap",
+					"Type": "int"
+				},
+				{
+					"Name": "Anno inserimento",
+					"Type": "string"
+				},
+				{
+					"Name": "Data e ora inserimento",
+					"Type": "string"
+				},
+				{
+					"Name": "Longitudine",
+					"Type": "double"
+				},
+				{
+					"Name": "Latitudine",
+					"Type": "double"
+				}
+			]
+		}
+	]
+}
