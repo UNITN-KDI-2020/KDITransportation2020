@@ -1,0 +1,16 @@
+{	
+	"Landing page": "http://www.datiopen.it/it/opendata/Provincia_Autonoma_di_Trento_Elenco_strutture_extra_alberghiere?metadati=showall",
+	"Created": "25-10-2017",
+	"Contact": "info@open.it",
+	"Author":
+	{
+		"Name": "Trentino Alto Adige Region"
+	},
+	"Published by":
+	{
+		"Name": "DatiOpen.it",
+		"Url": "http://www.datiopen.it/it/opendata/@authorAlias"
+	},
+	"License": "http://opendatacommons.org/licenses/odbl/",
+	"Format": "xls,json,csv"
+}

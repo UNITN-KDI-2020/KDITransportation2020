@@ -1,0 +1,16 @@
+{	
+	"Landing page": "https://www.comune.trento.it/Aree-tematiche/Cartografia/Download/Stazioni-treno",
+	"Created": "01-01-2017",
+	"Contact": "Servizio.innovazionedigitale@comune.trento.it",
+	"Author":
+	{
+		"Name": "Trentino Trasporti",
+		"Url": "https://www.trentinotrasporti.it/"
+	},
+	"Published by":
+	{
+		"Name": "Trentino Trasporti",
+		"Url": "http://www.datiopen.it/it/users/datiopenit"
+	},
+	"Format": "gml,shp,kml,dxf"
+}

@@ -1,0 +1,16 @@
+{	
+	"Landing page": "http://www.datiopen.it/it/opendata/Mappa_dei_parcheggi_in_Italia",
+	"Created": "23-02-2016",
+	"Contact": "serv.naturambiente@provincia.tn.it",
+	"Author":
+	{
+		"Name": "OpenStreetMap",
+		"Url": "http://www.datiopen.it/it/catalogo-opendata/openstreetmap-org"
+	},
+	"Published by":
+	{
+		"Name": "Open.it",
+		"Url": "http://www.datiopen.it/it/users/datiopenit"
+	},
+	"Format": "xlsx"
+}

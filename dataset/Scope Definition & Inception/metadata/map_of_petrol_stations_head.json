@@ -1,0 +1,16 @@
+{	
+	"Landing page": "http://www.datiopen.it/it/opendata/Mappa_dei_distributori_di_carburante_in_italia",
+	"Created": "23-02-2016",
+	"Contact": "Servizio.innovazionedigitale@comune.trento.it",
+	"Author":
+	{
+		"Name": "OpenStreetMap"
+	},
+	"Published by":
+	{
+		"Name": "DatiOpen.it",
+		"Url": "http://www.datiopen.it/it/opendata/@authorAlias"
+	},
+	"License": "http://opendatacommons.org/licenses/odbl/",
+	"Format": "xlsx"
+}
