@@ -1,0 +1,212 @@
+{
+	"Files Contained":[
+		{
+			"Name": "Provincia-di-Trento---Sentieri.csv"
+			"Fields":[
+				{
+					"Name": "Comune",
+					"Type": "string"
+				},
+				{
+					"Name": "Provincia",
+					"Type": "string"
+				},
+				{
+					"Name": "Tipologia",
+					"Type": "string"
+				},
+				{
+					"Name": "Categoria",
+					"Type": "string"
+				},
+				{
+					"Name": "Denominazione",
+					"Type": "string"
+				},
+				{
+					"Name": "Indirizzo",
+					"Type": "string"
+				},
+				{
+					"Name": "Frazione",
+					"Type": "string"
+				},
+				{
+					"Name": "Telefono",
+					"Type": "string"
+				},
+				{
+					"Name": "FAX",
+					"Type": "string"
+				},
+				{
+					"Name": "Indirizzo posta elettronica",
+					"Type": "string"
+				},
+				{
+					"Name": "Sito internet",
+					"Type": "string"
+				},
+				{
+					"Name": "Periodo apertura",
+					"Type": "string"
+				},
+				{
+					"Name": "Codice esercizio ricettivo",
+					"Type": "int"
+				},
+				{
+					"Name": "Partita IVA",
+					"Type": "int"
+				},
+				{
+					"Name": "Prezzo massimo letto aggiunto",
+					"Type": "double"
+				},
+				{
+					"Name": "Prezzo massimo consumazione pasto",
+					"Type": "double"
+				},
+				{
+					"Name": "Prezzo massimo colazione",
+					"Type": "double"
+				},
+				{
+					"Name": "Numero camere",
+					"Type": "int"
+				},
+				{
+					"Name": "Numero posti letto",
+					"Type": "int"
+				},
+				{
+					"Name": "Numero bagni comuni",
+					"Type": "int"
+				},
+				{
+					"Name": "Numero posti per tipo unità",
+					"Type": "int"
+				},
+				{
+					"Name": "Tipologia unità",
+					"Type": "string"
+				},
+				{
+					"Name": "Prezzo",
+					"Type": "double"
+				},
+				{
+					"Name": "Mobili",
+					"Type": "string"
+				},
+				{
+					"Name": "Numero posti",
+					"Type": "int"
+				},
+				{
+					"Name": "Tipologia piazzola",
+					"Type": "string"
+				},
+				{
+					"Name": "Prezzo piazzola",
+					"Type": "double"
+				},
+				{
+					"Name": "Numero lavelli",
+					"Type": "int"
+				},
+				{
+					"Name": "Numero WC",
+					"Type": "int"
+				},
+				{
+					"Name": "Numero docce",
+					"Type": "int"
+				},
+				{
+					"Name": "Numero piazzole",
+					"Type": "int"
+				},
+				{
+					"Name": "Allestimenti stabili",
+					"Type": "int"
+				},
+				{
+					"Name": "Allestimenti mobili",
+					"Type": "int"
+				},
+				{
+					"Name": "Capacita ricettiva",
+					"Type": "int"
+				},
+				{
+					"Name": "Codice servizio",
+					"Type": "string"
+				},
+				{
+					"Name": "Descrizione servizio",
+					"Type": "string"
+				},
+				{
+					"Name": "Tipo servizio",
+					"Type": "string"
+				},
+				{
+					"Name": "Codice altro servizio",
+					"Type": "string"
+				},
+				{
+					"Name": "Descrizione altro servizio",
+					"Type": "string"
+				},
+				{
+					"Name": "Denominazione localita turistica",
+					"Type": "string"
+				},
+				{
+					"Name": "Denominazione annuario localita turistica",
+					"Type": "string"
+				},
+				{
+					"Name": "Denominazione ente annuario localita turistica",
+					"Type": "string"
+				},
+				{
+					"Name": "Altitudine localita turistica",
+					"Type": "int"
+				},
+				{
+					"Name": "Cap localita turistica",
+					"Type": "int"
+				},
+				{
+					"Name": "Denominazione localita",
+					"Type": "string"
+				},
+				{
+					"Name": "Altitudine localita",
+					"Type": "int"
+				},
+				{
+					"Name": "Codice localita",
+					"Type": "int"
+				},
+				{
+					"Name": "CAP localita",
+					"Type": "int"
+				}
+			]
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
