@@ -1,4 +1,19 @@
 {
+	"Landing page": "http://www.datiopen.it/it/opendata/Provincia_di_Trento_Sentieri",
+	"Created": "15-12-2015",
+	"Contact": "sentieri@sat.tn.it",
+	"Author":
+	{
+		"Name": "SAT (Society of Tridentine Alpinists)"
+	},
+	"Published by":
+	{
+		"Name": "DatiOpen.it",
+		"Url": "http://www.datiopen.it/it/opendata/@authorAlias"
+	},
+	"License": "http://opendatacommons.org/licenses/odbl/",
+	"Format": "shp,json,xml,csv",
+	
 	"Files Contained":[
 		{
 			"Name": "Provincia-di-Trento---Sentieri.csv",
