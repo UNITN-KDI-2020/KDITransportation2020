@@ -31,7 +31,7 @@ def computeStdDev(x):
 
 if __name__ == "__main__":
     print("1. Loading CSV file into a pandas dataframe")
-    dataset_path = '/mnt/c/Users/Alberto/Desktop/unitn/knowledge-and-data-integration/KDITransportation2020/dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere.csv'
+    dataset_path = '../dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere.csv'
     dataset = pd.read_csv(dataset_path, sep=";", encoding="ISO-8859-1", error_bad_lines=False, warn_bad_lines=False)
     
     # extracting the campsites
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     not_extracted_typology = dataset.loc[dataset['Tipologia']!="AFFITTACAMERE"]
 
     final_dataset = pd.concat([not_extracted_typology, extracted_typology])
-    dataset_path = '/mnt/c/Users/Alberto/Desktop/unitn/knowledge-and-data-integration/KDITransportation2020/dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere_elaborated.csv'
+    dataset_path = '../dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere_elaborated.csv'
     final_dataset.to_csv(dataset_path)    
 
     
