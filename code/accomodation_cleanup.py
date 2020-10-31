@@ -33,7 +33,7 @@ if __name__ == "__main__":
     print("1. Loading CSV file into a pandas dataframe")
     dataset_path = '../dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere.csv'
     dataset = pd.read_csv(dataset_path, sep=";", encoding="ISO-8859-1", error_bad_lines=False, warn_bad_lines=False)
-    
+
     # extracting the campsites
     # campsites1 = dataset.loc[dataset['Tipologia']=="CAMPEGGIO"]
     # campsites2 = dataset.loc[dataset['Tipologia']=="CAMPEGGIO PARCO PER VACANZE"]
@@ -42,25 +42,27 @@ if __name__ == "__main__":
     # print("\t- campsites dataframe:\n{}".format(campsites))
     # print("\t- prices:\n{}".format(campsites['Prezzo']))
 
-    # extracting the affittacamere
-    extracted_typology = dataset.loc[dataset['Tipologia']=="AFFITTACAMERE"]
-    print("\t- dataframe:\n{}".format(extracted_typology))
-    
-    prices = extracted_typology['Prezzo'].tolist()
-    print("\t- prices:\n{}".format(extracted_typology['Prezzo']))
-    mean = computeMean(prices)
-    std = computeStdDev(prices)
-    print('\t- Mean: {} Std: {}'.format(mean, std))
+    # extracting
+    accomodation_typologies = dataset['Tipologia'].unique()
+    for accomodation in accomodation_typologies:
+        extracted_typology = dataset.loc[dataset['Tipologia']==accomodation]
+        print("\t- dataframe:\n{}".format(extracted_typology))
+        
+        prices = extracted_typology['Prezzo'].tolist()
+        print("\t- prices:\n{}".format(extracted_typology['Prezzo']))
+        mean = computeMean(prices)
+        std = computeStdDev(prices)
+        print('\t- Mean: {} Std: {}'.format(mean, std))
 
-    for i in range(len(extracted_typology)):
-        if float(extracted_typology.iloc[i]['Prezzo']) == 0.0:
-            random_price = abs(np.random.normal(mean, std, 1)[0])
-            print(random_price)
-            extracted_typology.iloc[i]['Prezzo'] = random_price
-    
-    not_extracted_typology = dataset.loc[dataset['Tipologia']!="AFFITTACAMERE"]
+        for i in range(len(extracted_typology)):
+            if float(extracted_typology.iloc[i]['Prezzo']) == 0.0:
+                random_price = abs(np.random.normal(mean, std, 1)[0])
+                print(random_price)
+                extracted_typology.iloc[i]['Prezzo'] = random_price
+        
+        not_extracted_typology = dataset.loc[dataset['Tipologia']!=accomodation]
 
-    final_dataset = pd.concat([not_extracted_typology, extracted_typology])
+        final_dataset = pd.concat([not_extracted_typology, extracted_typology])
     dataset_path = '../dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere_elaborated.csv'
     final_dataset.to_csv(dataset_path)    
 
