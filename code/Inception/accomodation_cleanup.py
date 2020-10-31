@@ -31,16 +31,8 @@ def computeStdDev(x):
 
 if __name__ == "__main__":
     print("1. Loading CSV file into a pandas dataframe")
-    dataset_path = '../dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere.csv'
+    dataset_path = '../../dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere.csv'
     dataset = pd.read_csv(dataset_path, sep=";", encoding="ISO-8859-1", error_bad_lines=False, warn_bad_lines=False)
-
-    # extracting the campsites
-    # campsites1 = dataset.loc[dataset['Tipologia']=="CAMPEGGIO"]
-    # campsites2 = dataset.loc[dataset['Tipologia']=="CAMPEGGIO PARCO PER VACANZE"]
-    # frames = [campsites1, campsites2]
-    # campsites = pd.concat(frames)
-    # print("\t- campsites dataframe:\n{}".format(campsites))
-    # print("\t- prices:\n{}".format(campsites['Prezzo']))
 
     # extracting
     accomodation_typologies = dataset['Tipologia'].unique()
@@ -63,7 +55,7 @@ if __name__ == "__main__":
         not_extracted_typology = dataset.loc[dataset['Tipologia']!=accomodation]
 
         final_dataset = pd.concat([not_extracted_typology, extracted_typology])
-    dataset_path = '../dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere_elaborated.csv'
+    dataset_path = '../../dataset/Scope Definition & Inception/data/accomodation/Provincia-Autonoma-di-Trento---Elenco-strutture-extra-alberghiere_elaborated.csv'
     final_dataset.to_csv(dataset_path)    
 
     
