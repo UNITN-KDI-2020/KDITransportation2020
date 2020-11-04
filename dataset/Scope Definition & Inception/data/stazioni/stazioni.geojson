@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "fid": "stazioni.0", "nome": "FS - Trento", "tratta": "FFSS" }, "geometry": { "type": "Point", "coordinates": [ 663944.656748452922329, 5104298.917232472449541 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.1", "nome": "FTM - Trento", "tratta": "FTM" }, "geometry": { "type": "Point", "coordinates": [ 663996.885166820604354, 5104499.330332762561738 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.2", "nome": "FTM - Commerciale", "tratta": "FTM" }, "geometry": { "type": "Point", "coordinates": [ 663351.868307443684898, 5106233.31094419118017 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.3", "nome": "FTM - Gardolo", "tratta": "FTM" }, "geometry": { "type": "Point", "coordinates": [ 662641.797016797587276, 5108211.006197481416166 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.4", "nome": "FTM - Spini", "tratta": "FTM" }, "geometry": { "type": "Point", "coordinates": [ 662633.718297392013483, 5109386.009168359450996 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.5", "nome": "FTM - Lamar", "tratta": "FTM" }, "geometry": { "type": "Point", "coordinates": [ 662823.696799723547883, 5110201.913859383203089 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.6", "nome": "VALS - S. Chiara", "tratta": "VALSUGANA" }, "geometry": { "type": "Point", "coordinates": [ 665188.628015120048076, 5102306.966518895700574 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.7", "nome": "VALS - S. Bartolomeo", "tratta": "VALSUGANA" }, "geometry": { "type": "Point", "coordinates": [ 665186.61540303088259, 5101536.955145822837949 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.8", "nome": "VALS - Villazzano", "tratta": "VALSUGANA" }, "geometry": { "type": "Point", "coordinates": [ 665501.018153356621042, 5101292.232786421664059 ] } },
+{ "type": "Feature", "properties": { "fid": "stazioni.9", "nome": "VALS - Povo Mesiano", "tratta": "VALSUGANA" }, "geometry": { "type": "Point", "coordinates": [ 665714.660803048638627, 5103486.895321642048657 ] } }
+]
+}
