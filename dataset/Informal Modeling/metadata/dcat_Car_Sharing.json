@@ -1,0 +1,76 @@
+{
+    "@graph" : [ {
+      "@id" : "https://dati.trentino.it/dataset/car-sharing-open-data",
+      "@type" : "dcat:Dataset",
+      "accrualPeriodicity" : "http://publications.europa.eu/resource/authority/frequency/NEVER",
+      "creator" : "http://www.provincia.tn.it/",
+      "description" : {
+        "@language" : "it",
+        "@value" : "Location of Car sharing stalls Parking spaces dedicated to the collection and delivery of Car sharing vehicles. Data taken directly from the site https://www.carsharing.tn.it. Car sharing allows you to have a car suitable for family or business needs without owning one and without incurring fixed costs (road tax, insurance, maintenance, garage or parking), but paying only in proportion to use."
+      },
+      "identifier" : "c_l378-1157737",
+      "modified" : "2019-05-08",
+      "publisher" : "http://www.provincia.tn.it/",
+      "rightsHolder" : "http://www.provincia.tn.it/",
+      "spatial" : "http://www.geonames.org/3165241",
+      "subject" : "http://eurovoc.europa.eu/2826",
+      "title" : {
+        "@language" : "it",
+        "@value" : "Car sharing (Open Data)"
+      },
+      "contactPoint" : "servizio.innovazionedigitale@comune.trento.it",
+      "distribution" : "https://dati.trentino.it/dataset/car-sharing-open-data",
+      "keyword" : "Automobiles",
+      "theme" : "http://publications.europa.eu/resource/authority/data-theme/ECON"
+    } ],
+    "@id" : "urn:x-arq:DefaultGraphNode",
+    "@context" : {
+      "distribution" : {
+        "@id" : "http://www.w3.org/ns/dcat#distribution",
+        "@type" : "@id"
+      },
+      "rightsHolder" : {
+        "@id" : "http://purl.org/dc/terms/rightsHolder",
+        "@type" : "@id"
+      },
+      "subject" : {
+        "@id" : "http://purl.org/dc/terms/subject",
+        "@type" : "@id"
+      },
+      "identifier" : "http://purl.org/dc/terms/identifier",
+      "description" : "http://purl.org/dc/terms/description",
+      "contactPoint" : {
+        "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+        "@type" : "@id"
+      },
+      "creator" : {
+        "@id" : "http://purl.org/dc/terms/creator",
+        "@type" : "@id"
+      },
+      "publisher" : {
+        "@id" : "http://purl.org/dc/terms/publisher",
+        "@type" : "@id"
+      },
+      "keyword" : "http://www.w3.org/ns/dcat#keyword",
+      "modified" : {
+        "@id" : "http://purl.org/dc/terms/modified",
+        "@type" : "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "title" : "http://purl.org/dc/terms/title",
+      "spatial" : {
+        "@id" : "http://purl.org/dc/terms/spatial",
+        "@type" : "@id"
+      },
+      "accrualPeriodicity" : {
+        "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+        "@type" : "@id"
+      },
+      "theme" : {
+        "@id" : "http://www.w3.org/ns/dcat#theme",
+        "@type" : "@id"
+      },
+      "dct" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "dcat" : "http://www.w3.org/ns/dcat#"
+    }
+  }

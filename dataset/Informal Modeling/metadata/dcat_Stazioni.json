@@ -1,0 +1,353 @@
+{
+    "@graph" : [ {
+      "@id" : "_:b0",
+      "title" : {
+        "@language" : "it",
+        "@value" : "DM - Regole tecniche RNDT"
+      },
+      "versionInfo" : {
+        "@language" : "it",
+        "@value" : "10 novembre 2011"
+      }
+    }, {
+      "@id" : "_:b1",
+      "type" : "http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem",
+      "prefLabel" : {
+        "@language" : "it",
+        "@value" : "WGS84/UTM 32N"
+      }
+    }, {
+      "@id" : "_:b10",
+      "hadPlan" : "_:b16"
+    }, {
+      "@id" : "_:b11",
+      "description" : {
+        "@language" : "it",
+        "@value" : "INSPIRE Data Specifications"
+      },
+      "type" : "http://inspire.ec.europa.eu/metadata-codelist/DegreeOfConformity/notConformant"
+    }, {
+      "@id" : "_:b12",
+      "@type" : "skos:ConceptScheme",
+      "issued" : "2019-05-22",
+      "label" : {
+        "@language" : "it",
+        "@value" : "Spatial scope"
+      }
+    }, {
+      "@id" : "_:b13",
+      "@type" : "v:Organization",
+      "hasAddress" : "_:b14",
+      "hasEmail" : "mailto:serv.naturambiente@provincia.tn.it",
+      "hasTelephone" : "tel:+%2B39.0461.496123",
+      "hasURL" : "http://www.naturambiente.provincia.tn.it/",
+      "organization-name" : "Provincia Autonoma di Trento - Servizio per il Sostegno Occupazionale e la Valorizzazione Ambientale"
+    }, {
+      "@id" : "_:b14",
+      "@type" : "v:Address"
+    }, {
+      "@id" : "_:b15",
+      "@type" : "v:Address"
+    }, {
+      "@id" : "_:b16",
+      "wasDerivedFrom" : "_:b2"
+    }, {
+      "@id" : "_:b17",
+      "conformsTo" : "_:b0"
+    }, {
+      "@id" : "_:b2",
+      "created" : "2010-12-08",
+      "issued" : "2010-12-08",
+      "modified" : "2010-12-08",
+      "title" : {
+        "@language" : "it",
+        "@value" : "REGOLAMENTO (UE) N. 1089/2010 DELLA COMMISSIONE del 23 novembre 2010 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda l'interoperabilità dei set di dati territoriali e dei servizi di dati territoriali"
+      }
+    }, {
+      "@id" : "_:b3",
+      "@type" : "spdx:Checksum",
+      "algorithm" : "checksum:Algorithm_md5",
+      "checksumValue" : "ca62d1d08283a1ba3334a13ed675b118"
+    }, {
+      "@id" : "_:b4",
+      "@type" : "dct:Location",
+      "geometry" : "POLYGON((10.41 46.6,11.97 46.6,11.97 45.6,10.41 45.6,10.41 46.6))",
+      "locn:geometry" : {
+        "@type" : "gsp:gmlLiteral",
+        "@value" : "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>45.6 10.41</gml:lowerCorner><gml:upperCorner>46.6 11.97</gml:upperCorner></gml:Envelope>"
+      }
+    }, {
+      "@id" : "_:b5",
+      "identifier" : "p_TN:piste_lin"
+    }, {
+      "@id" : "_:b6",
+      "@type" : "prov:Activity",
+      "generated" : "_:b11",
+      "qualifiedAssociation" : "_:b10"
+    }, {
+      "@id" : "_:b7",
+      "@type" : "dct:ProvenanceStatement",
+      "label" : {
+        "@language" : "it",
+        "@value" : "Rilievo tramite strumentazione gps"
+      }
+    }, {
+      "@id" : "_:b8",
+      "@type" : "v:Organization",
+      "hasAddress" : "_:b15",
+      "hasEmail" : "mailto:serv.naturambiente@provincia.tn.it",
+      "hasTelephone" : "tel:+%2B39.0461.496123",
+      "hasURL" : "http://www.naturambiente.provincia.tn.it/",
+      "organization-name" : "Provincia Autonoma di Trento - Servizio per il Sostegno Occupazionale e la Valorizzazione Ambientale"
+    }, {
+      "@id" : "_:b9",
+      "@type" : "skos:Concept",
+      "inScheme" : "_:b12",
+      "prefLabel" : "Regional"
+    }, {
+      "@id" : "https://europeandataportal.eu/set/data/p_tn-0211d261-70d8-485e-9265-b1c27b1a84e1",
+      "@type" : "dcat:Dataset",
+      "accrualPeriodicity" : "http://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequencyCode/notPlanned",
+      "conformsTo" : "_:b1",
+      "created" : "2019-04-30",
+      "description" : {
+        "@language" : "it",
+        "@value" : "Rappresentazione degli elementi puntuali presenti sulle piste ciclabili del Trentino: bicigrill (punto di ristoro, assistenza e informazione), contabici (strumentazione di rilevamento passaggi pedonali e ciclabili), cippi km e fontanelle."
+      },
+      "identifier" : "p_TN:0211d261-70d8-485e-9265-b1c27b1a84e1_resource",
+      "isPartOf" : "_:b5",
+      "issued" : "2019-04-30",
+      "language" : "http://publications.europa.eu/resource/authority/language/ITA",
+      "provenance" : "_:b7",
+      "spatial" : "_:b4",
+      "subject" : "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/transportation",
+      "title" : {
+        "@language" : "it",
+        "@value" : "Punti di interesse ciclabili"
+      },
+      "type" : "http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset",
+      "comment" : {
+        "@language" : "en",
+        "@value" : "Spatial resolution (equivalent scale): 1:10000"
+      },
+      "contactPoint" : "_:b8",
+      "keyword" : [ {
+        "@language" : "it",
+        "@value" : "OGD"
+      }, {
+        "@language" : "it",
+        "@value" : "open data"
+      }, {
+        "@language" : "it",
+        "@value" : "ciclabili"
+      }, {
+        "@language" : "it",
+        "@value" : "ciclabili trentino"
+      }, {
+        "@language" : "it",
+        "@value" : "RNDT"
+      }, {
+        "@language" : "it",
+        "@value" : "bicigrill"
+      }, {
+        "@language" : "it",
+        "@value" : "piste"
+      }, {
+        "@language" : "it",
+        "@value" : "contabici"
+      }, {
+        "@language" : "it",
+        "@value" : "bicigrill trentino"
+      } ],
+      "landingPage" : "https://siat.provincia.tn.it/IDT/vector/public/p_tn_0211d261-70d8-485e-9265-b1c27b1a84e1.zip",
+      "theme" : [ "http://eurovoc.europa.eu/3428", "http://publications.europa.eu/resource/authority/data-theme/TRAN", "http://eurovoc.europa.eu/100154", "http://inspire.ec.europa.eu/theme/tn", "_:b9" ],
+      "wasUsedBy" : "_:b6",
+      "isPrimaryTopicOf" : "https://europeandataportal.eu/set/record/p_tn-0211d261-70d8-485e-9265-b1c27b1a84e1"
+    }, {
+      "@id" : "https://europeandataportal.eu/set/record/p_tn-0211d261-70d8-485e-9265-b1c27b1a84e1",
+      "@type" : "dcat:CatalogRecord",
+      "dct:created" : {
+        "@type" : "xsd:dateTime",
+        "@value" : "2020-05-06T00:15:06Z"
+      },
+      "identifier" : "p_TN:0211d261-70d8-485e-9265-b1c27b1a84e1",
+      "language" : "http://publications.europa.eu/resource/authority/language/ITA",
+      "modified" : "2019-09-26",
+      "dct:modified" : {
+        "@type" : "xsd:dateTime",
+        "@value" : "2020-05-06T00:15:06Z"
+      },
+      "source" : "_:b17",
+      "characterEncoding" : "UTF-8",
+      "contactPoint" : "_:b13",
+      "primaryTopic" : "https://europeandataportal.eu/set/data/p_tn-0211d261-70d8-485e-9265-b1c27b1a84e1",
+      "transIssued" : "2020-05-06T00:15:06Z",
+      "transStatus" : "https://europeandataportal.eu/voc#TransInProcess",
+      "checksum" : "_:b3"
+    }, {
+      "@id" : "https://siat.provincia.tn.it/IDT/vector/public/p_tn_0211d261-70d8-485e-9265-b1c27b1a84e1.zip",
+      "@type" : "foaf:Document"
+    } ],
+    "@id" : "urn:x-arq:DefaultGraphNode",
+    "@context" : {
+      "versionInfo" : "http://www.w3.org/2002/07/owl#versionInfo",
+      "title" : "http://purl.org/dc/terms/title",
+      "prefLabel" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "type" : {
+        "@id" : "http://purl.org/dc/terms/type",
+        "@type" : "@id"
+      },
+      "modified" : {
+        "@id" : "http://purl.org/dc/terms/modified",
+        "@type" : "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "issued" : {
+        "@id" : "http://purl.org/dc/terms/issued",
+        "@type" : "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "created" : {
+        "@id" : "http://purl.org/dc/terms/created",
+        "@type" : "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "checksumValue" : "https://spdx.org/rdf/terms/#checksumValue",
+      "algorithm" : {
+        "@id" : "https://spdx.org/rdf/terms/#algorithm",
+        "@type" : "@id"
+      },
+      "identifier" : "http://purl.org/dc/terms/identifier",
+      "keyword" : "http://www.w3.org/ns/dcat#keyword",
+      "theme" : {
+        "@id" : "http://www.w3.org/ns/dcat#theme",
+        "@type" : "@id"
+      },
+      "comment" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "isPrimaryTopicOf" : {
+        "@id" : "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+        "@type" : "@id"
+      },
+      "spatial" : {
+        "@id" : "http://purl.org/dc/terms/spatial",
+        "@type" : "@id"
+      },
+      "isPartOf" : {
+        "@id" : "http://purl.org/dc/terms/isPartOf",
+        "@type" : "@id"
+      },
+      "landingPage" : {
+        "@id" : "http://www.w3.org/ns/dcat#landingPage",
+        "@type" : "@id"
+      },
+      "conformsTo" : {
+        "@id" : "http://purl.org/dc/terms/conformsTo",
+        "@type" : "@id"
+      },
+      "wasUsedBy" : {
+        "@id" : "http://www.w3.org/ns/prov#wasUsedBy",
+        "@type" : "@id"
+      },
+      "language" : {
+        "@id" : "http://purl.org/dc/terms/language",
+        "@type" : "@id"
+      },
+      "provenance" : {
+        "@id" : "http://purl.org/dc/terms/provenance",
+        "@type" : "@id"
+      },
+      "accrualPeriodicity" : {
+        "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+        "@type" : "@id"
+      },
+      "contactPoint" : {
+        "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+        "@type" : "@id"
+      },
+      "subject" : {
+        "@id" : "http://purl.org/dc/terms/subject",
+        "@type" : "@id"
+      },
+      "description" : "http://purl.org/dc/terms/description",
+      "qualifiedAssociation" : {
+        "@id" : "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "@type" : "@id"
+      },
+      "generated" : {
+        "@id" : "http://www.w3.org/ns/prov#generated",
+        "@type" : "@id"
+      },
+      "inScheme" : {
+        "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+        "@type" : "@id"
+      },
+      "organization-name" : "http://www.w3.org/2006/vcard/ns#organization-name",
+      "hasURL" : {
+        "@id" : "http://www.w3.org/2006/vcard/ns#hasURL",
+        "@type" : "@id"
+      },
+      "hasTelephone" : {
+        "@id" : "http://www.w3.org/2006/vcard/ns#hasTelephone",
+        "@type" : "@id"
+      },
+      "hasEmail" : {
+        "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail",
+        "@type" : "@id"
+      },
+      "hasAddress" : {
+        "@id" : "http://www.w3.org/2006/vcard/ns#hasAddress",
+        "@type" : "@id"
+      },
+      "geometry" : {
+        "@id" : "http://www.w3.org/ns/locn#geometry",
+        "@type" : "http://www.openlinksw.com/schemas/virtrdf#Geometry"
+      },
+      "hadPlan" : {
+        "@id" : "http://www.w3.org/ns/prov#hadPlan",
+        "@type" : "@id"
+      },
+      "source" : {
+        "@id" : "http://purl.org/dc/terms/source",
+        "@type" : "@id"
+      },
+      "checksum" : {
+        "@id" : "https://spdx.org/rdf/terms/#checksum",
+        "@type" : "@id"
+      },
+      "transStatus" : {
+        "@id" : "https://europeandataportal.eu/voc#transStatus",
+        "@type" : "@id"
+      },
+      "transIssued" : {
+        "@id" : "https://europeandataportal.eu/voc#transIssued",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "primaryTopic" : {
+        "@id" : "http://xmlns.com/foaf/0.1/primaryTopic",
+        "@type" : "@id"
+      },
+      "characterEncoding" : "http://www.w3.org/2011/content#characterEncoding",
+      "label" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "wasDerivedFrom" : {
+        "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "@type" : "@id"
+      },
+      "schema" : "http://schema.org/",
+      "dcatap" : "http://data.europa.eu/r5r/",
+      "adms" : "http://www.w3.org/ns/adms#",
+      "spdx" : "https://spdx.org/rdf/terms/#",
+      "gsp" : "http://www.opengis.net/ont/geosparql#",
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "org" : "http://www.w3.org/ns/org#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "skos" : "http://www.w3.org/2004/02/skos/core#",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+      "hydra" : "http://www.w3.org/ns/hydra/core#",
+      "dct" : "http://purl.org/dc/terms/",
+      "v" : "http://www.w3.org/2006/vcard/ns#",
+      "time" : "http://www.w3.org/2006/time#",
+      "dcat" : "http://www.w3.org/ns/dcat#",
+      "odrl" : "https://www.w3.org/TR/odrl-vocab/#",
+      "locn" : "http://www.w3.org/ns/locn#",
+      "prov" : "http://www.w3.org/ns/prov#",
+      "foaf" : "http://xmlns.com/foaf/0.1/",
+      "gmd" : "http://www.isotc211.org/2005/gmd#"
+    }
+  }
