@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "http://dati.trentino.it/dataset/stazioni-bike-sharing-emotion-trentino",
+    "@type" : "dcat:Dataset",
+    "accrualPeriodicity" : "http://publications.europa.eu/resource/authority/frequency/NEVER",
+    "creator" : "http://www.provincia.tn.it/",
+    "description" : {
+      "@language" : "it",
+      "@value" : "Dati in tempo reale, provenienti dal progetto e-Motion, relativi alla disponibilita di biciclette alle stazioni di bikesharing nei comuni di Lavis, Mezzolombardo, Mezzocorona, Pergine Valsugana, Rovereto, San Michele all'Adige e Trento georeferenziati e provenienti da sensori."
+    },
+    "identifier" : "p_TN:stazioni-bike-sharing-emotion-trentino",
+    "modified" : "2018-05-08",
+    "publisher" : "http://www.provincia.tn.it/",
+    "rightsHolder" : "http://www.provincia.tn.it/",
+    "subject" : "http://eurovoc.europa.eu/4653",
+    "title" : {
+      "@language" : "it",
+      "@value" : "stazioni-bike-sharing-emotion-trentino"
+    },
+    "contactPoint" : "http://www.stu.provincia.tn.it",
+    "distribution" : "https://sciamlab.com/opendatahub/dataset/p_tn_stazioni-bike-sharing-emotion-trentino",
+    "keyword" : "bikesharing",
+    "theme" : "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  } ],
+  "@id" : "urn:x-arq:DefaultGraphNode",
+  "@context" : {
+    "description" : "http://purl.org/dc/terms/description",
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "distribution" : {
+      "@id" : "http://www.w3.org/ns/dcat#distribution",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher",
+      "@type" : "@id"
+    },
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme",
+      "@type" : "@id"
+    },
+    "accrualPeriodicity" : {
+      "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+      "@type" : "@id"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject",
+      "@type" : "@id"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder",
+      "@type" : "@id"
+    },
+    "keyword" : "http://www.w3.org/ns/dcat#keyword",
+    "identifier" : "http://purl.org/dc/terms/identifier",
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+      "@type" : "@id"
+    },
+    "title" : "http://purl.org/dc/terms/title",
+    "dct" : "http://purl.org/dc/terms/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "dcat" : "http://www.w3.org/ns/dcat#"
+  }
+}
