@@ -1,0 +1,104 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix spdx:  <https://spdx.org/rdf/terms/#> .
+@prefix gsp:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix v:     <http://www.w3.org/2006/vcard/ns#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix odrl:  <https://www.w3.org/TR/odrl-vocab/#> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix gmd:   <http://www.isotc211.org/2005/gmd#> .
+
+<https://europeandataportal.eu/set/data/p_tn-3ff5db13-8a3d-4bd8-8d6f-9b2fdf1aeb41>
+        a                       dcat:Dataset ;
+        rdfs:comment            "Spatial resolution (equivalent scale): 1:10000"@en ;
+        dct:accrualPeriodicity  <http://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequencyCode/notPlanned> ;
+        dct:conformsTo          [ dct:type        <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  skos:prefLabel  "WGS84/UTM 32N"@it
+                                ] ;
+        dct:description         "Lo strato informativo rappresenta il tracciato delle piste ciclabili del Trentino"@it ;
+        dct:identifier          "p_TN:3ff5db13-8a3d-4bd8-8d6f-9b2fdf1aeb41_resource" ;
+        dct:isPartOf            [ dct:identifier  "p_TN:piste_lin" ] ;
+        dct:language            <http://publications.europa.eu/resource/authority/language/ITA> ;
+        dct:modified            "2008-09-26"^^xsd:date ;
+        dct:provenance          [ a           dct:ProvenanceStatement ;
+                                  rdfs:label  "Rilievo tramite strumentazione gps"@it
+                                ] ;
+        dct:spatial             [ a              dct:Location ;
+                                  locn:geometry  "POLYGON((10.41 46.6,11.97 46.6,11.97 45.6,10.41 45.6,10.41 46.6))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry> , "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>45.6 10.41</gml:lowerCorner><gml:upperCorner>46.6 11.97</gml:upperCorner></gml:Envelope>"^^gsp:gmlLiteral
+                                ] ;
+        dct:subject             <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/transportation> ;
+        dct:title               "Piste ciclabili"@it ;
+        dct:type                <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset> ;
+        dcat:contactPoint       [ a                    v:Organization ;
+                                  v:hasAddress         [ a  v:Address ] ;
+                                  v:hasEmail           <mailto:serv.naturambiente@provincia.tn.it> ;
+                                  v:hasTelephone       <tel:+%2B39.0461.496123> ;
+                                  v:hasURL             <http://www.naturambiente.provincia.tn.it/> ;
+                                  v:organization-name  "Provincia Autonoma di Trento - Servizio per il Sostegno Occupazionale e la Valorizzazione Ambientale"
+                                ] ;
+        dcat:keyword            "open data"@it , "OGD"@it , "piste"@it , "ciclabili trentino"@it , "RNDT"@it , "ciclabili"@it ;
+        dcat:landingPage        <https://siat.provincia.tn.it/IDT/vector/public/p_tn_3ff5db13-8a3d-4bd8-8d6f-9b2fdf1aeb41.zip> ;
+        dcat:theme              <http://eurovoc.europa.eu/3428> , <http://publications.europa.eu/resource/authority/data-theme/TRAN> , <http://inspire.ec.europa.eu/theme/tn> , <http://eurovoc.europa.eu/100154> ;
+        dcat:theme              [ a               skos:Concept ;
+                                  skos:inScheme   [ a           skos:ConceptScheme ;
+                                                    rdfs:label  "Spatial scope"@it ;
+                                                    dct:issued  "2019-05-22"^^xsd:date
+                                                  ] ;
+                                  skos:prefLabel  "Regional"
+                                ] ;
+        prov:wasUsedBy          [ a                          prov:Activity ;
+                                  prov:generated             [ dct:description  "INSPIRE Data Specifications"@it ;
+                                                               dct:type         <http://inspire.ec.europa.eu/metadata-codelist/DegreeOfConformity/notConformant>
+                                                             ] ;
+                                  prov:qualifiedAssociation  [ prov:hadPlan  [ prov:wasDerivedFrom  [ dct:created   "2010-12-08"^^xsd:date ;
+                                                                                                      dct:issued    "2010-12-08"^^xsd:date ;
+                                                                                                      dct:modified  "2010-12-08"^^xsd:date ;
+                                                                                                      dct:title     "REGOLAMENTO (UE) N. 1089/2010 DELLA COMMISSIONE del 23 novembre 2010 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda l'interoperabilità dei set di dati territoriali e dei servizi di dati territoriali"@it
+                                                                                                    ]
+                                                                             ]
+                                                             ]
+                                ] ;
+        foaf:isPrimaryTopicOf   <https://europeandataportal.eu/set/record/p_tn-3ff5db13-8a3d-4bd8-8d6f-9b2fdf1aeb41> .
+
+<https://europeandataportal.eu/set/record/p_tn-3ff5db13-8a3d-4bd8-8d6f-9b2fdf1aeb41>
+        a                  dcat:CatalogRecord ;
+        dct:created        "2020-05-06T00:15:06Z"^^xsd:dateTime ;
+        dct:identifier     "p_TN:3ff5db13-8a3d-4bd8-8d6f-9b2fdf1aeb41" ;
+        dct:language       <http://publications.europa.eu/resource/authority/language/ITA> ;
+        dct:modified       "2019-09-25"^^xsd:date , "2020-05-06T00:15:06Z"^^xsd:dateTime ;
+        dct:source         [ dct:conformsTo  [ dct:title        "DM - Regole tecniche RNDT"@it ;
+                                               owl:versionInfo  "10 novembre 2011"@it
+                                             ]
+                           ] ;
+        <http://www.w3.org/2011/content#characterEncoding>
+                "UTF-8" ;
+        dcat:contactPoint  [ a                    v:Organization ;
+                             v:hasAddress         [ a  v:Address ] ;
+                             v:hasEmail           <mailto:serv.naturambiente@provincia.tn.it> ;
+                             v:hasTelephone       <tel:+%2B39.0461.496123> ;
+                             v:hasURL             <http://www.naturambiente.provincia.tn.it/> ;
+                             v:organization-name  "Provincia Autonoma di Trento - Servizio per il Sostegno Occupazionale e la Valorizzazione Ambientale"
+                           ] ;
+        foaf:primaryTopic  <https://europeandataportal.eu/set/data/p_tn-3ff5db13-8a3d-4bd8-8d6f-9b2fdf1aeb41> ;
+        <https://europeandataportal.eu/voc#transIssued>
+                "2020-05-06T00:15:06Z"^^xsd:dateTime ;
+        <https://europeandataportal.eu/voc#transStatus>
+                <https://europeandataportal.eu/voc#TransInProcess> ;
+        spdx:checksum      [ a                   spdx:Checksum ;
+                             spdx:algorithm      spdx:checksumAlgorithm_md5 ;
+                             spdx:checksumValue  "8b8649be3f0e1fe190a9d6e7de6f5b27"
+                           ] .
+
+<https://siat.provincia.tn.it/IDT/vector/public/p_tn_3ff5db13-8a3d-4bd8-8d6f-9b2fdf1aeb41.zip>
+        a       foaf:Document .
