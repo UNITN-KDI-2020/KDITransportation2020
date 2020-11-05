@@ -40,13 +40,13 @@
 			<yjs:Stroke x:Key="5" fill="{y:GraphMLReference 23}" thickness="0.75"/>
 			<yjs:Stroke x:Key="6" fill="#FF000000"/>
 			<yjs:SolidColorFill x:Key="7" color="Black"/>
-			<yjs:PolylineEdgeStyle x:Key="8" stroke="{y:GraphMLReference 5}" targetArrow="{y:GraphMLReference 13}"/>
-			<y:FreeEdgeLabelModel x:Key="9"/>
-			<yjs:DefaultLabelStyle x:Key="10" verticalTextAlignment="BOTTOM" horizontalTextAlignment="CENTER" textFill="BLACK">
+			<y:FreeEdgeLabelModel x:Key="8"/>
+			<yjs:DefaultLabelStyle x:Key="9" verticalTextAlignment="BOTTOM" horizontalTextAlignment="CENTER" textFill="BLACK">
 				<yjs:DefaultLabelStyle.font>
 					<yjs:Font fontSize="12" fontFamily="'Arial'"/>
 				</yjs:DefaultLabelStyle.font>
 			</yjs:DefaultLabelStyle>
+			<yjs:PolylineEdgeStyle x:Key="10" stroke="{y:GraphMLReference 5}" targetArrow="{y:GraphMLReference 13}"/>
 			<yjs:PolylineEdgeStyle x:Key="11" stroke="{y:GraphMLReference 5}" targetArrow="{y:GraphMLReference 15}"/>
 			<yjs:PolylineEdgeStyle x:Key="12">
 				<yjs:PolylineEdgeStyle.stroke>
@@ -95,7 +95,7 @@
 		<node id="n0">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="820.3130952380952" Y="335" Width="181.25" Height="149.5"/>
+				<y:RectD X="820.3130952380952" Y="624" Width="181.25" Height="150.125"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#7FFFFF00" insetFill="YELLOW" stroke="BLACK">
@@ -104,12 +104,12 @@
 							<x0:EntityRelationshipModel.title>Facility</x0:EntityRelationshipModel.title>
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
-									<sys:String><![CDATA[Type: facilityEnum]]></sys:String>
-									<sys:String><![CDATA[Availability: bool]]></sys:String>
-									<sys:String><![CDATA[Rank: int]]></sys:String>
+									<sys:String><![CDATA[Type: FacilityEnum]]></sys:String>
 									<sys:String><![CDATA[Price: Price []]]></sys:String>
 									<sys:String><![CDATA[Contact: Contact]]></sys:String>
 									<sys:String><![CDATA[Ranking: int]]></sys:String>
+									<sys:String><![CDATA[Address: Address]]></sys:String>
+									<sys:String><![CDATA[Calendar: Calendar]]></sys:String>
 								</x:Array>
 							</x0:EntityRelationshipModel.attributes>
 						</x0:EntityRelationshipModel>
@@ -150,7 +150,7 @@
 		<node id="n1">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="884.6876984126984" Y="639.75" Width="182.5" Height="150"/>
+				<y:RectD X="884.6876984126984" Y="978.375" Width="182.5" Height="150"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#7FFF0000" insetFill="RED" stroke="BLACK">
@@ -162,7 +162,7 @@
 									<sys:String><![CDATA[FuelStation: 0]]></sys:String>
 									<sys:String><![CDATA[ParkingArea: 1]]></sys:String>
 									<sys:String><![CDATA[RailwayStation: 2]]></sys:String>
-									<sys:String><![CDATA[BusStop: 3]]></sys:String>
+									<sys:String><![CDATA[BusStation: 3]]></sys:String>
 									<sys:String><![CDATA[CarSharingPark: 4]]></sys:String>
 									<sys:String><![CDATA[BikeSharingPark: 5]]></sys:String>
 									<sys:String><![CDATA[Campsite: 6]]></sys:String>
@@ -207,7 +207,7 @@
 		<node id="n3">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="627.8126984126984" Y="80" Width="240" Height="180"/>
+				<y:RectD X="627.8126984126984" Y="211" Width="240" Height="180"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 1}" insetFill="{y:GraphMLReference 2}" stroke="BLACK">
@@ -259,7 +259,7 @@
 		<node id="n4">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1244.0630952380952" Y="684.75" Width="182.5" Height="60"/>
+				<y:RectD X="1244.0630952380952" Y="1023.375" Width="182.5" Height="60"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#7FFFFF00" insetFill="YELLOW" stroke="BLACK">
@@ -295,7 +295,7 @@
 		<node id="n5">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="293.1253968253968" Y="865" Width="181.25" Height="90"/>
+				<y:RectD X="293.1253968253968" Y="1384.625" Width="181.25" Height="90"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#7FFF0000" insetFill="RED" stroke="BLACK">
@@ -327,7 +327,7 @@
 		<node id="n6">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="35" Y="379.75" Width="182.5" Height="60"/>
+				<y:RectD X="35" Y="669.0625" Width="182.5" Height="60"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 1}" insetFill="{y:GraphMLReference 2}" stroke="BLACK">
@@ -336,7 +336,7 @@
 							<x0:EntityRelationshipModel.title>TimeSpent</x0:EntityRelationshipModel.title>
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
-									<sys:String><![CDATA[Time: TimeStamp]]></sys:String>
+									<sys:String><![CDATA[TimeSpent: TimeStamp]]></sys:String>
 								</x:Array>
 							</x0:EntityRelationshipModel.attributes>
 						</x0:EntityRelationshipModel>
@@ -357,7 +357,7 @@
 		<node id="n7">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="95.93769841269841" Y="684.75" Width="121.25" Height="60"/>
+				<y:RectD X="95.93769841269841" Y="1008.375" Width="121.25" Height="90"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#7FFF0000" insetFill="RED" stroke="BLACK">
@@ -366,8 +366,9 @@
 							<x0:EntityRelationshipModel.title>TimeStamp</x0:EntityRelationshipModel.title>
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
-									<sys:String><![CDATA[hour: int]]></sys:String>
-									<sys:String><![CDATA[minute: int]]></sys:String>
+									<sys:String><![CDATA[Hour: int]]></sys:String>
+									<sys:String><![CDATA[Minute: int]]></sys:String>
+									<sys:String><![CDATA[Seconds: int]]></sys:String>
 								</x:Array>
 							</x0:EntityRelationshipModel.attributes>
 						</x0:EntityRelationshipModel>
@@ -388,7 +389,7 @@
 		<node id="n8">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="247.1876984126984" Y="655.609375" Width="182.5" Height="118.28125"/>
+				<y:RectD X="247.1876984126984" Y="994.234375" Width="182.5" Height="118.28125"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 1}" insetFill="{y:GraphMLReference 2}" stroke="BLACK">
@@ -398,7 +399,7 @@
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
 									<sys:String><![CDATA[StopID: int]]></sys:String>
-									<sys:String><![CDATA[StopCode: int]]></sys:String>
+									<sys:String><![CDATA[StopCode: string]]></sys:String>
 									<sys:String><![CDATA[StopName: string]]></sys:String>
 									<sys:String><![CDATA[Location: Location]]></sys:String>
 									<sys:String><![CDATA[WheelchairBoarding: int]]></sys:String>
@@ -422,7 +423,7 @@
 		<node id="n9">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1456.5630952380952" Y="379.75" Width="182.5" Height="60"/>
+				<y:RectD X="1456.5630952380952" Y="669.0625" Width="182.5" Height="60"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 1}" insetFill="{y:GraphMLReference 2}" stroke="BLACK">
@@ -462,7 +463,7 @@
 		<node id="n10">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1097.1878968253968" Y="669.75" Width="116.875" Height="90"/>
+				<y:RectD X="1097.1878968253968" Y="1008.375" Width="116.875" Height="90"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#7FFF0000" insetFill="RED" stroke="BLACK">
@@ -494,7 +495,7 @@
 		<node id="n11">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1488.2819444444444" Y="639.75" Width="119.06230158730159" Height="150"/>
+				<y:RectD X="1488.2819444444444" Y="978.375" Width="119.06230158730159" Height="150"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 4}" insetFill="RED" stroke="BLACK">
@@ -524,7 +525,7 @@
 		<node id="n12">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="672.1876984126984" Y="639.75" Width="182.5" Height="150"/>
+				<y:RectD X="672.1876984126984" Y="978.375" Width="182.5" Height="150"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 3}" insetFill="YELLOW" stroke="BLACK">
@@ -564,7 +565,7 @@
 		<node id="n13">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1244.0630952380952" Y="349" Width="182.5" Height="121.5"/>
+				<y:RectD X="1244.0630952380952" Y="638.3125" Width="182.5" Height="121.5"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#FFE8EEF7" insetFill="#FFB7C9E3" stroke="BLACK">
@@ -597,7 +598,7 @@
 		<node id="n14">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="459.6876984126984" Y="609.5" Width="182.5" Height="210.5"/>
+				<y:RectD X="459.6876984126984" Y="948.125" Width="182.5" Height="210.5"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 3}" insetFill="YELLOW" stroke="BLACK">
@@ -642,7 +643,7 @@
 		<node id="n15">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="504.3753968253968" Y="865" Width="182.5" Height="90"/>
+				<y:RectD X="504.3753968253968" Y="1384.625" Width="182.5" Height="90"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#7FFFFF00" insetFill="YELLOW" stroke="BLACK">
@@ -669,7 +670,7 @@
 		<node id="n16">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="247.5" Y="334.83984375" Width="182.5" Height="149.8203125"/>
+				<y:RectD X="247.5" Y="624.15234375" Width="182.5" Height="149.8203125"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 1}" insetFill="{y:GraphMLReference 2}" stroke="BLACK">
@@ -683,7 +684,7 @@
 									<sys:String><![CDATA[StopID: int]]></sys:String>
 									<sys:String><![CDATA[StopSequence: int]]></sys:String>
 									<sys:String><![CDATA[Calendar: Calendar]]></sys:String>
-									<sys:String><![CDATA[Stop: Stop []]]></sys:String>
+									<sys:String><![CDATA[Stop: Stop]]></sys:String>
 								</x:Array>
 							</x0:EntityRelationshipModel.attributes>
 						</x0:EntityRelationshipModel>
@@ -714,7 +715,7 @@
 		<node id="n17">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1031.5630952380952" Y="349.25" Width="182.5" Height="121"/>
+				<y:RectD X="1031.5630952380952" Y="638.5625" Width="182.5" Height="121"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="#7FFFFF00" insetFill="YELLOW" stroke="BLACK">
@@ -748,7 +749,7 @@
 		<node id="n18">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1223.6920138888888" Y="125" Width="178.59375" Height="90"/>
+				<y:RectD X="1223.6920138888888" Y="256" Width="178.59375" Height="90"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 1}" insetFill="{y:GraphMLReference 2}" stroke="BLACK">
@@ -790,7 +791,7 @@
 		<node id="n19">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1637.9694444444444" Y="125" Width="181.25000000000023" Height="90"/>
+				<y:RectD X="1637.9694444444444" Y="256" Width="181.25000000000023" Height="90"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 1}" insetFill="{y:GraphMLReference 2}" stroke="BLACK">
@@ -826,7 +827,7 @@
 		<node id="n20">
 			<data key="d0">0</data>
 			<data key="d5">
-				<y:RectD X="1669.0632936507936" Y="350.125" Width="119.06230158730159" Height="119.25"/>
+				<y:RectD X="1669.0632936507936" Y="624.25" Width="119.06230158730159" Height="149.625"/>
 			</data>
 			<data key="d7">
 				<x0:EntityNodeStyle fill="{y:GraphMLReference 4}" insetFill="RED" stroke="BLACK">
@@ -837,9 +838,10 @@
 								<x:Array Type="sys:Object">
 									<sys:String><![CDATA[NoFuel: 0]]></sys:String>
 									<sys:String><![CDATA[Diesel: 1]]></sys:String>
-									<sys:String><![CDATA[Petroil: 2]]></sys:String>
+									<sys:String><![CDATA[Petrol: 2]]></sys:String>
 									<sys:String><![CDATA[Gas: 3]]></sys:String>
 									<sys:String><![CDATA[Methane: 4]]></sys:String>
+									<sys:String><![CDATA[Electric: 5]]></sys:String>
 								</x:Array>
 							</x0:EntityRelationshipModel.attributes>
 						</x0:EntityRelationshipModel>
@@ -855,8 +857,8 @@
 		<edge id="e0" source="n0" target="n1" sourceport="p0" targetport="p0">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="910.9380952380952,529.5"/>
-					<y:Bend Location="975.9376984126984,529.5"/>
+					<y:Bend Location="910.9380952380952,819.125"/>
+					<y:Bend Location="975.9376984126984,819.125"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -864,52 +866,62 @@
 			</data>
 		</edge>
 		<edge id="e1" source="n2" target="n3" sourceport="p0" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has several Routes]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.5331125827814569" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="8"/>
+				<y:GraphMLReference ResourceKey="10"/>
 			</data>
 		</edge>
 		<edge id="e2" source="n0" target="n12" sourceport="p1" targetport="p0">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 10}">
-						<y:Label.Text><![CDATA[has an]]></y:Label.Text>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has an Address]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.561452336269753" Distance="31.245469835990605" Angle="1.5707963267948966" Model="{y:GraphMLReference 9}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.5373563117599857" Distance="31.889834290489123" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
 			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="874.6880952380952,514.5"/>
-					<y:Bend Location="809.0626984126984,514.5"/>
+					<y:Bend Location="874.6880952380952,804.125"/>
+					<y:Bend Location="809.0626984126984,804.125"/>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="8"/>
+				<y:GraphMLReference ResourceKey="10"/>
 			</data>
 		</edge>
 		<edge id="e3" source="n0" target="n4" sourceport="p2" targetport="p0">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 10}">
-						<y:Label.Text><![CDATA[has a]]></y:Label.Text>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a Price]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.3590723752373155" Distance="3.7577528607083956" Angle="1.5707963267948966" Model="{y:GraphMLReference 9}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.3726764774116616" Distance="9.361527881968092" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
 			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="983.4380952380952,499.5"/>
-					<y:Bend Location="1085.8130952380952,499.5"/>
-					<y:Bend Location="1085.8130952380952,590.5"/>
-					<y:Bend Location="1274.479761904762,590.5"/>
+					<y:Bend Location="983.4380952380952,789.125"/>
+					<y:Bend Location="1085.8130952380952,789.125"/>
+					<y:Bend Location="1085.8130952380952,921.125"/>
+					<y:Bend Location="1274.479761904762,921.125"/>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="8"/>
+				<y:GraphMLReference ResourceKey="10"/>
 			</data>
 		</edge>
 		<edge id="e4" source="n6" target="n7" sourceport="p0" targetport="p0">
@@ -920,8 +932,8 @@
 		<edge id="e5" source="n12" target="n5" sourceport="p1" targetport="p0">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="763.4376984126984,835"/>
-					<y:Bend Location="429.0628968253968,835"/>
+					<y:Bend Location="763.4376984126984,1354.625"/>
+					<y:Bend Location="429.0628968253968,1354.625"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -934,15 +946,35 @@
 			</data>
 		</edge>
 		<edge id="e7" source="n13" target="n4" sourceport="p0" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a Price]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.4337206544937159" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d13">
 				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 5}" targetArrow="{y:GraphMLReference 13}"/>
 			</data>
 		</edge>
 		<edge id="e8" source="n14" target="n15" sourceport="p0" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has several CalendarDates]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.4386035124306569" Distance="19.979675613962467" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="550.9376984126984,850"/>
-					<y:Bend Location="595.6253968253968,850"/>
+					<y:Bend Location="550.9376984126984,1369.625"/>
+					<y:Bend Location="595.6253968253968,1369.625"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -950,12 +982,22 @@
 			</data>
 		</edge>
 		<edge id="e9" source="n0" target="n14" sourceport="p3" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a Calendar]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.39589793860216815" Distance="-38.32813074176771" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="838.4380952380952,499.5"/>
-					<y:Bend Location="772.0626984126984,499.5"/>
-					<y:Bend Location="772.0626984126984,594.5"/>
-					<y:Bend Location="596.5626984126984,594.5"/>
+					<y:Bend Location="838.4380952380952,789.125"/>
+					<y:Bend Location="765.0626984126984,789.125"/>
+					<y:Bend Location="765.0626984126984,933.125"/>
+					<y:Bend Location="596.5626984126984,933.125"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -963,10 +1005,20 @@
 			</data>
 		</edge>
 		<edge id="e10" source="n16" target="n14" sourceport="p0" targetport="p2">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a Calendar]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.6895211779330446" Distance="-38.40279317276589" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="399.5833333333333,499.66015625"/>
-					<y:Bend Location="505.3126984126984,499.66015625"/>
+					<y:Bend Location="399.5833333333333,788.97265625"/>
+					<y:Bend Location="505.3126984126984,788.97265625"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -976,8 +1028,8 @@
 		<edge id="e11" source="n16" target="n7" sourceport="p1" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="277.9166666666667,499.66015625"/>
-					<y:Bend Location="186.87539682539682,499.66015625"/>
+					<y:Bend Location="277.9166666666667,788.97265625"/>
+					<y:Bend Location="186.87539682539682,788.97265625"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -985,10 +1037,22 @@
 			</data>
 		</edge>
 		<edge id="e12" source="n18" target="n17" sourceport="p0" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has an Agency]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.39055261900301036" Distance="-74.83074874842312" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1290.6646701388888,320"/>
-					<y:Bend Location="1122.8130952380952,320"/>
+					<y:Bend Location="1290.6646701388888,361"/>
+					<y:Bend Location="1290.0166666666667,361"/>
+					<y:Bend Location="1290.0166666666667,609"/>
+					<y:Bend Location="1122.8130952380952,609"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -996,15 +1060,35 @@
 			</data>
 		</edge>
 		<edge id="e13" source="n18" target="n13" sourceport="p1" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a Ticket]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.5182809493264922" Distance="0.000005973698534944565" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d13">
 				<y:GraphMLReference ResourceKey="16"/>
 			</data>
 		</edge>
 		<edge id="e14" source="n18" target="n9" sourceport="p2" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.5818323716377507" Distance="-79.09854037974404" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1379.9615451388888,230"/>
-					<y:Bend Location="1547.8130952380952,230"/>
+					<y:Bend Location="1379.9615451388888,361"/>
+					<y:Bend Location="1547.8130952380952,361"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1012,15 +1096,35 @@
 			</data>
 		</edge>
 		<edge id="e15" source="n3" target="n12" sourceport="p1" targetport="p2">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has an Address]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.532985741647159" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d13">
 				<y:GraphMLReference ResourceKey="21"/>
 			</data>
 		</edge>
 		<edge id="e16" source="n19" target="n9" sourceport="p0" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.4535487408450823" Distance="-27.45495586367678" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1668.1777777777777,230"/>
-					<y:Bend Location="1608.6464285714285,230"/>
+					<y:Bend Location="1668.1777777777777,523"/>
+					<y:Bend Location="1608.6464285714285,523"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1028,12 +1132,22 @@
 			</data>
 		</edge>
 		<edge id="e17" source="n19" target="n4" sourceport="p1" targetport="p2">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a Price]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.37241033701385085" Distance="-210.88263122647777" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1789.0111111111112,230"/>
-					<y:Bend Location="1818.1257936507936,230"/>
-					<y:Bend Location="1818.1257936507936,569.5"/>
-					<y:Bend Location="1396.1464285714285,569.5"/>
+					<y:Bend Location="1789.0111111111112,361"/>
+					<y:Bend Location="1825.1257936507936,361"/>
+					<y:Bend Location="1825.1257936507936,884.125"/>
+					<y:Bend Location="1396.1464285714285,884.125"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1052,8 +1166,8 @@
 		<edge id="e19" source="n17" target="n10" sourceport="p1" targetport="p0">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1122.8130952380952,605.5"/>
-					<y:Bend Location="1184.8441468253968,605.5"/>
+					<y:Bend Location="1122.8130952380952,936.125"/>
+					<y:Bend Location="1184.8441468253968,936.125"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1063,10 +1177,10 @@
 		<edge id="e20" source="n0" target="n10" sourceport="p4" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="947.1880952380952,514.5"/>
-					<y:Bend Location="1048.8130952380952,514.5"/>
-					<y:Bend Location="1048.8130952380952,620.5"/>
-					<y:Bend Location="1126.4066468253968,620.5"/>
+					<y:Bend Location="947.1880952380952,804.125"/>
+					<y:Bend Location="1048.8130952380952,804.125"/>
+					<y:Bend Location="1048.8130952380952,951.125"/>
+					<y:Bend Location="1126.4066468253968,951.125"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1074,10 +1188,20 @@
 			</data>
 		</edge>
 		<edge id="e21" source="n16" target="n8" sourceport="p2" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a Stop]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.45469810087302026" Distance="0.1702988198352744" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="338.75,499.66015625"/>
-					<y:Bend Location="338.4376984126984,499.66015625"/>
+					<y:Bend Location="338.75,788.97265625"/>
+					<y:Bend Location="338.4376984126984,788.97265625"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1085,10 +1209,20 @@
 			</data>
 		</edge>
 		<edge id="e22" source="n18" target="n16" sourceport="p3" targetport="p3">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has several StopTimes]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.04679623714130356" Distance="-144.84562264355884" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1246.0162326388888,290"/>
-					<y:Bend Location="338.75,290"/>
+					<y:Bend Location="1246.0162698412698,579"/>
+					<y:Bend Location="338.75,579"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1096,10 +1230,22 @@
 			</data>
 		</edge>
 		<edge id="e23" source="n3" target="n0" sourceport="p2" targetport="p5">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has several Facilities]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.37416942689413124" Distance="38.94157893006822" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="777.8126984126984,320"/>
-					<y:Bend Location="910.9380952380952,320"/>
+					<y:Bend Location="777.8126984126984,406"/>
+					<y:Bend Location="793.8123015873016,406"/>
+					<y:Bend Location="793.8123015873016,609"/>
+					<y:Bend Location="910.9380952380952,609"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1107,10 +1253,20 @@
 			</data>
 		</edge>
 		<edge id="e24" source="n3" target="n9" sourceport="p3" targetport="p3">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a ModeOfTransport]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.05937734358190841" Distance="97.89724080957141" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="837.8126984126984,305"/>
-					<y:Bend Location="1486.979761904762,305"/>
+					<y:Bend Location="837.8126984126984,594"/>
+					<y:Bend Location="1486.979761904762,594"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -1118,10 +1274,20 @@
 			</data>
 		</edge>
 		<edge id="e25" source="n3" target="n6" sourceport="p4" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[has a TimeSpent]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:FreeEdgeLabelModelParameter Ratio="0.8674407904248854" Distance="152.01954271814478" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="657.8126984126984,275"/>
-					<y:Bend Location="126.25,275"/>
+					<y:Bend Location="657.8126984126984,406"/>
+					<y:Bend Location="126.25,406"/>
 				</x:List>
 			</data>
 			<data key="d13">
