@@ -1,0 +1,66 @@
+{
+    "@graph" : [ {
+      "@id" : "http://www.datiopen.it/it/opendata/Mappa_dei_parcheggi_in_Italia",
+      "@type" : "dcat:Dataset",
+      "accrualPeriodicity" : "http://publications.europa.eu/resource/authority/frequency/NEVER",
+      "creator" : "https://www.openstreetmap.org/",
+      "description" : {
+        "@language" : "it",
+        "@value" : "Archivio, rappesentabile in mappa, che contiene l'elenco, non esaustivo, di oltre 21mila parcheggi nel territorio italiano. La sorgente dei dati è OpenStreetMap.org a questi è stata assegnata con procedure automatizzate la classificazione per comune, provincia e regione."
+      },
+      "identifier" : "OpenStreetMap:Mappa_dei_distributori_di_carburante_in_italia",
+      "modified" : "2016-03-02",
+      "publisher" : "https://www.openstreetmap.org/",
+      "rightsHolder" : "https://www.openstreetmap.org/",
+      "title" : {
+        "@language" : "it",
+        "@value" : "Mappa dei parcheggi in Italia"
+      },
+      "contactPoint" : "https://www.openstreetmap.org/",
+      "distribution" : "http://download.geofabrik.de/europe/italy.html",
+      "keyword" : "ParkingAreas",
+      "theme" : "http://publications.europa.eu/resource/authority/data-theme/ECON"
+    } ],
+    "@id" : "urn:x-arq:DefaultGraphNode",
+    "@context" : {
+      "contactPoint" : {
+        "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+        "@type" : "@id"
+      },
+      "rightsHolder" : {
+        "@id" : "http://purl.org/dc/terms/rightsHolder",
+        "@type" : "@id"
+      },
+      "description" : "http://purl.org/dc/terms/description",
+      "accrualPeriodicity" : {
+        "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+        "@type" : "@id"
+      },
+      "keyword" : "http://www.w3.org/ns/dcat#keyword",
+      "distribution" : {
+        "@id" : "http://www.w3.org/ns/dcat#distribution",
+        "@type" : "@id"
+      },
+      "theme" : {
+        "@id" : "http://www.w3.org/ns/dcat#theme",
+        "@type" : "@id"
+      },
+      "modified" : {
+        "@id" : "http://purl.org/dc/terms/modified",
+        "@type" : "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "identifier" : "http://purl.org/dc/terms/identifier",
+      "title" : "http://purl.org/dc/terms/title",
+      "publisher" : {
+        "@id" : "http://purl.org/dc/terms/publisher",
+        "@type" : "@id"
+      },
+      "creator" : {
+        "@id" : "http://purl.org/dc/terms/creator",
+        "@type" : "@id"
+      },
+      "dct" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "dcat" : "http://www.w3.org/ns/dcat#"
+    }
+  }

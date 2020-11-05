@@ -1,0 +1,66 @@
+{
+    "@graph" : [ {
+      "@id" : "http://www.datiopen.it/it/opendata/Provincia_di_Trento_Sentieri",
+      "@type" : "dcat:Dataset",
+      "accrualPeriodicity" : "http://publications.europa.eu/resource/authority/frequency/NEVER",
+      "creator" : "https://www.sat.tn.it/",
+      "description" : {
+        "@language" : "it",
+        "@value" : "Sentieri dell'intera rete Società degli Alpinisti Tridentini (SAT) che insistono sul territorio della Provincia Autonoma di Trento: ogni sentiero è costituito dalle coordinate spaziali che ne permettono il corretto posizionamento sul territorio e presenta una serie di informazioni testuali aggiuntive (attributi) che lo descrivono."
+      },
+      "identifier" : "p_TN:Provincia_di_Trento_Sentieri",
+      "modified" : "2016-01-13",
+      "publisher" : "https://www.sat.tn.it/",
+      "rightsHolder" : "https://www.sat.tn.it/",
+      "title" : {
+        "@language" : "it",
+        "@value" : "PROVINCIA DI TRENTO - SENTIERI"
+      },
+      "contactPoint" : "https://www.sat.tn.it/",
+      "distribution" : "http://www.datiopen.it/it/opendata/Provincia_di_Trento_Sentieri",
+      "keyword" : "Tourism",
+      "theme" : "http://publications.europa.eu/resource/authority/data-theme/ECON"
+    } ],
+    "@id" : "urn:x-arq:DefaultGraphNode",
+    "@context" : {
+      "contactPoint" : {
+        "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+        "@type" : "@id"
+      },
+      "modified" : {
+        "@id" : "http://purl.org/dc/terms/modified",
+        "@type" : "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "description" : "http://purl.org/dc/terms/description",
+      "identifier" : "http://purl.org/dc/terms/identifier",
+      "creator" : {
+        "@id" : "http://purl.org/dc/terms/creator",
+        "@type" : "@id"
+      },
+      "theme" : {
+        "@id" : "http://www.w3.org/ns/dcat#theme",
+        "@type" : "@id"
+      },
+      "publisher" : {
+        "@id" : "http://purl.org/dc/terms/publisher",
+        "@type" : "@id"
+      },
+      "accrualPeriodicity" : {
+        "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+        "@type" : "@id"
+      },
+      "title" : "http://purl.org/dc/terms/title",
+      "keyword" : "http://www.w3.org/ns/dcat#keyword",
+      "rightsHolder" : {
+        "@id" : "http://purl.org/dc/terms/rightsHolder",
+        "@type" : "@id"
+      },
+      "distribution" : {
+        "@id" : "http://www.w3.org/ns/dcat#distribution",
+        "@type" : "@id"
+      },
+      "dct" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "dcat" : "http://www.w3.org/ns/dcat#"
+    }
+  }

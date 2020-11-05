@@ -1,14 +1,10 @@
 '''
-This file parse the accomodation dataset and filter
+This file parse the parking areas dataset and filter
 the needed information based on the schema.
 
 @carbogninalberto
 '''
 import pandas as pd
-import numpy as np
-import math
-import random
-import scipy.stats as st
 
 if __name__ == "__main__":
     print("1. Loading CSV file into a pandas dataframe...")

@@ -1,5 +1,5 @@
 '''
-This file parse the accomodation dataset and filter
+This file parse the bike sharing dataset and filter
 the needed information based on the schema.
 
 @carbogninalberto

@@ -1,0 +1,18 @@
+  @prefix xsd:   <http://www.w3.org/2001/XMLSchema#>
+  @prefix dct: <http://purl.org/dc/terms/>
+  @prefix dcat:   <http://www.w3.org/ns/dcat#> .
+  
+  <http://www.datiopen.it/it/opendata/Mappa_dei_distributori_di_carburante_in_italia>
+       a                       dcat:Dataset ;
+       dct:identifier          "OpenStreetMap:Mappa_dei_distributori_di_carburante_in_italia" ;
+       dct:title               "Mappa dei distributori di carburante in italia"@it ;
+       dct:description         "Archivio, rappesentabile in mappa, che contiene l'elenco non esaustivo di oltre 13mila distributori di carburante nel territorio italiano. La sorgente dei dati è OpenStreetMap.org a questi è stata assegnata con procedure automatizzate la classificazione per comune, provincia e regione."@it ;
+       dcat:theme              <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+       dct:modified            "2016-03-02"^^xsd:date ;
+       dcat:keyword            "FuelDistribution";
+       dct:rightsHolder        <https://www.openstreetmap.org/> ;
+       dct:creator             <https://www.openstreetmap.org/> ;
+       dct:publisher           <https://www.openstreetmap.org/> ;
+       dcat:distribution       <http://download.geofabrik.de/europe/italy.html> ;
+       dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+       dcat:contactPoint       <https://www.openstreetmap.org/> .
