@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "fid": "car_sharing.0", "nomepos": "Federazione Trentina Cooperative", "via": "Via Segantini (negli spazi assegnati presso la Federazione Trentina delle Cooperative)", "auto": 3 }, "geometry": { "type": "Point", "coordinates": [ 664066.772788983420469, 5104527.879084967076778 ] } },
+{ "type": "Feature", "properties": { "fid": "car_sharing.1", "nomepos": "Piazza Fiera", "via": "via S. Croce (sul lato destro della strada tra la Cassa Rurale e il Ristorante Pedavena)", "auto": 1 }, "geometry": { "type": "Point", "coordinates": [ 664218.582466367864981, 5103427.089521675370634 ] } },
+{ "type": "Feature", "properties": { "fid": "car_sharing.2", "nomepos": "Piazza Venezia", "via": "Piazza Venezia (zona Port'Aquila-vicino panificio)", "auto": 1 }, "geometry": { "type": "Point", "coordinates": [ 664541.897540069883689, 5103972.531068853102624 ] } },
+{ "type": "Feature", "properties": { "fid": "car_sharing.3", "nomepos": "Piazza Dante", "via": "Piazza Dante (sul lato sinistro della strada vicino all’accesso al Parco di fronte al Palazzo della Regione)", "auto": 2 }, "geometry": { "type": "Point", "coordinates": [ 664043.063918842701241, 5104140.324094718322158 ] } },
+{ "type": "Feature", "properties": { "fid": "car_sharing.4", "nomepos": "Solteri", "via": "Via dei Solteri (nel parcheggio posto tra il Parco Solteri e la Chiesa dei SS. Martiri Anaunensi, di fronte al Supermercato COOP)", "auto": 1 }, "geometry": { "type": "Point", "coordinates": [ 663993.938127826084383, 5105778.65422969404608 ] } },
+{ "type": "Feature", "properties": { "fid": "car_sharing.5", "nomepos": "Povo", "via": "Via dei Rivi ( nella strada accanto alla Chiesa di Povo)", "auto": 1 }, "geometry": { "type": "Point", "coordinates": [ 666614.026360940886661, 5103571.900405863299966 ] } },
+{ "type": "Feature", "properties": { "fid": "car_sharing.6", "nomepos": "Ospedale", "via": "Via Gocciadoro (nel parcheggio posto tra la Piscina Fogazzaro e l’Ospedale, di fianco al Ristorante Loto)", "auto": 1 }, "geometry": { "type": "Point", "coordinates": [ 664847.649389907950535, 5102509.733834123238921 ] } }
+]
+}
