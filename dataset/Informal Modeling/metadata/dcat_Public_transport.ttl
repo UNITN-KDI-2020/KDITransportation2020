@@ -5,8 +5,8 @@
   <https://dati.trentino.it/dataset/trasporti-pubblici-del-trentino-formato-gtfs>
        a                       dcat:Dataset ;
        dct:identifier          "p_TN: d3c9f167-3271-4a43-b5c1-e0879aa5ad3f" ;
-       dct:title               "Esercizi Extra Alberghieri"@it ;
-       dct:description         "Elenco degli esercizi extralberghieri del Trentino. Il dataset è stato derivato dall'annuario degli esercizi extra-alberghieri del Trentino e comprende le seguenti strutture: affittacamere, Bed and Breakfast, appartamenti per vacanze, case ferie, campeggi, ostelli e altre strutture. Per ogni struttura sono indicate le seguenti informazioni (si veda il documento di descrizione degli attributi per maggiori informazioni): indirizzo, contatti, tipologia di camere, prezzi e servizi disponibili."@it ;
+       dct:title               " Trasporti pubblici del Trentino (formato GTFS)"@it ;
+       dct:description         "Dati del trasporto pubblico urbano e extraurbano in formato GTFS. Principali informazioni disponibili: anagrafica delle fermate (georeferenziate), elenco delle linee, elenco delle corse, elenco degli orari di arrivo e partenza. I dati sono disponibili nel sistema Mobilità Integrata Trasporti Trentino (MITT). Dati forniti dalla Gestione MITT."@it ;
        dcat:theme              <http://publications.europa.eu/resource/authority/data-theme/TRAN> ;
        dct:subject             <http://eurovoc.europa.eu/2826>;
        dct:modified            "2017-07-01"^^xsd:date ;
@@ -14,7 +14,7 @@
        dct:rightsHolder        <http://www.provincia.tn.it/> ;
        dct:creator             <http://www.provincia.tn.it/> ;
        dct:publisher           <http://www.provincia.tn.it/> ;
-       dcat:distribution       <https://dati.trentino.it/dataset/esercizi-extra-alberghieri> ;
+       dcat:distribution       <https://dati.trentino.it/dataset/trasporti-pubblici-del-trentino-formato-gtfs> ;
        dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
        dcat:contactPoint       <http://www.stu.provincia.tn.it> ;
        dct:spatial             <http://www.geonames.org/3165241> .

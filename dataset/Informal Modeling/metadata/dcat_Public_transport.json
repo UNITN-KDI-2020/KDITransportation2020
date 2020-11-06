@@ -1,0 +1,76 @@
+{
+    "@graph" : [ {
+      "@id" : "https://dati.trentino.it/dataset/trasporti-pubblici-del-trentino-formato-gtfs",
+      "@type" : "dcat:Dataset",
+      "accrualPeriodicity" : "http://publications.europa.eu/resource/authority/frequency/NEVER",
+      "creator" : "http://www.provincia.tn.it/",
+      "description" : {
+        "@language" : "it",
+        "@value" : "Dati del trasporto pubblico urbano e extraurbano in formato GTFS. Principali informazioni disponibili: anagrafica delle fermate (georeferenziate), elenco delle linee, elenco delle corse, elenco degli orari di arrivo e partenza. I dati sono disponibili nel sistema Mobilità Integrata Trasporti Trentino (MITT). Dati forniti dalla Gestione MITT."
+      },
+      "identifier" : "p_TN: d3c9f167-3271-4a43-b5c1-e0879aa5ad3f",
+      "modified" : "2017-07-01",
+      "publisher" : "http://www.provincia.tn.it/",
+      "rightsHolder" : "http://www.provincia.tn.it/",
+      "spatial" : "http://www.geonames.org/3165241",
+      "subject" : "http://eurovoc.europa.eu/2826",
+      "title" : {
+        "@language" : "it",
+        "@value" : " Trasporti pubblici del Trentino (formato GTFS)"
+      },
+      "contactPoint" : "http://www.stu.provincia.tn.it",
+      "distribution" : "https://dati.trentino.it/dataset/trasporti-pubblici-del-trentino-formato-gtfs",
+      "keyword" : "Transport service, accomodation,timetables, transport",
+      "theme" : "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+    } ],
+    "@id" : "urn:x-arq:DefaultGraphNode",
+    "@context" : {
+      "accrualPeriodicity" : {
+        "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+        "@type" : "@id"
+      },
+      "rightsHolder" : {
+        "@id" : "http://purl.org/dc/terms/rightsHolder",
+        "@type" : "@id"
+      },
+      "publisher" : {
+        "@id" : "http://purl.org/dc/terms/publisher",
+        "@type" : "@id"
+      },
+      "description" : "http://purl.org/dc/terms/description",
+      "spatial" : {
+        "@id" : "http://purl.org/dc/terms/spatial",
+        "@type" : "@id"
+      },
+      "creator" : {
+        "@id" : "http://purl.org/dc/terms/creator",
+        "@type" : "@id"
+      },
+      "theme" : {
+        "@id" : "http://www.w3.org/ns/dcat#theme",
+        "@type" : "@id"
+      },
+      "distribution" : {
+        "@id" : "http://www.w3.org/ns/dcat#distribution",
+        "@type" : "@id"
+      },
+      "modified" : {
+        "@id" : "http://purl.org/dc/terms/modified",
+        "@type" : "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "keyword" : "http://www.w3.org/ns/dcat#keyword",
+      "title" : "http://purl.org/dc/terms/title",
+      "identifier" : "http://purl.org/dc/terms/identifier",
+      "subject" : {
+        "@id" : "http://purl.org/dc/terms/subject",
+        "@type" : "@id"
+      },
+      "contactPoint" : {
+        "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+        "@type" : "@id"
+      },
+      "dct" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "dcat" : "http://www.w3.org/ns/dcat#"
+    }
+  }
