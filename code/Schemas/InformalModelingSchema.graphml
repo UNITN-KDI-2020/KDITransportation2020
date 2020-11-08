@@ -90,7 +90,7 @@
 	</data>
 	<graph id="G" edgedefault="directed">
 		<data key="d6">
-			<y:Json>{"version":"2.0.0","layout":"layout-hierarchic","config":{"noObf_useDrawingAsSketch":false,"noObf_selectedElementsIncrementally":false,"noObf_nodeToNodeDistance":30,"noObf_automaticEdgeGroupingEnabled":false,"noObf_considerNodeLabels":true,"noObf_edgeLabeling":1,"noObf_orientation":0,"noObf_edgeRouting":0},"theme":{"name":"light","version":"1.0.0"}}</y:Json>
+			<y:Json>{"version":"2.0.0","theme":{"name":"light","version":"1.0.0"}}</y:Json>
 		</data>
 		<node id="n0">
 			<data key="d0">0</data>
@@ -869,9 +869,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has several Routes]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Routes (1;*)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.5331125827814569" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Distance="-7.000999999999976" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -884,9 +884,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has an Address]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Address (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.5373563117599857" Distance="31.889834290489123" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.48022184920255134" Distance="28.47459446367567" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -905,9 +905,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a Price]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Price (1;*)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.3726764774116616" Distance="9.361527881968092" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.35430044847179804" Distance="-9.62352942012442" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -949,9 +949,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a Price]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Price (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.4337206544937159" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Distance="-7.001000000000204" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -964,9 +964,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has several CalendarDates]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has CalendarDates (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.4386035124306569" Distance="19.979675613962467" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.3252663633596045" Distance="7.680284539148485" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -985,9 +985,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a Calendar]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Calendar (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.39589793860216815" Distance="-38.32813074176771" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.3513453064684155" Distance="-31.863467418043662" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1008,9 +1008,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a Calendar]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Calendar (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.6895211779330446" Distance="-38.40279317276589" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.5622844166337974" Distance="-62.33078665102017" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1040,9 +1040,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has an Agency]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Agency (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.39055261900301036" Distance="-74.83074874842312" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.3480784261182549" Distance="-74.68276306219484" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1063,9 +1063,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a Ticket]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Ticket (1;*)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.5182809493264922" Distance="0.000005973698534944565" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.4999999989839507" Distance="-7.000999999999755" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1080,7 +1080,7 @@
 					<y:Label Style="{y:GraphMLReference 9}">
 						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.5818323716377507" Distance="-79.09854037974404" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.614539241971743" Distance="-80.80142894655125" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1099,9 +1099,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has an Address]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Address (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.532985741647159" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Distance="-7.000999999999976" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1116,7 +1116,7 @@
 					<y:Label Style="{y:GraphMLReference 9}">
 						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.4535487408450823" Distance="-27.45495586367678" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.28428348929937947" Distance="-24.327585405951034" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1135,9 +1135,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a Price]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Price (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.37241033701385085" Distance="-210.88263122647777" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.27789233132035296" Distance="-176.04973823126886" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1191,9 +1191,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a Stop]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Stop (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.45469810087302026" Distance="0.1702988198352744" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.48019078414211097" Distance="-6.838669630821746" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1212,9 +1212,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has several StopTimes]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has StopTimes (1;*)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.04679623714130356" Distance="-144.84562264355884" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.03850710696527223" Distance="-143.07342266087036" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1233,9 +1233,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has several Facilities]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has Facilities (0;*)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.37416942689413124" Distance="38.94157893006822" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.41946797968094957" Distance="37.82371135679836" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1256,9 +1256,9 @@
 			<data key="d11">
 				<x:List>
 					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a ModeOfTransport]]></y:Label.Text>
+						<y:Label.Text><![CDATA[has ModeOfTransport (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.05937734358190841" Distance="97.89724080957141" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.05427289569460906" Distance="71.70050008724522" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -1276,11 +1276,22 @@
 		<edge id="e25" source="n3" target="n6" sourceport="p4" targetport="p1">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 9}">
-						<y:Label.Text><![CDATA[has a TimeSpent]]></y:Label.Text>
+					<y:Label>
+						<y:Label.Text><![CDATA[has TimeStamp (1;1)]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.8674407904248854" Distance="152.01954271814478" Angle="1.5707963267948966" Model="{y:GraphMLReference 8}"/>
+							<y:SmartEdgeLabelModelParameter SegmentIndex="1" Distance="0.001">
+								<y:SmartEdgeLabelModelParameter.Model>
+									<y:SmartEdgeLabelModel/>
+								</y:SmartEdgeLabelModelParameter.Model>
+							</y:SmartEdgeLabelModelParameter>
 						</y:Label.LayoutParameter>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="BOTTOM" horizontalTextAlignment="CENTER" textFill="BLACK">
+								<yjs:DefaultLabelStyle.font>
+									<yjs:Font fontSize="12" fontFamily="'Arial'"/>
+								</yjs:DefaultLabelStyle.font>
+							</yjs:DefaultLabelStyle>
+						</y:Label.Style>
 					</y:Label>
 				</x:List>
 			</data>
