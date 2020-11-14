@@ -16,7 +16,7 @@ if __name__ == "__main__":
     accomodation_typologies = dataset['Tipologia'].unique()
     print(accomodation_typologies)
 
-    filtered_dataset = dataset[['Tipologia', 'Prezzo', 'Comune', 'Frazione', 'Provincia', 'Indirizzo', 'Altitudine localita turistica']]
+    filtered_dataset = dataset[['Tipologia', 'Prezzo', 'Comune', 'Frazione', 'Provincia', 'Indirizzo', 'CAP localita', 'Altitudine localita turistica']]
     filtered_dataset.rename(columns={'Altitudine localita turistica': 'Altitude'}, inplace=True)
     filtered_dataset.to_json('../../dataset/Informal Modeling/data/accomodations.json', orient='records', lines=True)
 
