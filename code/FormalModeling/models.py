@@ -140,3 +140,33 @@ class Facility:
 
     def toJSON(self):
         return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True)
+    
+class Route:
+    def __init__(self, type, RouteID, SpeedLimit, StartingPoint, ArrivalPoint, ModeOfTransport, TimeSpent, Facility, Length):
+        self.type = type
+        self.RouteID = RouteID
+        self.SpeedLimit = SpeedLimit
+        self.StartingPoint = StartingPoint
+        self.ArrivalPoint = ArrivalPoint
+        self.ModeOfTransport = ModeOfTransport
+        self.TimeSpent = TimeSpent
+        self.Facility = Facility
+        self.Length = Length
+
+
+    def __str__(self):
+        return "type: {}, RouteID: {}, SpeedLimit: {}, StartingPoint: [{}], ArrivalPoint: [{}], ModeOfTransport: [{}], TimeSpent: [{}], Facility: [{}], Length: {}".format(
+            self.type,
+            self.RouteID,
+            self.SpeedLimit,
+            self.StartingPoint,
+            self.ArrivalPoint,
+            self.ModeOfTransport,
+            self.TimeSpent,
+            self.Facility,
+            self.Length
+
+        )
+
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True)
