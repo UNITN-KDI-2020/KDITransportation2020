@@ -1,0 +1,2596 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY etype "http://knowdive.disi.unitn.it/etype#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY entity "file:/C:/Users/Asus/Downloads/Telegram&#37;20Desktop/entity.owl#" >
+]>
+
+
+<rdf:RDF xmlns="file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#"
+     xml:base="file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:etype="http://knowdive.disi.unitn.it/etype#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:entity="file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&etype;GID"/>
+    <owl:AnnotationProperty rdf:about="&etype;isEtype"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#IsSpecifiedBy_GID-120047_Type-3012 -->
+
+    <owl:ObjectProperty rdf:about="#IsSpecifiedBy_GID-120047_Type-3012">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#FacilityEnum_GID-120047"/>
+        <rdfs:domain rdf:resource="#Facility_GID-3012"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#IsSpecifiedBy_GID-120048_Type-120044 -->
+
+    <owl:ObjectProperty rdf:about="#IsSpecifiedBy_GID-120048_Type-120044">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#ModeOfTransport_GID-120044"/>
+        <rdfs:range rdf:resource="#TransportEnum_GID-120048"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Address_GID-36400_Type-22592 -->
+
+    <owl:ObjectProperty rdf:about="#has_Address_GID-36400_Type-22592">
+        <rdfs:range rdf:resource="#Address_GID-36400"/>
+        <rdfs:domain rdf:resource="#Road_GID-22592"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Agency_GID-45084_Type-22138 -->
+
+    <owl:ObjectProperty rdf:about="#has_Agency_GID-45084_Type-22138">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Agency_GID-45084"/>
+        <rdfs:domain rdf:resource="#PublicTransport_GID-22138"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_CalendarDates_GID-120045_Type-44719 -->
+
+    <owl:ObjectProperty rdf:about="#has_CalendarDates_GID-120045_Type-44719">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#CalendarDates_GID-120045"/>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Calendar_GID-44719_Type-120042 -->
+
+    <owl:ObjectProperty rdf:about="#has_Calendar_GID-44719_Type-120042">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:domain rdf:resource="#StopTime_GID-120042"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Calendar_GID-44719_Type-3012 -->
+
+    <owl:ObjectProperty rdf:about="#has_Calendar_GID-44719_Type-3012">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:domain rdf:resource="#Facility_GID-3012"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Contact_GID-39136_Type-45084 -->
+
+    <owl:ObjectProperty rdf:about="#has_Contact_GID-39136_Type-45084">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#Agency_GID-45084"/>
+        <rdfs:range rdf:resource="#Contact_GID-39136"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Duration_GID-80581_Type-22592 -->
+
+    <owl:ObjectProperty rdf:about="#has_Duration_GID-80581_Type-22592">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Duration_GID-80581"/>
+        <rdfs:domain rdf:resource="#Road_GID-22592"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_FacilityAddress_GID-36400_Type-3012 -->
+
+    <owl:ObjectProperty rdf:about="#has_FacilityAddress_GID-36400_Type-3012">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Address_GID-36400"/>
+        <rdfs:domain rdf:resource="#Facility_GID-3012"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_FacilityContact_GID-39136_Type-3012 -->
+
+    <owl:ObjectProperty rdf:about="#has_FacilityContact_GID-39136_Type-3012">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Contact_GID-39136"/>
+        <rdfs:domain rdf:resource="#Facility_GID-3012"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_FacilityPrice-GID-28431_Type-3012 -->
+
+    <owl:ObjectProperty rdf:about="#has_FacilityPrice-GID-28431_Type-3012">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#Facility_GID-3012"/>
+        <rdfs:range rdf:resource="#Price_GID-28431"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Facility_GID-3012_Type-22592 -->
+
+    <owl:ObjectProperty rdf:about="#has_Facility_GID-3012_Type-22592">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Facility_GID-3012"/>
+        <rdfs:domain rdf:resource="#Road_GID-22592"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_FuelType_GID-120049_Type-120043 -->
+
+    <owl:ObjectProperty rdf:about="#has_FuelType_GID-120049_Type-120043">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#FuelEnum_GID-120049"/>
+        <rdfs:domain rdf:resource="#PrivateTransport_GID-120043"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_IndividualPrice_GID-28431_Type-120043 -->
+
+    <owl:ObjectProperty rdf:about="#has_IndividualPrice_GID-28431_Type-120043">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Price_GID-28431"/>
+        <rdfs:domain rdf:resource="#PrivateTransport_GID-120043"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Location_GID-132_Type-36400 -->
+
+    <owl:ObjectProperty rdf:about="#has_Location_GID-132_Type-36400">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#Address_GID-36400"/>
+        <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Location_GID-132_Type-5446 -->
+
+    <owl:ObjectProperty rdf:about="#has_Location_GID-132_Type-5446">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#Stop_GID-5446"/>
+        <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_ModeOfTransport_GID-120044_Type-22592 -->
+
+    <owl:ObjectProperty rdf:about="#has_ModeOfTransport_GID-120044_Type-22592">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#ModeOfTransport_GID-120044"/>
+        <rdfs:domain rdf:resource="#Road_GID-22592"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Price_GID-28431_Type-111874 -->
+
+    <owl:ObjectProperty rdf:about="#has_Price_GID-28431_Type-111874">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="#Price_GID-28431"/>
+        <rdfs:domain rdf:resource="#Ticket_GID-111874"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Road_GID-22592_Type-46379 -->
+
+    <owl:ObjectProperty rdf:about="#has_Road_GID-22592_Type-46379">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#Path_GID-46379"/>
+        <rdfs:range rdf:resource="#Road_GID-22592"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_StopTime_GID-120042_Type-22138 -->
+
+    <owl:ObjectProperty rdf:about="#has_StopTime_GID-120042_Type-22138">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#PublicTransport_GID-22138"/>
+        <rdfs:range rdf:resource="#StopTime_GID-120042"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_StopTime_GID-5446_Type-120042 -->
+
+    <owl:ObjectProperty rdf:about="#has_StopTime_GID-5446_Type-120042">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#StopTime_GID-120042"/>
+        <rdfs:range rdf:resource="#Stop_GID-5446"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Ticket_GID-111874_Type-22138 -->
+
+    <owl:ObjectProperty rdf:about="#has_Ticket_GID-111874_Type-22138">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#PublicTransport_GID-22138"/>
+        <rdfs:range rdf:resource="#Ticket_GID-111874"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_TimeStamp_GID-120046_Type-120042 -->
+
+    <owl:ObjectProperty rdf:about="#has_TimeStamp_GID-120046_Type-120042">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#StopTime_GID-120042"/>
+        <rdfs:range rdf:resource="#TimeStamp_GID-120046"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_TimeStamp_GID-120046_Type-80581 -->
+
+    <owl:ObjectProperty rdf:about="#has_TimeStamp_GID-120046_Type-80581">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="#Duration_GID-80581"/>
+        <rdfs:range rdf:resource="#TimeStamp_GID-120046"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#GID -->
+
+    <owl:ObjectProperty rdf:about="&etype;GID">
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#hasIdProperty -->
+
+    <owl:ObjectProperty rdf:about="&etype;hasIdProperty">
+        <rdfs:domain rdf:resource="&etype;IdentifyingSet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#hasIdentifyingSet -->
+
+    <owl:ObjectProperty rdf:about="&etype;hasIdentifyingSet">
+        <rdfs:range rdf:resource="&etype;IdentifyingSet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_beginning_GID-81324_Type-1 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_beginning_GID-81324_Type-1">
+        <etype:GID rdf:datatype="&xsd;long">81324</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_birthday_GID-81257_Type-118 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_birthday_GID-81257_Type-118">
+        <etype:GID rdf:datatype="&xsd;long">81257</etype:GID>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_birthplace_GID-45896_Type-118 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_birthplace_GID-45896_Type-118">
+        <etype:GID rdf:datatype="&xsd;long">45896</etype:GID>
+        <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_birthplace_GID-45897_Type-45663 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_birthplace_GID-45897_Type-45663">
+        <etype:GID rdf:datatype="&xsd;long">45897</etype:GID>
+        <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_contributor_GID-53267_Type-16921 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_contributor_GID-53267_Type-16921">
+        <etype:GID rdf:datatype="&xsd;long">53267</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+        <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_creator_GID-51275_Type-16921 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_creator_GID-51275_Type-16921">
+        <etype:GID rdf:datatype="&xsd;long">51275</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+        <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_creator_GID-51275_Type-34892 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_creator_GID-51275_Type-34892">
+        <etype:GID rdf:datatype="&xsd;long">51275</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+        <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_date_of_death_GID-118224_Type-118 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_date_of_death_GID-118224_Type-118">
+        <etype:GID rdf:datatype="&xsd;long">118224</etype:GID>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_date_of_publication_GID-117691_Type-34892 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_date_of_publication_GID-117691_Type-34892">
+        <etype:GID rdf:datatype="&xsd;long">117691</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_description_GID-3_Type-1 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_description_GID-3_Type-1">
+        <etype:GID rdf:datatype="&xsd;long">3</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:range rdf:resource="&etype;SemanticString"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_duration_GID-80582_Type-1 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_duration_GID-80582_Type-1">
+        <etype:GID rdf:datatype="&xsd;long">80582</etype:GID>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_end_GID-81330_Type-1 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_end_GID-81330_Type-1">
+        <etype:GID rdf:datatype="&xsd;long">81330</etype:GID>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_first_name_GID-34006_Type-117693 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_first_name_GID-34006_Type-117693">
+        <etype:GID rdf:datatype="&xsd;long">34006</etype:GID>
+        <rdfs:range rdf:resource="&etype;NLString"/>
+        <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_key_word_GID-33805_Type-16921 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_key_word_GID-33805_Type-16921">
+        <etype:GID rdf:datatype="&xsd;long">33805</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+        <rdfs:range rdf:resource="&etype;SemanticString"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-138 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_location_GID-132_Type-138">
+        <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+        <rdfs:range rdf:resource="&etype;Function_kind_GID-120019"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-43544 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_location_GID-132_Type-43544">
+        <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+        <rdfs:range rdf:resource="&etype;Function_kind_GID-120019"/>
+        <rdfs:domain rdf:resource="&etype;Organization_GID-43544"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_middle_name_GID-34005_Type-117693 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_middle_name_GID-34005_Type-117693">
+        <etype:GID rdf:datatype="&xsd;long">34005</etype:GID>
+        <rdfs:range rdf:resource="&etype;NLString"/>
+        <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-1 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_name_GID-2_Type-1">
+        <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-2 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_name_GID-2_Type-2">
+        <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+        <rdfs:range rdf:resource="&etype;NLString"/>
+        <rdfs:domain rdf:resource="&etype;Name_GID-2"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_outline_GID-34682_Type-16921 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_outline_GID-34682_Type-16921">
+        <etype:GID rdf:datatype="&xsd;long">34682</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+        <rdfs:range rdf:resource="&etype;SemanticString"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_part_meronym_GID-22_Type-1 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_part_meronym_GID-22_Type-1">
+        <etype:GID rdf:datatype="&xsd;long">22</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_participant_GID-55912_Type-138 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_participant_GID-55912_Type-138">
+        <etype:GID rdf:datatype="&xsd;long">55912</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+        <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_phase_GID-81455_Type-138 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_phase_GID-81455_Type-138">
+        <etype:GID rdf:datatype="&xsd;long">81455</etype:GID>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_place_of_death_GID-118225_Type-118 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_place_of_death_GID-118225_Type-118">
+        <etype:GID rdf:datatype="&xsd;long">118225</etype:GID>
+        <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_subject_GID-35361_Type-16921 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_subject_GID-35361_Type-16921">
+        <etype:GID rdf:datatype="&xsd;long">35361</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+        <rdfs:range rdf:resource="&etype;SemanticString"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_surname_GID-34003_Type-117693 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_surname_GID-34003_Type-117693">
+        <etype:GID rdf:datatype="&xsd;long">34003</etype:GID>
+        <rdfs:range rdf:resource="&etype;NLString"/>
+        <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_time_GID-81346_Type-45663 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_time_GID-81346_Type-45663">
+        <etype:GID rdf:datatype="&xsd;long">81346</etype:GID>
+        <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_title_GID-34045_Type-16921 -->
+
+    <owl:ObjectProperty rdf:about="&etype;has_title_GID-34045_Type-16921">
+        <etype:GID rdf:datatype="&xsd;long">34045</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+        <rdfs:range rdf:resource="&etype;NLString"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#relationalAttribute -->
+
+    <owl:ObjectProperty rdf:about="&etype;relationalAttribute">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_AgencyID_GID-120057_Type-45084 -->
+
+    <owl:DatatypeProperty rdf:about="#has_AgencyID_GID-120057_Type-45084">
+        <etype:GID rdf:datatype="&xsd;long">120057</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >numerical identificator of an agency</rdfs:comment>
+        <rdfs:domain rdf:resource="#Agency_GID-45084"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_AgencyLanguage_GID-120060_Type-45084 -->
+
+    <owl:DatatypeProperty rdf:about="#has_AgencyLanguage_GID-120060_Type-45084">
+        <etype:GID rdf:datatype="&xsd;long">120060</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >language of the nation in which the agency was founded</rdfs:comment>
+        <rdfs:domain rdf:resource="#Agency_GID-45084"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_AgencyName_GID-120058_Type-45084 -->
+
+    <owl:DatatypeProperty rdf:about="#has_AgencyName_GID-120058_Type-45084">
+        <etype:GID rdf:datatype="&xsd;long">120058</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >name associated to an agency</rdfs:comment>
+        <rdfs:domain rdf:resource="#Agency_GID-45084"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_AgencyTimezone_GID-120059_Type-45084 -->
+
+    <owl:DatatypeProperty rdf:about="#has_AgencyTimezone_GID-120059_Type-45084">
+        <etype:GID rdf:datatype="&xsd;long">120059</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >timezone associated to an agency</rdfs:comment>
+        <rdfs:domain rdf:resource="#Agency_GID-45084"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Altitude_GID-28272_Type-132 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Altitude_GID-28272_Type-132">
+        <etype:GID rdf:datatype="&xsd;long">28272</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >elevation especially above sea level or above the earth&#39;s surface</rdfs:comment>
+        <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_City_GID-45988_Type-36400 -->
+
+    <owl:DatatypeProperty rdf:about="#has_City_GID-45988_Type-36400">
+        <etype:GID rdf:datatype="&xsd;long">45988</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >an incorporated administrative district established by state charter</rdfs:comment>
+        <rdfs:domain rdf:resource="#Address_GID-36400"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Cost_GID-70407_Type-28431 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Cost_GID-70407_Type-28431">
+        <etype:GID rdf:datatype="&xsd;long">70407</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the total spent for goods or services including money and time and labor</rdfs:comment>
+        <rdfs:domain rdf:resource="#Price_GID-28431"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_CurrencyType_GID-120061_Type-28431 -->
+
+    <owl:DatatypeProperty rdf:about="#has_CurrencyType_GID-120061_Type-28431">
+        <etype:GID rdf:datatype="&xsd;long">120061</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >type specification of exchange</rdfs:comment>
+        <rdfs:domain rdf:resource="#Price_GID-28431"/>
+        <rdfs:subPropertyOf rdf:resource="#has_Date_GID-103420_Type-120045"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Date_GID-103420_Type-120045 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Date_GID-103420_Type-120045">
+        <etype:GID rdf:datatype="&xsd;long">103420</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >assign a date to</rdfs:comment>
+        <rdfs:domain rdf:resource="#CalendarDates_GID-120045"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_EndDate_GID-120090_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_EndDate_GID-120090_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">120090</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the ending date and time of a service</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_FareID_GID-70599_Type-111874 -->
+
+    <owl:DatatypeProperty rdf:about="#has_FareID_GID-70599_Type-111874">
+        <etype:GID rdf:datatype="&xsd;long">70599</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the sum charged for riding in a public conveyance</rdfs:comment>
+        <rdfs:domain rdf:resource="#Ticket_GID-111874"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Friday_GID-80762_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Friday_GID-80762_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">80762</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the sixth day of the week</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Hour_GID-81114_Type-120046 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Hour_GID-81114_Type-120046">
+        <etype:GID rdf:datatype="&xsd;long">81114</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >a period of time equal to 1/24th of a day</rdfs:comment>
+        <rdfs:domain rdf:resource="#TimeStamp_GID-120046"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Latitude_GID-46263_Type-132 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Latitude_GID-46263_Type-132">
+        <etype:GID rdf:datatype="&xsd;long">46263</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself</rdfs:comment>
+        <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Length_GID-28259_Type-22592 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Length_GID-28259_Type-22592">
+        <etype:GID rdf:datatype="&xsd;long">28259</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the linear extent in space from one end to the other</rdfs:comment>
+        <rdfs:domain rdf:resource="#Road_GID-22592"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Longitude_GID-46270_Type-132 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Longitude_GID-46270_Type-132">
+        <etype:GID rdf:datatype="&xsd;long">46270</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the angular distance between a point on any meridian and the prime meridian at Greenwich</rdfs:comment>
+        <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Monday_GID-80758_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Monday_GID-80758_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">80758</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the second day of the week</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Number_GID-34489_Type-36400 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Number_GID-34489_Type-36400">
+        <etype:GID rdf:datatype="&xsd;long">34489</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >a numeral or string of numerals that is used for identification</rdfs:comment>
+        <rdfs:domain rdf:resource="#Address_GID-36400"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_PaymentMethod_GID-120074_Type-111874 -->
+
+    <owl:DatatypeProperty rdf:about="#has_PaymentMethod_GID-120074_Type-111874">
+        <etype:GID rdf:datatype="&xsd;long">120074</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >method of payment of the charge sum</rdfs:comment>
+        <rdfs:domain rdf:resource="#Ticket_GID-111874"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Phone_GID-34485_Type-39136 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Phone_GID-34485_Type-39136">
+        <etype:GID rdf:datatype="&xsd;long">34485</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >a directory containing an alphabetical list of telephone subscribers and their telephone numbers</rdfs:comment>
+        <rdfs:domain rdf:resource="#Contact_GID-39136"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Province_GID-46567_Type-36400 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Province_GID-46567_Type-36400">
+        <etype:GID rdf:datatype="&xsd;long">46567</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the territory occupied by one of the constituent administrative districts of a nation</rdfs:comment>
+        <rdfs:domain rdf:resource="#Address_GID-36400"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Ranking_GID-93587_Type-3012 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Ranking_GID-93587_Type-3012">
+        <etype:GID rdf:datatype="&xsd;long">93587</etype:GID>
+        <rdfs:comment rdf:datatype="&xsd;long"
+            >having a higher rank</rdfs:comment>
+        <rdfs:domain rdf:resource="#Facility_GID-3012"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Saturday_GID-80763_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Saturday_GID-80763_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">80763</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the seventh and last day of the week</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_ServiceID_GID-120056_Type-120045 -->
+
+    <owl:DatatypeProperty rdf:about="#has_ServiceID_GID-120056_Type-120045">
+        <etype:GID rdf:datatype="&xsd;long">120056</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >numerical identificator of a service</rdfs:comment>
+        <rdfs:domain rdf:resource="#CalendarDates_GID-120045"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_ServiceID_GID-120056_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_ServiceID_GID-120056_Type-44719">
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_SpeedLimit_GID-35726_Type-22592 -->
+
+    <owl:DatatypeProperty rdf:about="#has_SpeedLimit_GID-35726_Type-22592">
+        <etype:GID rdf:datatype="&xsd;long">35726</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >regulation establishing the top speed permitted on a given road</rdfs:comment>
+        <rdfs:domain rdf:resource="#Road_GID-22592"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_StartDate_GID-120091_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_StartDate_GID-120091_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">120091</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the starting date and time of a service</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_StopCode_GID-120053_Type-5446 -->
+
+    <owl:DatatypeProperty rdf:about="#has_StopCode_GID-120053_Type-5446">
+        <etype:GID rdf:datatype="&xsd;long">120053</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >code associated to a stop</rdfs:comment>
+        <rdfs:domain rdf:resource="#Stop_GID-5446"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_StopID_GID-120051_Type-120042 -->
+
+    <owl:DatatypeProperty rdf:about="#has_StopID_GID-120051_Type-120042">
+        <etype:GID rdf:datatype="&xsd;long">120051</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >numerical identificator of a bus stop</rdfs:comment>
+        <rdfs:domain rdf:resource="#StopTime_GID-120042"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_StopID_GID-120051_Type-5446 -->
+
+    <owl:DatatypeProperty rdf:about="#has_StopID_GID-120051_Type-5446">
+        <rdfs:domain rdf:resource="#Stop_GID-5446"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_StopName_GID-120054_Type-5446 -->
+
+    <owl:DatatypeProperty rdf:about="#has_StopName_GID-120054_Type-5446">
+        <etype:GID rdf:datatype="&xsd;long">120054</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >name associated to a stop</rdfs:comment>
+        <rdfs:domain rdf:resource="#Stop_GID-5446"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_StopSequence_GID-120052_Type-120042 -->
+
+    <owl:DatatypeProperty rdf:about="#has_StopSequence_GID-120052_Type-120042">
+        <etype:GID rdf:datatype="&xsd;long">120052</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >frequency of mean of transportation passing from a stop</rdfs:comment>
+        <rdfs:domain rdf:resource="#StopTime_GID-120042"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Street_GID-45807_Type-36400 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Street_GID-45807_Type-36400">
+        <etype:GID rdf:datatype="&xsd;long">45807</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >the address where a person or organization can be found</rdfs:comment>
+        <rdfs:domain rdf:resource="#Address_GID-36400"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Sunday_GID-80757_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Sunday_GID-80757_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">80757</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >first day of the week</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Thursday_GID-80761_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Thursday_GID-80761_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">80761</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >second day of the week</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_TimeTableDuration_GID-120088_Type-111874 -->
+
+    <owl:DatatypeProperty rdf:about="#has_TimeTableDuration_GID-120088_Type-111874">
+        <etype:GID rdf:datatype="&xsd;long">120088</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >a schedule of times of arrivals and departures</rdfs:comment>
+        <rdfs:domain rdf:resource="#Ticket_GID-111874"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Tuesday_GID-80759_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Tuesday_GID-80759_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">80759</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >fourth day of the week</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Website_GID-34126_Type-39136 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Website_GID-34126_Type-39136">
+        <etype:GID rdf:datatype="&xsd;long">34126</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >a computer connected to the internet that maintains a series of web pages on the World Wide Web</rdfs:comment>
+        <rdfs:domain rdf:resource="#Contact_GID-39136"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_Wednesday_GID-80760_Type-44719 -->
+
+    <owl:DatatypeProperty rdf:about="#has_Wednesday_GID-80760_Type-44719">
+        <etype:GID rdf:datatype="&xsd;long">80760</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >third day of the week</rdfs:comment>
+        <rdfs:domain rdf:resource="#Calendar_GID-44719"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_WheelchairBoarding_GID-120055_Type-5446 -->
+
+    <owl:DatatypeProperty rdf:about="#has_WheelchairBoarding_GID-120055_Type-5446">
+        <etype:GID rdf:datatype="&xsd;long">120055</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >service of boarding for disabled people</rdfs:comment>
+        <rdfs:domain rdf:resource="#Stop_GID-5446"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_ZipCode_GID-34110_Type-36400 -->
+
+    <owl:DatatypeProperty rdf:about="#has_ZipCode_GID-34110_Type-36400">
+        <etype:GID rdf:datatype="&xsd;long">34110</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >a code of letters and digits added to a postal address to aid in the sorting of mail</rdfs:comment>
+        <rdfs:domain rdf:resource="#Address_GID-36400"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_email_GID-105296_Type-39136 -->
+
+    <owl:DatatypeProperty rdf:about="#has_email_GID-105296_Type-39136">
+        <etype:GID rdf:datatype="&xsd;long">105296</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >(computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that is generated at the recipient&#39;s terminal when he logs in</rdfs:comment>
+        <rdfs:domain rdf:resource="#Contact_GID-39136"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_exception_GID-31741_Type-120045 -->
+
+    <owl:DatatypeProperty rdf:about="#has_exception_GID-31741_Type-120045">
+        <etype:GID rdf:datatype="&xsd;long">31741</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >an instance that does not conform to a rule or generalization</rdfs:comment>
+        <rdfs:domain rdf:resource="#CalendarDates_GID-120045"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_minutes_GID-81154_Type-120046 -->
+
+    <owl:DatatypeProperty rdf:about="#has_minutes_GID-81154_Type-120046">
+        <etype:GID rdf:datatype="&xsd;long">81154</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >a unit of time equal to 60 seconds or 1/60th of an hour</rdfs:comment>
+        <rdfs:domain rdf:resource="#TimeStamp_GID-120046"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_routeID_GID-120051_Type-22592 -->
+
+    <owl:DatatypeProperty rdf:about="#has_routeID_GID-120051_Type-22592">
+        <etype:GID rdf:datatype="&xsd;long">120051</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >numerical identificator of a route</rdfs:comment>
+        <rdfs:domain rdf:resource="#Road_GID-22592"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#has_seconds_GID-72173_Type-120046 -->
+
+    <owl:DatatypeProperty rdf:about="#has_seconds_GID-72173_Type-120046">
+        <etype:GID rdf:datatype="&xsd;long">72173</etype:GID>
+        <rdfs:comment xml:lang="en"
+            >1/60 of a minute</rdfs:comment>
+        <rdfs:domain rdf:resource="#TimeStamp_GID-120046"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#datatypeAttribute -->
+
+    <owl:DatatypeProperty rdf:about="&etype;datatypeAttribute"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#hasLanguage -->
+
+    <owl:DatatypeProperty rdf:about="&etype;hasLanguage">
+        <rdfs:domain rdf:resource="&etype;NLString"/>
+        <rdfs:range rdf:resource="&xsd;language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#hasSourceString -->
+
+    <owl:DatatypeProperty rdf:about="&etype;hasSourceString">
+        <rdfs:domain rdf:resource="&etype;SemanticString"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#hasString -->
+
+    <owl:DatatypeProperty rdf:about="&etype;hasString">
+        <rdfs:domain rdf:resource="&etype;NLString"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#hasUnitOfMeasure -->
+
+    <owl:DatatypeProperty rdf:about="&etype;hasUnitOfMeasure">
+        <rdfs:range rdf:resource="&etype;concept"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_action_property_GID-120036_Type-120018 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_action_property_GID-120036_Type-120018">
+        <etype:GID rdf:datatype="&xsd;long">120036</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Action_kind_GID-120018"/>
+        <rdfs:range rdf:resource="&etype;concept"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_beginning_GID-81324_Type-81213 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_beginning_GID-81324_Type-81213">
+        <etype:GID rdf:datatype="&xsd;long">81324</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Moment_GID-81213"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_biological_property_GID-120034_Type-120021 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_biological_property_GID-120034_Type-120021">
+        <etype:GID rdf:datatype="&xsd;long">120034</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Living_being_GID-120021"/>
+        <rdfs:range rdf:resource="&etype;concept"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_class_GID-43482_Type-1">
+        <etype:GID rdf:datatype="&xsd;long">43482</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:range rdf:resource="&etype;concept"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_context_property_GID-120032_Type-120016 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_context_property_GID-120032_Type-120016">
+        <etype:GID rdf:datatype="&xsd;long">120032</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Context_GID-120016"/>
+        <rdfs:range rdf:resource="&etype;concept"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-118 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_electronic_mail_GID-33745_Type-118">
+        <etype:GID rdf:datatype="&xsd;long">33745</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_elevation_GID-28270_Type-132 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_elevation_GID-28270_Type-132">
+        <etype:GID rdf:datatype="&xsd;long">28270</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_end_GID-81330_Type-81213 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_end_GID-81330_Type-81213">
+        <etype:GID rdf:datatype="&xsd;long">81330</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Moment_GID-81213"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_format_GID-35579_Type-34892 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_format_GID-35579_Type-34892">
+        <etype:GID rdf:datatype="&xsd;long">35579</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_function_property_GID-120037_Type-120019 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_function_property_GID-120037_Type-120019">
+        <etype:GID rdf:datatype="&xsd;long">120037</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Function_kind_GID-120019"/>
+        <rdfs:range rdf:resource="&etype;concept"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_home_page_GID-34125_Type-34892 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_home_page_GID-34125_Type-34892">
+        <etype:GID rdf:datatype="&xsd;long">34125</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_identifier_GID-39085_Type-1">
+        <etype:GID rdf:datatype="&xsd;long">39085</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_latitude_GID-46263_Type-132">
+        <etype:GID rdf:datatype="&xsd;long">46263</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_license_GID-35108_Type-34892 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_license_GID-35108_Type-34892">
+        <etype:GID rdf:datatype="&xsd;long">35108</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_longitude_GID-46270_Type-132">
+        <etype:GID rdf:datatype="&xsd;long">46270</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_maximum_GID-73238_Type-80582 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_maximum_GID-73238_Type-80582">
+        <etype:GID rdf:datatype="&xsd;long">73238</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Duration_GID-80582"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_minimum_GID-73141_Type-80582 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_minimum_GID-73141_Type-80582">
+        <etype:GID rdf:datatype="&xsd;long">73141</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Duration_GID-80582"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_object_property_GID-120033_Type-120017 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_object_property_GID-120033_Type-120017">
+        <etype:GID rdf:datatype="&xsd;long">120033</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Real_kind_GID-120017"/>
+        <rdfs:range rdf:resource="&etype;concept"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_size_GID-28114_Type-34892 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_size_GID-28114_Type-34892">
+        <etype:GID rdf:datatype="&xsd;long">28114</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_title_GID-34019_Type-117693 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_title_GID-34019_Type-117693">
+        <etype:GID rdf:datatype="&xsd;long">34019</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+        <rdfs:range rdf:resource="&etype;concept"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_url_GID-34123_Type-34892 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_url_GID-34123_Type-34892">
+        <etype:GID rdf:datatype="&xsd;long">34123</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_veracity_GID-26929_Type-45663 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_veracity_GID-26929_Type-45663">
+        <etype:GID rdf:datatype="&xsd;long">26929</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_version_GID-31836_Type-34892 -->
+
+    <owl:DatatypeProperty rdf:about="&etype;has_version_GID-31836_Type-34892">
+        <etype:GID rdf:datatype="&xsd;long">31836</etype:GID>
+        <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+        <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Address_GID-36400 -->
+
+    <owl:Class rdf:about="#Address_GID-36400">
+        <rdfs:label xml:lang="en">Address</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Location_GID-132_Type-36400"/>
+                <owl:onClass rdf:resource="&etype;Location_GID-132"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">36400</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a sign in front of a house or business carrying the conventional form by which its location is described</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Agency_GID-45084 -->
+
+    <owl:Class rdf:about="#Agency_GID-45084">
+        <rdfs:label xml:lang="en">Agency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Contact_GID-39136_Type-45084"/>
+                <owl:someValuesFrom rdf:resource="#Contact_GID-39136"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">45084</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >an administrative unit of government</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Bicycle_GID-15188 -->
+
+    <owl:Class rdf:about="#Bicycle_GID-15188">
+        <rdfs:label xml:lang="en">Bicycle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#TransportEnum_GID-120048"/>
+        <etype:GID rdf:datatype="&xsd;long">15188</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a wheeled vehicle that has two wheels and is moved by foot pedals</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#BikeSharing_GID-843 -->
+
+    <owl:Class rdf:about="#BikeSharing_GID-843">
+        <rdfs:label xml:lang="en">BikeSharing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FacilityEnum_GID-120047"/>
+        <etype:GID rdf:datatype="&xsd;long">843</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >the act of maneuvering a vehicle into a location where it can be left temporarily</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#BusStation_GID-15745 -->
+
+    <owl:Class rdf:about="#BusStation_GID-15745">
+        <rdfs:label xml:lang="en">BusStation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FacilityEnum_GID-120047"/>
+        <etype:GID rdf:datatype="&xsd;long">15745</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a terminal that serves bus passengers</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Bus_GID-15732 -->
+
+    <owl:Class rdf:about="#Bus_GID-15732">
+        <rdfs:label xml:lang="en">Bus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#TransportEnum_GID-120048"/>
+        <etype:GID rdf:datatype="&xsd;long">15732</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a vehicle carrying many passengers</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#CableCar_GID-15797 -->
+
+    <owl:Class rdf:about="#CableCar_GID-15797">
+        <rdfs:label xml:lang="en">CableCar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#TransportEnum_GID-120048"/>
+        <etype:GID rdf:datatype="&xsd;long">15797</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a conveyance for passengers or freight on a cable railway</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#CalendarDates_GID-120045 -->
+
+    <owl:Class rdf:about="#CalendarDates_GID-120045">
+        <rdfs:label xml:lang="en">CalendarDates</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">120045</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >tabular array of dates which are associated to specific events</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Calendar_GID-44719 -->
+
+    <owl:Class rdf:about="#Calendar_GID-44719">
+        <rdfs:label xml:lang="en">Calendar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_CalendarDates_GID-120045_Type-44719"/>
+                <owl:onClass rdf:resource="#CalendarDates_GID-120045"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">44719</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a tabular array of the days (usually for one year)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#CampsiteParking_GID-45940 -->
+
+    <owl:Class rdf:about="#CampsiteParking_GID-45940">
+        <rdfs:label xml:lang="en">CampsiteParking</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FacilityEnum_GID-120047"/>
+        <etype:GID rdf:datatype="&xsd;long">45940</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a site where people on holiday can pitch a tent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#CarSharingSlot_GID-120089 -->
+
+    <owl:Class rdf:about="#CarSharingSlot_GID-120089">
+        <rdfs:label xml:lang="en">CarSharingSlot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FacilityEnum_GID-120047"/>
+        <etype:GID rdf:datatype="&xsd;long">120089</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >parking slot for car sharing company</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Car_GID-15945 -->
+
+    <owl:Class rdf:about="#Car_GID-15945">
+        <rdfs:label xml:lang="en">Car</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#TransportEnum_GID-120048"/>
+        <etype:GID rdf:datatype="&xsd;long">15945</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a wheeled vehicle adapted to the rails of railroad</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Contact_GID-39136 -->
+
+    <owl:Class rdf:about="#Contact_GID-39136">
+        <rdfs:label xml:lang="en">Contact</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">39136</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a communicative interaction</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Diesel_GID-17309 -->
+
+    <owl:Class rdf:about="#Diesel_GID-17309">
+        <rdfs:label xml:lang="en">Diesel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FuelEnum_GID-120049"/>
+        <etype:GID rdf:datatype="&xsd;long">17309</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >an internal-combustion engine that burns heavy oil</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Duration_GID-80581 -->
+
+    <owl:Class rdf:about="#Duration_GID-80581">
+        <rdfs:label xml:lang="en">Duration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_TimeStamp_GID-120046_Type-80581"/>
+                <owl:onClass rdf:resource="#TimeStamp_GID-120046"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">80581</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >the property of enduring or continuing in time</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Electric_GID-61771 -->
+
+    <owl:Class rdf:about="#Electric_GID-61771">
+        <rdfs:label xml:lang="en">ElectricFuel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FuelEnum_GID-120049"/>
+        <etype:GID rdf:datatype="&xsd;long">61771</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a physical phenomenon associated with stationary or moving electrons and protons</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Enumeration_GID-34789 -->
+
+    <owl:Class rdf:about="#Enumeration_GID-34789">
+        <rdfs:label xml:lang="en">Enumeration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">34789</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en">a numbered list</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#FacilityEnum_GID-120047 -->
+
+    <owl:Class rdf:about="#FacilityEnum_GID-120047">
+        <rdfs:subClassOf rdf:resource="#Enumeration_GID-34789"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Facility_GID-3012 -->
+
+    <owl:Class rdf:about="#Facility_GID-3012">
+        <rdfs:label xml:lang="en">Facility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#IsSpecifiedBy_GID-120047_Type-3012"/>
+                <owl:someValuesFrom rdf:resource="#FacilityEnum_GID-120047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_FacilityAddress_GID-36400_Type-3012"/>
+                <owl:onClass rdf:resource="#Address_GID-36400"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_FacilityPrice-GID-28431_Type-3012"/>
+                <owl:onClass rdf:resource="#Price_GID-28431"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_FacilityContact_GID-39136_Type-3012"/>
+                <owl:someValuesFrom rdf:resource="#Contact_GID-39136"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Calendar_GID-44719_Type-3012"/>
+                <owl:onClass rdf:resource="#Calendar_GID-44719"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">3012</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >something designed and created to serve a particular function and to afford a particular convenience or service</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Foot_GID-1429 -->
+
+    <owl:Class rdf:about="#Foot_GID-1429">
+        <rdfs:label xml:lang="en">Foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#TransportEnum_GID-120048"/>
+        <etype:GID rdf:datatype="&xsd;long">1429</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >the act of traveling by foot</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#FuelEnum_GID-120049 -->
+
+    <owl:Class rdf:about="#FuelEnum_GID-120049">
+        <rdfs:subClassOf rdf:resource="#Enumeration_GID-34789"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#FuelStation_GID-18641 -->
+
+    <owl:Class rdf:about="#FuelStation_GID-18641">
+        <rdfs:label xml:lang="en">FuelStation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FacilityEnum_GID-120047"/>
+        <etype:GID rdf:datatype="&xsd;long">18641</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a service station that sells gasoline</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Gas_GID-79121 -->
+
+    <owl:Class rdf:about="#Gas_GID-79121">
+        <rdfs:label xml:lang="en">Gas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FuelEnum_GID-120049"/>
+        <etype:GID rdf:datatype="&xsd;long">79121</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a fluid in the gaseous state having neither independent shape nor volume and being able to expand indefinitely</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Methane_GID-79566 -->
+
+    <owl:Class rdf:about="#Methane_GID-79566">
+        <rdfs:label xml:lang="en">Methane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FuelEnum_GID-120049"/>
+        <etype:GID rdf:datatype="&xsd;long">79566</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a colorless odorless gas used as a fuel</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#ModeOfTransport_GID-120044 -->
+
+    <owl:Class rdf:about="#ModeOfTransport_GID-120044">
+        <rdfs:label xml:lang="en">ModeOfTransport</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#IsSpecifiedBy_GID-120048_Type-120044"/>
+                <owl:someValuesFrom rdf:resource="#TransportEnum_GID-120048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">120044</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >way in which transportation happens</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#ParkingArea_GID-46375 -->
+
+    <owl:Class rdf:about="#ParkingArea_GID-46375">
+        <rdfs:label xml:lang="en">ParkingArea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FacilityEnum_GID-120047"/>
+        <etype:GID rdf:datatype="&xsd;long">46375</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a lot where cars are parked</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Path_GID-46379 -->
+
+    <owl:Class rdf:about="#Path_GID-46379">
+        <rdfs:label xml:lang="en">Path</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Road_GID-22592_Type-46379"/>
+                <owl:someValuesFrom rdf:resource="#Road_GID-22592"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">46379</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >an established line of travel or access</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Petrol_GID-78042 -->
+
+    <owl:Class rdf:about="#Petrol_GID-78042">
+        <rdfs:label xml:lang="en">Petrol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FuelEnum_GID-120049"/>
+        <etype:GID rdf:datatype="&xsd;long">78042</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Price_GID-28431 -->
+
+    <owl:Class rdf:about="#Price_GID-28431">
+        <rdfs:label xml:lang="en">Price</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">28431</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >value measured by what must be given or done or undergone to obtain something</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#PrivateTransport_GID-120043 -->
+
+    <owl:Class rdf:about="#PrivateTransport_GID-120043">
+        <rdfs:label xml:lang="en"
+            >PrivateTransport</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#ModeOfTransport_GID-120044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_IndividualPrice_GID-28431_Type-120043"/>
+                <owl:onClass rdf:resource="#Price_GID-28431"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_FuelType_GID-120049_Type-120043"/>
+                <owl:onClass rdf:resource="#FuelEnum_GID-120049"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">120043</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >personal or individual use of transportation vehicle</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#PublicTransport_GID-22138 -->
+
+    <owl:Class rdf:about="#PublicTransport_GID-22138">
+        <rdfs:label xml:lang="en">PublicTransport</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#ModeOfTransport_GID-120044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_StopTime_GID-120042_Type-22138"/>
+                <owl:someValuesFrom rdf:resource="#StopTime_GID-120042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Ticket_GID-111874_Type-22138"/>
+                <owl:someValuesFrom rdf:resource="#Ticket_GID-111874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Agency_GID-45084_Type-22138"/>
+                <owl:onClass rdf:resource="#Agency_GID-45084"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">22138</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >conveyance for passengers or mail or freight</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#RailwayStation_GID-22321 -->
+
+    <owl:Class rdf:about="#RailwayStation_GID-22321">
+        <rdfs:label xml:lang="en">RailwayStation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FacilityEnum_GID-120047"/>
+        <etype:GID rdf:datatype="&xsd;long">22321</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >terminal where trains load or unload passengers or goods</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Road_GID-22592 -->
+
+    <owl:Class rdf:about="#Road_GID-22592">
+        <rdfs:label xml:lang="en">Road</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Address_GID-36400_Type-22592"/>
+                <owl:onClass rdf:resource="#Address_GID-36400"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Duration_GID-80581_Type-22592"/>
+                <owl:onClass rdf:resource="#Duration_GID-80581"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Facility_GID-3012_Type-22592"/>
+                <owl:someValuesFrom rdf:resource="#Facility_GID-3012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_ModeOfTransport_GID-120044_Type-22592"/>
+                <owl:someValuesFrom rdf:resource="#ModeOfTransport_GID-120044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">22592</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >an open way (generally public) for travel or transportation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#StopTime_GID-120042 -->
+
+    <owl:Class rdf:about="#StopTime_GID-120042">
+        <rdfs:label xml:lang="en">StopTime</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Calendar_GID-44719_Type-120042"/>
+                <owl:onClass rdf:resource="#Calendar_GID-44719"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_StopTime_GID-5446_Type-120042"/>
+                <owl:onClass rdf:resource="#Stop_GID-5446"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_TimeStamp_GID-120046_Type-120042"/>
+                <owl:onClass rdf:resource="#TimeStamp_GID-120046"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">120042</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >temporal parameters to a specific bus stop</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Stop_GID-5446 -->
+
+    <owl:Class rdf:about="#Stop_GID-5446">
+        <rdfs:label xml:lang="en">Stop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Location_GID-132_Type-5446"/>
+                <owl:onClass rdf:resource="#CalendarDates_GID-120045"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">5446</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a place on a bus route where buses stop to discharge and take on passengers</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Ticket_GID-111874 -->
+
+    <owl:Class rdf:about="#Ticket_GID-111874">
+        <rdfs:label xml:lang="en">Ticket</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#has_Price_GID-28431_Type-111874"/>
+                <owl:onClass rdf:resource="#Price_GID-28431"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:GID rdf:datatype="&xsd;long">111874</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >provide with a ticket for passage or admission</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#TimeStamp_GID-120046 -->
+
+    <owl:Class rdf:about="#TimeStamp_GID-120046">
+        <rdfs:label xml:lang="en">TimeStamp</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">120046</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >hour,minutes and seconds of a duration</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#Train_GID-18678 -->
+
+    <owl:Class rdf:about="#Train_GID-18678">
+        <rdfs:label xml:lang="en">Train</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#TransportEnum_GID-120048"/>
+        <etype:GID rdf:datatype="&xsd;long">18678</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >wheelwork consisting of a connected set of rotating gears by which force is transmitted or motion or torque is changed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#TransportEnum_GID-120048 -->
+
+    <owl:Class rdf:about="#TransportEnum_GID-120048">
+        <rdfs:subClassOf rdf:resource="#Enumeration_GID-34789"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Asus/Downloads/Telegram%20Desktop/entity.owl#UnFuel_GID-87885 -->
+
+    <owl:Class rdf:about="#UnFuel_GID-87885">
+        <rdfs:label xml:lang="en">UnFuel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#FuelEnum_GID-120049"/>
+        <etype:GID rdf:datatype="&xsd;long">87885</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >not provided with fuel</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Action_kind_GID-120018 -->
+
+    <owl:Class rdf:about="&etype;Action_kind_GID-120018">
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">120018</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#ComplexType -->
+
+    <owl:Class rdf:about="&etype;ComplexType"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Computer_file_GID-34892 -->
+
+    <owl:Class rdf:about="&etype;Computer_file_GID-34892">
+        <rdfs:subClassOf rdf:resource="&etype;Function_kind_GID-120019"/>
+        <etype:GID rdf:datatype="&xsd;long">34892</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Context_GID-120016 -->
+
+    <owl:Class rdf:about="&etype;Context_GID-120016">
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">120016</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Creation_GID-16921 -->
+
+    <owl:Class rdf:about="&etype;Creation_GID-16921">
+        <rdfs:subClassOf rdf:resource="&etype;Function_kind_GID-120019"/>
+        <etype:GID rdf:datatype="&xsd;long">16921</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Duration_GID-80582 -->
+
+    <owl:Class rdf:about="&etype;Duration_GID-80582">
+        <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+        <etype:GID rdf:datatype="&xsd;long">80582</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Entity_GID-1 -->
+
+    <owl:Class rdf:about="&etype;Entity_GID-1">
+        <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+        <etype:GID rdf:datatype="&xsd;long">1</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Event_GID-138 -->
+
+    <owl:Class rdf:about="&etype;Event_GID-138">
+        <rdfs:subClassOf rdf:resource="&etype;Context_GID-120016"/>
+        <etype:GID rdf:datatype="&xsd;long">138</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Function_kind_GID-120019 -->
+
+    <owl:Class rdf:about="&etype;Function_kind_GID-120019">
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">120019</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#IdentifyingSet -->
+
+    <owl:Class rdf:about="&etype;IdentifyingSet"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Living_being_GID-120021 -->
+
+    <owl:Class rdf:about="&etype;Living_being_GID-120021">
+        <rdfs:subClassOf rdf:resource="&etype;Real_kind_GID-120017"/>
+        <etype:GID rdf:datatype="&xsd;long">120021</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Location_GID-132 -->
+
+    <owl:Class rdf:about="&etype;Location_GID-132">
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&etype;Function_kind_GID-120019"/>
+        <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en"
+            >a point or extent in space</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Metadata_GID-45663 -->
+
+    <owl:Class rdf:about="&etype;Metadata_GID-45663">
+        <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+        <etype:GID rdf:datatype="&xsd;long">45663</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Moment_GID-81213 -->
+
+    <owl:Class rdf:about="&etype;Moment_GID-81213">
+        <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+        <etype:GID rdf:datatype="&xsd;long">81213</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#NLString -->
+
+    <owl:Class rdf:about="&etype;NLString">
+        <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Name_GID-2 -->
+
+    <owl:Class rdf:about="&etype;Name_GID-2">
+        <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+        <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Organization_GID-43544 -->
+
+    <owl:Class rdf:about="&etype;Organization_GID-43544">
+        <rdfs:subClassOf rdf:resource="&etype;Function_kind_GID-120019"/>
+        <etype:GID rdf:datatype="&xsd;long">43544</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Person_GID-118 -->
+
+    <owl:Class rdf:about="&etype;Person_GID-118">
+        <rdfs:subClassOf rdf:resource="&etype;Living_being_GID-120021"/>
+        <etype:GID rdf:datatype="&xsd;long">118</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Person_name_GID-117693 -->
+
+    <owl:Class rdf:about="&etype;Person_name_GID-117693">
+        <rdfs:subClassOf rdf:resource="&etype;Name_GID-2"/>
+        <etype:GID rdf:datatype="&xsd;long">117693</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Real_kind_GID-120017 -->
+
+    <owl:Class rdf:about="&etype;Real_kind_GID-120017">
+        <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+        <etype:GID rdf:datatype="&xsd;long">120017</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#SemanticString -->
+
+    <owl:Class rdf:about="&etype;SemanticString">
+        <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Structure_GID-24069 -->
+
+    <owl:Class rdf:about="&etype;Structure_GID-24069">
+        <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+        <etype:GID rdf:datatype="&xsd;long">24069</etype:GID>
+        <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#concept -->
+
+    <owl:Class rdf:about="&etype;concept">
+        <rdfs:subClassOf rdf:resource="&xsd;long"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#long -->
+
+    <owl:Class rdf:about="&xsd;long"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Event_GID-138 -->
+
+    <owl:Thing rdf:about="&etype;Event_GID-138">
+        <etype:hasIdentifyingSet rdf:resource="&etype;IdentifyingSet_IS1-104"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#IdentifyingSet_IS1-102 -->
+
+    <owl:Thing rdf:about="&etype;IdentifyingSet_IS1-102">
+        <rdf:type rdf:resource="&etype;Person_GID-118"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#IdentifyingSet_IS1-103 -->
+
+    <etype:Location_GID-132 rdf:about="&etype;IdentifyingSet_IS1-103">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </etype:Location_GID-132>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#IdentifyingSet_IS1-104 -->
+
+    <owl:Thing rdf:about="&etype;IdentifyingSet_IS1-104">
+        <rdf:type rdf:resource="&etype;Event_GID-138"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#IdentifyingSet_IS1-105 -->
+
+    <owl:Thing rdf:about="&etype;IdentifyingSet_IS1-105">
+        <rdf:type rdf:resource="&etype;Organization_GID-43544"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Location_GID-132 -->
+
+    <owl:Thing rdf:about="&etype;Location_GID-132">
+        <etype:hasIdentifyingSet rdf:resource="&etype;IdentifyingSet_IS1-103"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Organization_GID-43544 -->
+
+    <owl:Thing rdf:about="&etype;Organization_GID-43544">
+        <etype:hasIdentifyingSet rdf:resource="&etype;IdentifyingSet_IS1-105"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Person_GID-118 -->
+
+    <owl:Thing rdf:about="&etype;Person_GID-118">
+        <etype:hasIdentifyingSet rdf:resource="&etype;IdentifyingSet_IS1-102"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+
