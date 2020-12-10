@@ -1,0 +1,1049 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY etype 'http://knowdive.disi.unitn.it/etype#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:etype="&etype;"
+    xmlns:owl="&owl;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:xsd="&xsd;">
+  <rdfs:Datatype rdf:about="&etype;concept">
+    <rdfs:subClassOf rdf:resource="&xsd;long"/>
+  </rdfs:Datatype>
+  <owl:Class rdf:about="&etype;Calendar_dates_GID-120045">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Entity_GID-1"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120045</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;House_GID-19370">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Structure_GID-24069"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">19370</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Address_GID-36400">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Entity_GID-1"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">36400</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Private_transport_GID-120043">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Entity_GID-1"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120043</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Path_GID-46379">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Entity_GID-1"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">46379</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Computer_file_GID-34892">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Function_kind_GID-120019"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">34892</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Duration_GID-80582">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;ComplexType"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">80582</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Road_GID-22592">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Entity_GID-1"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">22592</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Entity_GID-1">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">1</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Living_being_GID-120021">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Real_kind_GID-120017"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120021</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;IdentifyingSet"/>
+  <owl:Class rdf:about="&etype;Real_kind_GID-120017">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120017</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Organization_GID-43544">
+    <etype:hasIdentifyingSet>
+      <etype:Organization_GID-43544 rdf:about="&etype;IdentifyingSet_IS1-105">
+        <etype:hasIdProperty>Location_GID-132</etype:hasIdProperty>
+        <etype:hasIdProperty>Class_GID-43482</etype:hasIdProperty>
+        <etype:hasIdProperty>Name_GID-2</etype:hasIdProperty>
+      </etype:Organization_GID-43544>
+    </etype:hasIdentifyingSet>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Function_kind_GID-120019"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">43544</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Mode_of_transport_GID-120044">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120044</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Structure_GID-24069">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">24069</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Name_GID-2">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Moment_GID-81213">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">81213</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Action_kind_GID-120018">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120018</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Stoptime_GID-120042">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120042</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Calendar_GID-44719">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">44719</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Ticket_GID-111874">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">111874</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Price_GID-28431">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">28431</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Facility_GID-3012">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">3012</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Creation_GID-16921">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Function_kind_GID-120019"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">16921</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Timestamp_GID-120046">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120046</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Stop_GID-5446">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">5446</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;SemanticString">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Public_transport_GID-22138">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">22138</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Person_name_GID-117693">
+    <rdfs:subClassOf rdf:resource="&etype;Name_GID-2"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">117693</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Duration_GID-80581">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">80581</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Agency_GID-45084">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">45084</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Location_GID-132">
+    <etype:hasIdentifyingSet>
+      <etype:Location_GID-132 rdf:about="&etype;IdentifyingSet_IS1-103">
+        <etype:hasIdProperty>Longitude_GID-46270</etype:hasIdProperty>
+        <etype:hasIdProperty>Latitude_GID-46263</etype:hasIdProperty>
+        <etype:hasIdProperty>Part_meronym_GID-22</etype:hasIdProperty>
+        <etype:hasIdProperty>Class_GID-43482</etype:hasIdProperty>
+        <etype:hasIdProperty>Name_GID-2</etype:hasIdProperty>
+      </etype:Location_GID-132>
+    </etype:hasIdentifyingSet>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Function_kind_GID-120019"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Person_GID-118">
+    <etype:hasIdentifyingSet>
+      <etype:Person_GID-118 rdf:about="&etype;IdentifyingSet_IS1-102">
+        <etype:hasIdProperty>Name_GID-2</etype:hasIdProperty>
+        <etype:hasIdProperty>Class_GID-43482</etype:hasIdProperty>
+        <etype:hasIdProperty>Electronic_mail_GID-33745</etype:hasIdProperty>
+      </etype:Person_GID-118>
+    </etype:hasIdentifyingSet>
+    <rdfs:subClassOf rdf:resource="&etype;Living_being_GID-120021"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">118</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Metadata_GID-45663">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">45663</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Contact_GID-120109">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120109</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Context_GID-120016">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120016</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Enumeration_GID-34789">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">34789</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Function_kind_GID-120019">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120019</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;NLString">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Event_GID-138">
+    <etype:hasIdentifyingSet>
+      <etype:Event_GID-138 rdf:about="&etype;IdentifyingSet_IS1-104">
+        <etype:hasIdProperty>End_GID-81330</etype:hasIdProperty>
+        <etype:hasIdProperty>Beginning_GID-81324</etype:hasIdProperty>
+        <etype:hasIdProperty>Class_GID-43482</etype:hasIdProperty>
+        <etype:hasIdProperty>Name_GID-2</etype:hasIdProperty>
+      </etype:Event_GID-138>
+    </etype:hasIdentifyingSet>
+    <rdfs:subClassOf rdf:resource="&etype;Context_GID-120016"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">138</etype:GID>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="&etype;GID">
+    <rdf:type rdf:resource="&owl;AnnotationProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_description_GID-3_Type-3012">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">3</etype:GID>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="&etype;relationalAttribute"/>
+    </rdfs:subPropertyOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_price_GID-28431_Type-111874">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Ticket_GID-111874"/>
+    <etype:GID rdf:datatype="&xsd;long">28431</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_location_GID-132_Type-138">
+    <rdfs:range rdf:resource="&etype;Function_kind_GID-120019"/>
+    <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+    <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_subject_GID-35361_Type-16921">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">35361</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_stop_GID-5446_Type-120042">
+    <rdfs:range rdf:resource="&etype;Event_GID-138"/>
+    <rdfs:domain rdf:resource="&etype;Stoptime_GID-120042"/>
+    <etype:GID rdf:datatype="&xsd;long">5446</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_agency_GID-43711_Type-22138">
+    <rdfs:range rdf:resource="&etype;Organization_GID-43544"/>
+    <rdfs:domain rdf:resource="&etype;Public_transport_GID-22138"/>
+    <etype:GID rdf:datatype="&xsd;long">43711</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_middle_name_GID-34005_Type-117693">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+    <etype:GID rdf:datatype="&xsd;long">34005</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_type_GID-103418_Type-120043">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Private_transport_GID-120043"/>
+    <etype:GID rdf:datatype="&xsd;long">103418</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_end_GID-81330_Type-3012">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">81330</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_contributor_GID-53267_Type-16921">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">53267</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_creator_GID-51275_Type-16921">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">51275</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_creator_GID-51275_Type-34892">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">51275</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_mode_of_transport_GID-120044_Type-22592">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
+    <etype:GID rdf:datatype="&xsd;long">120044</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_type_GID-103418_Type-120044">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Mode_of_transport_GID-120044"/>
+    <etype:GID rdf:datatype="&xsd;long">103418</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_price_GID-28431_Type-120043">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Private_transport_GID-120043"/>
+    <etype:GID rdf:datatype="&xsd;long">28431</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_key_word_GID-33805_Type-16921">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">33805</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_end_GID-81330_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">81330</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_facility_GID-3012_Type-22592">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
+    <etype:GID rdf:datatype="&xsd;long">3012</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_birthday_GID-81257_Type-118">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">81257</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_part_meronym_GID-22_Type-3012">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">22</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_description_GID-3_Type-1">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">3</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_location_GID-132_Type-43544">
+    <rdfs:range rdf:resource="&etype;Function_kind_GID-120019"/>
+    <rdfs:domain rdf:resource="&etype;Organization_GID-43544"/>
+    <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_first_name_GID-34006_Type-117693">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+    <etype:GID rdf:datatype="&xsd;long">34006</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_contact_GID-39136_Type-3012">
+    <rdfs:range rdf:resource="&etype;Event_GID-138"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">39136</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_phase_GID-81455_Type-138">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+    <etype:GID rdf:datatype="&xsd;long">81455</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;hasIdProperty">
+    <rdfs:domain rdf:resource="&etype;IdentifyingSet"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_location_GID-132_Type-36400">
+    <rdfs:range rdf:resource="&etype;Function_kind_GID-120019"/>
+    <rdfs:domain rdf:resource="&etype;Address_GID-36400"/>
+    <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_time_GID-81346_Type-45663">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+    <etype:GID rdf:datatype="&xsd;long">81346</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_address_GID-36400_Type-3012">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">36400</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_calendar_GID-44719_Type-3012">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">44719</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_surname_GID-34003_Type-117693">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+    <etype:GID rdf:datatype="&xsd;long">34003</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_name_GID-2_Type-2">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Name_GID-2"/>
+    <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_date_of_publication_GID-117691_Type-34892">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">117691</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_departure_time_GID-80846_Type-120042">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Stoptime_GID-120042"/>
+    <etype:GID rdf:datatype="&xsd;long">80846</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_road_GID-22592_Type-46379">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Path_GID-46379"/>
+    <etype:GID rdf:datatype="&xsd;long">22592</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_contact_GID-39136_Type-45084">
+    <rdfs:range rdf:resource="&etype;Event_GID-138"/>
+    <rdfs:domain rdf:resource="&etype;Agency_GID-45084"/>
+    <etype:GID rdf:datatype="&xsd;long">39136</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_exception_GID-31741_Type-44719">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">31741</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_duration_GID-80581_Type-22592">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
+    <etype:GID rdf:datatype="&xsd;long">80581</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_arrival_time_GID-80845_Type-120042">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Stoptime_GID-120042"/>
+    <etype:GID rdf:datatype="&xsd;long">80845</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_address_GID-36400_Type-22592">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
+    <etype:GID rdf:datatype="&xsd;long">36400</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_end_point_GID-46116_Type-22592">
+    <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
+    <etype:GID rdf:datatype="&xsd;long">46116</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_beginning_GID-81324_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">81324</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_stoptime_GID-120042_Type-22138">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Public_transport_GID-22138"/>
+    <etype:GID rdf:datatype="&xsd;long">120042</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_ticket_GID-111874_Type-22138">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Public_transport_GID-22138"/>
+    <etype:GID rdf:datatype="&xsd;long">111874</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_terminus_a_quo_GID-81326_Type-22592">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
+    <etype:GID rdf:datatype="&xsd;long">81326</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_date_of_death_GID-118224_Type-118">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">118224</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_title_GID-34045_Type-16921">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">34045</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_name_GID-2_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_price_GID-28324_Type-3012">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">28324</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_timestamp_GID-120046_Type-80581">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Duration_GID-80581"/>
+    <etype:GID rdf:datatype="&xsd;long">120046</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_calendar_GID-44719_Type-120042">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Stoptime_GID-120042"/>
+    <etype:GID rdf:datatype="&xsd;long">44719</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_duration_GID-80582_Type-3012">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">80582</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_beginning_GID-81324_Type-3012">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">81324</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;hasIdentifyingSet">
+    <rdfs:range rdf:resource="&etype;IdentifyingSet"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_place_of_death_GID-118225_Type-118">
+    <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">118225</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_duration_GID-80582_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">80582</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_birthplace_GID-45896_Type-118">
+    <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">45896</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_birthplace_GID-45897_Type-45663">
+    <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+    <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+    <etype:GID rdf:datatype="&xsd;long">45897</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_outline_GID-34682_Type-16921">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">34682</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_participant_GID-55912_Type-138">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+    <etype:GID rdf:datatype="&xsd;long">55912</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_type_GID-103418_Type-3012">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">103418</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_part_meronym_GID-22_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">22</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_agency_name_GID-120058_Type-45084">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Agency_GID-45084"/>
+    <etype:GID rdf:datatype="&xsd;long">120058</etype:GID>
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="&etype;datatypeAttribute"/>
+    </rdfs:subPropertyOf>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_zip_code_GID-34110_Type-36400">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Address_GID-36400"/>
+    <etype:GID rdf:datatype="&xsd;long">34110</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_service_id_GID-120056_Type-44719">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">120056</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_object_property_GID-120033_Type-120017">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Real_kind_GID-120017"/>
+    <etype:GID rdf:datatype="&xsd;long">120033</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_wednesday_GID-80760_Type-44719">
+    <rdfs:range rdf:resource="&xsd;boolean"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">80760</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_saturday_GID-80763_Type-44719">
+    <rdfs:range rdf:resource="&xsd;boolean"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">80763</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_electronic_mail_GID-33745_Type-120109">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Contact_GID-120109"/>
+    <etype:GID rdf:datatype="&xsd;long">33745</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_friday_GID-80762_Type-44719">
+    <rdfs:range rdf:resource="&xsd;boolean"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">80762</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_tuesday_GID-80759_Type-44719">
+    <rdfs:range rdf:resource="&xsd;boolean"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">80759</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_city_GID-45988_Type-36400">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Address_GID-36400"/>
+    <etype:GID rdf:datatype="&xsd;long">45988</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;hasSourceString">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;SemanticString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_context_property_GID-120032_Type-120016">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Context_GID-120016"/>
+    <etype:GID rdf:datatype="&xsd;long">120032</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_stopname_GID-120054_Type-5446">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Stop_GID-5446"/>
+    <etype:GID rdf:datatype="&xsd;long">120054</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_agency_id_GID-120057_Type-45084">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Agency_GID-45084"/>
+    <etype:GID rdf:datatype="&xsd;long">120057</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_format_GID-35579_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">35579</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_identifier_GID-39085_Type-3012">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">39085</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_name_GID-2_Type-3012">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_function_property_GID-120037_Type-120019">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Function_kind_GID-120019"/>
+    <etype:GID rdf:datatype="&xsd;long">120037</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_phonebook_GID-34485_Type-120109">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Contact_GID-120109"/>
+    <etype:GID rdf:datatype="&xsd;long">34485</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_state_GID-46567_Type-36400">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Address_GID-36400"/>
+    <etype:GID rdf:datatype="&xsd;long">46567</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_biological_property_GID-120034_Type-120021">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Living_being_GID-120021"/>
+    <etype:GID rdf:datatype="&xsd;long">120034</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_stopcode_GID-120053_Type-5446">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Stop_GID-5446"/>
+    <etype:GID rdf:datatype="&xsd;long">120053</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_version_GID-31836_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">31836</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_date_GID-103420_Type-120045">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_dates_GID-120045"/>
+    <etype:GID rdf:datatype="&xsd;long">103420</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_action_property_GID-120036_Type-120018">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Action_kind_GID-120018"/>
+    <etype:GID rdf:datatype="&xsd;long">120036</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_street_address_GID-45807_Type-36400">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Address_GID-36400"/>
+    <etype:GID rdf:datatype="&xsd;long">45807</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_class_GID-43482_Type-3012">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Facility_GID-3012"/>
+    <etype:GID rdf:datatype="&xsd;long">43482</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_license_GID-35108_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">35108</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_cost_GID-70407_Type-28431">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Price_GID-28431"/>
+    <etype:GID rdf:datatype="&xsd;long">70407</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_startdate_GID-120091_Type-44719">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">120091</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_latitude_GID-46263_Type-132">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+    <etype:GID rdf:datatype="&xsd;long">46263</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_speed_limit_GID-35726_Type-22592">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
+    <etype:GID rdf:datatype="&xsd;long">35726</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_end_GID-81330_Type-81213">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Moment_GID-81213"/>
+    <etype:GID rdf:datatype="&xsd;long">81330</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_agency_language_GID-120060_Type-45084">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Agency_GID-45084"/>
+    <etype:GID rdf:datatype="&xsd;long">120060</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_ticket_duration_GID-120088_Type-111874">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Ticket_GID-111874"/>
+    <etype:GID rdf:datatype="&xsd;long">120088</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_stopid_GID-120051_Type-5446">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Stop_GID-5446"/>
+    <etype:GID rdf:datatype="&xsd;long">120051</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_elevation_GID-28270_Type-132">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+    <etype:GID rdf:datatype="&xsd;long">28270</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_stopsequency_GID-120052_Type-120042">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Stoptime_GID-120042"/>
+    <etype:GID rdf:datatype="&xsd;long">120052</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_agency_timezone_GID-120059_Type-45084">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Agency_GID-45084"/>
+    <etype:GID rdf:datatype="&xsd;long">120059</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_service_id_GID-120056_Type-120045">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_dates_GID-120045"/>
+    <etype:GID rdf:datatype="&xsd;long">120056</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_minimum_GID-73141_Type-80582">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Duration_GID-80582"/>
+    <etype:GID rdf:datatype="&xsd;long">73141</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_stopid_GID-120051_Type-120042">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Stoptime_GID-120042"/>
+    <etype:GID rdf:datatype="&xsd;long">120051</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_length_GID-28259_Type-22592">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
+    <etype:GID rdf:datatype="&xsd;long">28259</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_thursday_GID-80761_Type-44719">
+    <rdfs:range rdf:resource="&xsd;boolean"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">80761</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_title_GID-34019_Type-117693">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+    <etype:GID rdf:datatype="&xsd;long">34019</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_veracity_GID-26929_Type-45663">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+    <etype:GID rdf:datatype="&xsd;long">26929</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;hasString">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;NLString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_exception_GID-31741_Type-120045">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_dates_GID-120045"/>
+    <etype:GID rdf:datatype="&xsd;long">31741</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_electronic_mail_GID-33745_Type-118">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">33745</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_beginning_GID-81324_Type-81213">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Moment_GID-81213"/>
+    <etype:GID rdf:datatype="&xsd;long">81324</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_enddate_GID-120090_Type-44719">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">120090</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_longitude_GID-46270_Type-132">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+    <etype:GID rdf:datatype="&xsd;long">46270</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_paymentmethod_GID-120074_Type-111874">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Ticket_GID-111874"/>
+    <etype:GID rdf:datatype="&xsd;long">120074</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_home_page_GID-34125_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">34125</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_web_site_GID-34126_Type-120109">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Contact_GID-120109"/>
+    <etype:GID rdf:datatype="&xsd;long">34126</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_hour_GID-81114_Type-120046">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Timestamp_GID-120046"/>
+    <etype:GID rdf:datatype="&xsd;long">81114</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_url_GID-34123_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">34123</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_wheelchair_boarding_GID-120055_Type-5446">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Stop_GID-5446"/>
+    <etype:GID rdf:datatype="&xsd;long">120055</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_size_GID-28114_Type-34892">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">28114</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_currency_type_GID-120061_Type-28431">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Price_GID-28431"/>
+    <etype:GID rdf:datatype="&xsd;long">120061</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_monday_GID-80758_Type-44719">
+    <rdfs:range rdf:resource="&xsd;boolean"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">80758</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_second_GID-81156_Type-120046">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Timestamp_GID-120046"/>
+    <etype:GID rdf:datatype="&xsd;long">81156</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_class_GID-43482_Type-1">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">43482</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_identifier_GID-39085_Type-1">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">39085</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_maximum_GID-73238_Type-80582">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Duration_GID-80582"/>
+    <etype:GID rdf:datatype="&xsd;long">73238</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;hasLanguage">
+    <rdfs:range rdf:resource="&xsd;language"/>
+    <rdfs:domain rdf:resource="&etype;NLString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_minute_GID-81154_Type-120046">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Timestamp_GID-120046"/>
+    <etype:GID rdf:datatype="&xsd;long">81154</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_number_GID-34489_Type-36400">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Address_GID-36400"/>
+    <etype:GID rdf:datatype="&xsd;long">34489</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_sunday_GID-80757_Type-44719">
+    <rdfs:range rdf:resource="&xsd;boolean"/>
+    <rdfs:domain rdf:resource="&etype;Calendar_GID-44719"/>
+    <etype:GID rdf:datatype="&xsd;long">80757</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="&etype;hasUnitOfMeasure">
+    <rdfs:range rdf:resource="&etype;concept"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="&etype;isEtype"/>
+</rdf:RDF>
