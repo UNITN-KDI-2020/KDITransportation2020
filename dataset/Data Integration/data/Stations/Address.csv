@@ -1,0 +1,11 @@
+,FacilityID,RouteID,Province,City,Street,Number,Cap,Location
+0,0,,Trentino-Alto Adige/Südtirol,Trento,"Via Dogana,San Martino",,38122,0
+1,1,,Trentino-Alto Adige/Südtirol,Trento,"Via Dogana,San Martino",,38122,1
+2,2,,Trentino-Alto Adige/Südtirol,Trento,"Via Giambattista Unterveger,Nord Center",,38121,2
+3,3,,Trentino-Alto Adige/Südtirol,Trento,,,38121,3
+4,4,,Trentino-Alto Adige/Südtirol,Trento,"Via Ora del Garda,Ghiaie di Gardolo",,38015,4
+5,5,,Trentino-Alto Adige/Südtirol,Trento,"Via Alto Adige,Lamar",,38015,5
+6,6,,Trentino-Alto Adige/Südtirol,Trento,"Via Gocciadoro,San Bartolameo",,38128,6
+7,7,,Trentino-Alto Adige/Südtirol,Trento,"Via della Malpensada,San Bartolameo",,38128,7
+8,8,,Trentino-Alto Adige/Südtirol,Trento,"Via Asiago,Villazzano",,38128,8
+9,9,,Trentino-Alto Adige/Südtirol,Trento,"Via Mesiano,Bolghera",,38100,9

@@ -1,0 +1,303 @@
+,FacilityID,RouteID,Province,City,Street,Number,Cap,Location
+10,10,,Trento,Trento,SS240,,38069,10
+11,11,,Trento,Trento,SS240,,38069,11
+12,12,,Trento,Trento,SS240,,38065,12
+13,13,,Trento,Trento,Pista Ciclabile Mori - Torbole,,38069,13
+14,14,,Trento,Trento,Pista Ciclabile Mori - Torbole,,38065,14
+15,15,,Trento,Trento,SS240,,38065,15
+16,16,,Trento,Trento,,,38065,16
+17,17,,Trento,Trento,,,38065,17
+18,18,,Trento,Trento,Via Giovanni Ventitreesimo,,,18
+19,19,,Trento,Trento,SS240,,38065,19
+20,20,,Trento,Trento,,,38069,20
+21,21,,Trento,Trento,Pista Ciclabile Mori - Torbole,,38065,21
+22,22,,Trento,Trento,Pista Ciclabile Mori - Torbole,,38065,22
+23,23,,Trento,Trento,Via Lungolago Sarca,,68039,23
+24,24,,Trento,Trento,Via alla Grotta,,,24
+25,25,,Trento,Trento,,,,25
+26,26,,Trento,Trento,,,,26
+27,27,,Trento,Trento,Via Alzer,,38067,27
+28,28,,Trento,Trento,Via Imperiale,,38067,28
+29,29,,Trento,Trento,Via Alzer,,38067,29
+30,30,,Trento,Trento,,,38067,30
+31,31,,Trento,Trento,Via Imperiale,,38067,31
+32,32,,Trento,Trento,,,,32
+33,33,,Trento,Trento,,,,33
+34,34,,Trento,Trento,Via 25 Aprile,,38013,34
+35,35,,Trento,Trento,Strada Statale della Val di Non,,38010,35
+36,36,,Trento,Trento,Via della Pontara,,38022,36
+37,37,,Trento,Trento,SS42,,38022,37
+38,38,,Trento,Trento,Via di Sotto Pila,,38026,38
+39,39,,Trento,Trento,,,38024,39
+40,40,,Trento,Trento,Ciclabile della Val di Sole,,38025,40
+41,41,,Trento,Trento,Ciclabile della Val di Sole,,38025,41
+42,42,,Trento,Trento,Ciclabile della Val di Sole,,38025,42
+43,43,,Trento,Trento,Via delle Róge,,38024,43
+44,44,,Trento,Trento,SS42,,38025,44
+45,45,,Trento,Trento,,,38025,45
+46,46,,Trento,Trento,Via per Marilleva,,38025,46
+47,47,,Trento,Trento,Via dei Stabli,,,47
+48,48,,Trento,Trento,SS42,,38027,48
+49,49,,Trento,Trento,Strada delle Giare,,,49
+50,50,,Trento,Trento,SS42,,38022,50
+51,51,,Trento,Trento,Via Róge,,38026,51
+52,52,,Trento,Trento,SS42,,38023,52
+53,53,,Trento,Trento,Ciclabile Val di sole,,38025,53
+54,54,,Trento,Trento,,,38022,54
+55,55,,Trento,Trento,,,38025,55
+56,56,,Trento,Trento,Ciclabile della Val di Sole,,38025,56
+57,57,,Trento,Trento,,,38027,57
+58,58,,Trento,Trento,SS42,,38027,58
+59,59,,Trento,Trento,Ciclabile Val di Sole,,38026,59
+60,60,,Trento,Trento,,,38026,60
+61,61,,Trento,Trento,,,38022,61
+62,62,,Trento,Trento,SP38,,38022,62
+63,63,,Trento,Trento,SS42,,38025,63
+64,64,,Trento,Trento,Via Róge,,38026,64
+65,65,,Trento,Trento,Via Róge,,38026,65
+66,66,,Trento,Trento,Strada Statale della Val di Non,,38023,66
+67,67,,Trento,Trento,,,38024,67
+68,68,,Trento,Trento,Via Canacciole,,38026,68
+69,69,,Trento,Trento,Via dei Baschenis,6,38020,69
+70,70,,Trento,Trento,Via Lori,,68039,70
+71,71,,Trento,Trento,,,38062,71
+72,72,,Trento,Trento,Via Linfano,,68039,72
+73,73,,Trento,Trento,Via Linfano,,38062,73
+74,74,,Trento,Trento,Via Linfano,,38062,74
+75,75,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38074,75
+76,76,,Trento,Trento,SP118,,38062,76
+77,77,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38072,77
+78,78,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38072,78
+79,79,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38062,79
+80,80,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38062,80
+81,81,,Trento,Trento,Via Lori,,68039,81
+82,82,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38062,82
+83,83,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38062,83
+84,84,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38070,84
+85,85,,Trento,Trento,Pista Ciclabile Valle del Sarca,,38070,85
+86,86,,Trento,Trento,pista ciclabile ovest di Storo,,38089,86
+87,87,,Trento,Trento,Via Acquaiolo,,38083,87
+88,88,,Trento,Trento,,,38083,88
+89,89,,Trento,Trento,,,38083,89
+90,90,,Trento,Trento,pista ciclabile est e nord di Storo,,38089,90
+91,91,,Trento,Trento,,,38085,91
+92,92,,Trento,Trento,SS237,,38085,92
+93,93,,Trento,Trento,Strada ai Gregi,,38089,93
+94,94,,Trento,Trento,Via Remorbio,,38089,94
+95,95,,Trento,Trento,SS237,,38085,95
+96,96,,Trento,Trento,pista ciclabile ovest di Storo,,38089,96
+97,97,,Trento,Trento,pista ciclabile ovest di Storo,,38089,97
+98,98,,Trento,Trento,pista ciclabile ovest di Storo,,38089,98
+99,99,,Trento,Trento,SS237,,38083,99
+100,100,,Trento,Trento,SS237,,38083,100
+101,101,,Trento,Trento,SS237,99,38085,101
+102,102,,Trento,Trento,pista ciclabile est e nord di Storo,,38089,102
+103,103,,Trento,Trento,pista ciclabile est e nord di Storo,,38089,103
+104,104,,Trento,Trento,pista ciclabile est e nord di Storo,,38089,104
+105,105,,Trento,Trento,SS237,,38083,105
+106,106,,Trento,Trento,pista ciclabile ovest di Storo,,38089,106
+107,107,,Trento,Trento,SS237,,38083,107
+108,108,,Trento,Trento,pista ciclabile est e nord di Storo,,38089,108
+109,109,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38068,109
+110,110,,Trento,Trento,Strada Statale della Val di Non,,38017,110
+111,111,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,111
+112,112,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38068,112
+113,113,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,113
+114,114,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,114
+115,115,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,115
+116,116,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38065,116
+117,117,,Trento,Trento,Autostrada del Brennero,,38065,117
+118,118,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,118
+119,119,,Trento,Trento,",Mattarello",,38123,119
+120,120,,Trento,Trento,Via Lidorno,,,120
+121,121,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,,121
+122,122,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,122
+123,123,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,123
+124,124,,Trento,Trento,Autostrada del Brennero,,38063,124
+125,125,,Trento,Trento,,,39068,125
+126,126,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,126
+127,127,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,127
+128,128,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,128
+129,129,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,129
+130,130,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,130
+131,131,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,131
+132,132,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,39068,132
+133,133,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,39068,133
+134,134,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,39068,134
+135,135,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,39068,135
+136,136,,Trento,Trento,Via Postal,,38016,136
+137,137,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,137
+138,138,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,138
+139,139,,Trento,Trento,Via Fersina,,38123,139
+140,140,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,140
+141,141,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,141
+142,142,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,142
+143,143,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,143
+144,144,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,144
+145,145,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38097,145
+146,146,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38097,146
+147,147,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38097,147
+148,148,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,148
+149,149,,Trento,Trento,Lungadige Louis Braille,,38121,149
+150,150,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38122,150
+151,151,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38122,151
+152,152,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38122,152
+153,153,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,153
+154,154,,Trento,Trento,Via Quattro Novembre,,38016,154
+155,155,,Trento,Trento,Via Francesco de Panizza,,38016,155
+156,156,,Trento,Trento,SP29,,38017,156
+157,157,,Trento,Trento,SP29,,38017,157
+158,158,,Trento,Trento,,,38063,158
+159,159,,Trento,Trento,,,38063,159
+160,160,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38121,160
+161,161,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38121,161
+162,162,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38121,162
+163,163,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,163
+164,164,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,164
+165,165,,Trento,Trento,Via Lidorno,2,38123,165
+166,166,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,,166
+167,167,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,167
+168,168,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,168
+169,169,,Trento,Trento,,,39068,169
+170,170,,Trento,Trento,,,39068,170
+171,171,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,39068,171
+172,172,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,39068,172
+173,173,,Trento,Trento,",Mattarello",,38123,173
+174,174,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38015,174
+175,175,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38015,175
+176,176,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38097,176
+177,177,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38097,177
+178,178,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,,178
+179,179,,Trento,Trento,,,,179
+180,180,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,,180
+181,181,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,181
+182,182,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,182
+183,183,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38016,183
+184,184,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,,184
+185,185,,Trento,Trento,,,38063,185
+186,186,,Trento,Trento,Pista Ciclabile Valle dell'Adige,13,38016,186
+187,187,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38097,187
+188,188,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38015,188
+189,189,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38015,189
+190,190,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,,190
+191,191,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38015,191
+192,192,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38015,192
+193,193,,Trento,Trento,Autostrada del Brennero,,39068,193
+194,194,,Trento,Trento,,,38065,194
+195,195,,Trento,Trento,Lungavisio Luigi Tomasi,,38015,195
+196,196,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,196
+197,197,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,197
+198,198,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38065,198
+199,199,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,39068,199
+200,200,,Trento,Trento,Via Valdiriva,,39068,200
+201,201,,Trento,Trento,Etschtalradweg,,38015,201
+202,202,,Trento,Trento,Via Francesco de Panizza,,38016,202
+203,203,,Trento,Trento,Via Lungo Avisio,,38015,203
+204,204,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38123,204
+205,205,,Trento,Trento,Strada Statale della Val di Non,,38016,205
+206,206,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,206
+207,207,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,207
+208,208,,Trento,Trento,Autostrada del Brennero,,38063,208
+209,209,,Trento,Trento,Autostrada del Brennero,,38063,209
+210,210,,Trento,Trento,Autostrada del Brennero,,38063,210
+211,211,,Trento,Trento,Autostrada del Brennero,,38063,211
+212,212,,Trento,Trento,Autostrada del Brennero,,38063,212
+213,213,,Trento,Trento,Via 27 Maggio,,38063,213
+214,214,,Trento,Trento,Pista ciclopedonabile del Primiero,,38054,214
+215,215,,Trento,Trento,SS50,,38054,215
+216,216,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38033,216
+217,217,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38033,217
+218,218,,Trento,Trento,SS48,,,218
+219,219,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,,219
+220,220,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38033,220
+221,221,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38038,221
+222,222,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38038,222
+223,223,,Trento,Trento,Strada Jumela,,38036,223
+224,224,,Trento,Trento,Sentiero,,38037,224
+225,225,,Trento,Trento,Via Quirino Prada,,38033,225
+226,226,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,,226
+227,227,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38038,227
+228,228,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38038,228
+229,229,,Trento,Trento,Pista ciclabile,,38036,229
+230,230,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38038,230
+231,231,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38037,231
+232,232,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,,232
+233,233,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38038,233
+234,234,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38033,234
+235,235,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38033,235
+236,236,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38038,236
+237,237,,Trento,Trento,Pista Ciclabile Val di Fiemme e Fassa,,38038,237
+238,238,,Trento,Trento,Via Tonai,,38079,238
+239,239,,Trento,Trento,,,38079,239
+240,240,,Trento,Trento,,,38080,240
+241,241,,Trento,Trento,,,38080,241
+242,242,,Trento,Trento,,,,242
+243,243,,Trento,Trento,,,,243
+244,244,,Trento,Trento,Via da O,,38088,244
+245,245,,Trento,Trento,SP34,,38979,245
+246,246,,Trento,Trento,SP34,,38979,246
+247,247,,Trento,Trento,,,38979,247
+248,248,,Trento,Trento,,,38080,248
+249,249,,Trento,Trento,,,38088,249
+250,250,,Trento,Trento,SP236,,38088,250
+251,251,,Trento,Trento,,,38088,251
+252,252,,Trento,Trento,Via Pineta,,38080,252
+253,253,,Trento,Trento,Via Pineta,,38080,253
+254,254,,Trento,Trento,Via al Sarca,15,38080,254
+255,255,,Trento,Trento,,,38080,255
+256,256,,Trento,Trento,,,38080,256
+257,257,,Trento,Trento,SP34,,38979,257
+258,258,,Trento,Trento,,,38086,258
+259,259,,Trento,Trento,,,38080,259
+260,260,,Trento,Trento,Via dei Pini,,38080,260
+261,261,,Trento,Trento,Via Ponte,,38080,261
+262,262,,Trento,Trento,SP34,,38979,262
+263,263,,Trento,Trento,Via Nazionale,,38979,263
+264,264,,Trento,Trento,,,38088,264
+265,265,,Trento,Trento,SS239,,38088,265
+266,266,,Trento,Trento,SS237,,38079,266
+267,267,,Trento,Trento,Via ierta,1,38080,267
+268,268,,Trento,Trento,SS239,,38088,268
+269,269,,Trento,Trento,SP53,,38088,269
+270,270,,Trento,Trento,Via al Sarca,15,38080,270
+271,271,,Trento,Trento,Via Trento,,38071,271
+272,272,,Trento,Trento,Ciclopista del Brenta,,38059,272
+273,273,,Trento,Trento,Ciclopista del Brenta,,38050,273
+274,274,,Trento,Trento,Ciclopista del Brenta,,38059,274
+275,275,,Trento,Trento,Ciclopista del Brenta,,36052,275
+276,276,,Trento,Trento,Ciclopista del Brenta,,36052,276
+277,277,,Trento,Trento,Ciclopista del Brenta,,,277
+278,278,,Trento,Trento,Ciclopista del Brenta,,,278
+279,279,,Trento,Trento,Ciclopista del Brenta,,38059,279
+280,280,,Trento,Trento,,,38055,280
+281,281,,Trento,Trento,Via Zaccon,,38050,281
+282,282,,Trento,Trento,Via Zaccon,,38050,282
+283,283,,Trento,Trento,Via per Santa Giuliana,,38056,283
+284,284,,Trento,Trento,Ciclopista del Brenta,,38056,284
+285,285,,Trento,Trento,Ciclopista del Brenta,,38056,285
+286,286,,Trento,Trento,Ciclopista del Brenta,,38055,286
+287,287,,Trento,Trento,Ciclopista del Brenta,,38055,287
+288,288,,Trento,Trento,Ciclopista del Brenta,,38056,288
+289,289,,Trento,Trento,Via San Silvestro,,,289
+290,290,,Trento,Trento,Via Oltrebrenta,9,38050,290
+291,291,,Trento,Trento,Via Lungo Monti,,,291
+292,292,,Trento,Trento,Ciclopista del Brenta,,38051,292
+293,293,,Trento,Trento,Ciclopista del Brenta,,38050,293
+294,294,,Trento,Trento,Ciclopista del Brenta,,38056,294
+295,295,,Trento,Trento,Ciclopista del Brenta,,38059,295
+296,296,,Trento,Trento,Ciclopista del Brenta,,38051,296
+297,297,,Trento,Trento,Ciclopista del Brenta,,38059,297
+298,298,,Trento,Trento,Ciclopista del Brenta,,38056,298
+299,299,,Trento,Trento,,,38055,299
+300,300,,Trento,Trento,Ciclopista del Brenta,,38050,300
+301,301,,Trento,Trento,Ciclabile della Valsugana,,38052,301
+302,302,,Trento,Trento,Ciclopista del Brenta,,38056,302
+303,303,,Trento,Trento,Ciclopista del Brenta,,38051,303
+304,304,,Trento,Trento,Ciclopista del Brenta,,38056,304
+305,305,,Trento,Trento,,,36052,305
+306,306,,Trento,Trento,,,38055,306
+307,307,,Trento,Trento,Via Pra Minati,,38055,307
+308,308,,Trento,Trento,Via Martini,,38055,308
+309,309,,Trento,Trento,Ciclopista del Brenta,,38059,309
+310,310,,Trento,Trento,Ciclopista del Brenta,,38059,310
+311,311,,Trento,Trento,Pista Ciclabile Valle dell'Adige,,38061,311

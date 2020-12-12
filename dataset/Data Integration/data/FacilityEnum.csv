@@ -1,0 +1,8 @@
+,FacilityEnum,ID
+0,FuelStation,0
+1,ParkingArea,1
+2,RailwayStation,2
+3,BusStation,3
+4,CarSharingPark,4
+5,BikeSharingPark,5
+6,Campsite,6
