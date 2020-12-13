@@ -210,7 +210,7 @@
 							<x0:EntityRelationshipModel.title>Route</x0:EntityRelationshipModel.title>
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
-									<sys:String><![CDATA[RouteID: int]]></sys:String>
+									<sys:String><![CDATA[RouteID: long]]></sys:String>
 									<sys:String><![CDATA[SpeedLimit: int]]></sys:String>
 									<sys:String><![CDATA[StartingPoint: Location]]></sys:String>
 									<sys:String><![CDATA[ArrivalPoint: Location]]></sys:String>
@@ -397,7 +397,7 @@
 							<x0:EntityRelationshipModel.title><![CDATA[Stop (GTFS)]]></x0:EntityRelationshipModel.title>
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
-									<sys:String><![CDATA[StopID: int]]></sys:String>
+									<sys:String><![CDATA[StopID: long]]></sys:String>
 									<sys:String><![CDATA[StopCode: string]]></sys:String>
 									<sys:String><![CDATA[StopName: string]]></sys:String>
 									<sys:String><![CDATA[Location: Location]]></sys:String>
@@ -601,7 +601,7 @@
 							<x0:EntityRelationshipModel.title><![CDATA[Calendar (GTFS)]]></x0:EntityRelationshipModel.title>
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
-									<sys:String><![CDATA[ServiceID: int]]></sys:String>
+									<sys:String><![CDATA[ServiceID: long]]></sys:String>
 									<sys:String><![CDATA[Monday: bool]]></sys:String>
 									<sys:String><![CDATA[Tuesday: bool]]></sys:String>
 									<sys:String><![CDATA[Wednesday: bool]]></sys:String>
@@ -646,7 +646,7 @@
 							<x0:EntityRelationshipModel.title><![CDATA[CalendarDates (GTFS)]]></x0:EntityRelationshipModel.title>
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
-									<sys:String><![CDATA[ServiceID: int]]></sys:String>
+									<sys:String><![CDATA[ServiceID: long]]></sys:String>
 									<sys:String><![CDATA[Date: int]]></sys:String>
 									<sys:String><![CDATA[ExceptionType: int]]></sys:String>
 								</x:Array>
@@ -675,7 +675,7 @@
 								<x:Array Type="sys:Object">
 									<sys:String><![CDATA[ArrivalTime: TimeStamp]]></sys:String>
 									<sys:String><![CDATA[DepartureTime: TimeStamp]]></sys:String>
-									<sys:String><![CDATA[StopID: int]]></sys:String>
+									<sys:String><![CDATA[StopID: long]]></sys:String>
 									<sys:String><![CDATA[StopSequence: int]]></sys:String>
 									<sys:String><![CDATA[Calendar: Calendar]]></sys:String>
 									<sys:String><![CDATA[Stop: Stop]]></sys:String>
@@ -718,7 +718,7 @@
 							<x0:EntityRelationshipModel.title><![CDATA[Agency (GTFS)]]></x0:EntityRelationshipModel.title>
 							<x0:EntityRelationshipModel.attributes>
 								<x:Array Type="sys:Object">
-									<sys:String><![CDATA[AgencyID: int]]></sys:String>
+									<sys:String><![CDATA[AgencyID: long]]></sys:String>
 									<sys:String><![CDATA[AgencyName: string]]></sys:String>
 									<sys:String><![CDATA[AgencyTimezone: string]]></sys:String>
 									<sys:String><![CDATA[AgencyLang: string]]></sys:String>
