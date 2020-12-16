@@ -1,3 +1,4 @@
+
 <?xml version="1.0"?>
 <!DOCTYPE rdf:RDF [
   <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
@@ -308,6 +309,12 @@
     <etype:GID rdf:datatype="&xsd;long">34005</etype:GID>
     <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
   </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_type_GID-103418_Type-22138">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Public_transport_GID-22138"/>
+    <etype:GID rdf:datatype="&xsd;long">103418</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="&etype;has_type_GID-103418_Type-120043">
     <rdfs:range rdf:resource="&etype;ComplexType"/>
     <rdfs:domain rdf:resource="&etype;Private_transport_GID-120043"/>
@@ -495,12 +502,6 @@
     <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
     <rdfs:domain rdf:resource="&etype;Stoptime_GID-120042"/>
     <etype:GID rdf:datatype="&xsd;long">80845</etype:GID>
-    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="&etype;has_address_GID-36400_Type-22592">
-    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
-    <rdfs:domain rdf:resource="&etype;Road_GID-22592"/>
-    <etype:GID rdf:datatype="&xsd;long">36400</etype:GID>
     <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="&etype;has_end_point_GID-46116_Type-22592">
