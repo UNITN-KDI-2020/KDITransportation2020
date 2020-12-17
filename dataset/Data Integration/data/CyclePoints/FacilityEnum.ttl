@@ -1,0 +1,52 @@
+<http://localhost:8080/api/facility_enum_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_0> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "FuelStation" .
+<http://localhost:8080/api/facility_enum_0> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "0" .
+
+<http://localhost:8080/api/facility_enum_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_1> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "ParkingArea" .
+<http://localhost:8080/api/facility_enum_1> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "1" .
+
+<http://localhost:8080/api/facility_enum_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_2> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "RailwayStation" .
+<http://localhost:8080/api/facility_enum_2> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "2" .
+
+<http://localhost:8080/api/facility_enum_3> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "BusStation" .
+<http://localhost:8080/api/facility_enum_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_3> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "3" .
+
+<http://localhost:8080/api/facility_enum_4> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "CarSharingPark" .
+<http://localhost:8080/api/facility_enum_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_4> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "4" .
+
+<http://localhost:8080/api/facility_enum_5> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "BikeSharingPark" .
+<http://localhost:8080/api/facility_enum_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_5> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "5" .
+
+<http://localhost:8080/api/facility_enum_6> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "Campsite" .
+<http://localhost:8080/api/facility_enum_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_6> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "6" .
+
+<http://localhost:8080/api/facility_enum_7> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "Train" .
+<http://localhost:8080/api/facility_enum_7> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "7" .
+<http://localhost:8080/api/facility_enum_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+
+<http://localhost:8080/api/facility_enum_8> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "8" .
+<http://localhost:8080/api/facility_enum_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_8> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "Bus" .
+
+<http://localhost:8080/api/facility_enum_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_9> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "Car" .
+<http://localhost:8080/api/facility_enum_9> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "9" .
+
+<http://localhost:8080/api/facility_enum_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_10> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "10" .
+<http://localhost:8080/api/facility_enum_10> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "CableCar" .
+
+<http://localhost:8080/api/facility_enum_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_11> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "Bike" .
+<http://localhost:8080/api/facility_enum_11> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "11" .
+
+<http://localhost:8080/api/facility_enum_12> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "12" .
+<http://localhost:8080/api/facility_enum_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_enum_12> <http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1> "Foot" .
+
