@@ -31,12 +31,14 @@ if __name__ == "__main__":
     Location = pd.DataFrame(columns=['AddressID','StopId','Latitude','Longitude','Altitude'])
     Calendar = pd.DataFrame(columns=['FacilityID','StopTimesID','ServiceID','Monday','Tuesday','Wednesday',
                                      'Thursday','Friday','Saturday','Sunday','StartDate','EndDate','Exceptions'])
+    Path = pd.DataFrame(columns=[''])
+    Route = pd.DataFrame(columns=['RouteID', ''])                              
     CalendarDates = pd.DataFrame(columns=['CalendarId','ServiceId','Date','ExceptionType'])
 
 
     #Load the file
 
-    json_file_path = '../../dataset/Formal Modeling/data/mountain_paths.json'
+    json_file_path = '../../../dataset/Formal Modeling/data/mountain_paths.json'
 
     with open(json_file_path, 'r') as j:
         mountain_paths = json.loads(j.read())
@@ -77,7 +79,7 @@ if __name__ == "__main__":
 
         
         print('Start exporting datasets...')
-        exportPath = '../../dataset/Data Integration/data/FuelPumps/'
+        exportPath = '../../../dataset/Data Integration/data/MountainPaths/'
         os.mkdir(exportPath)
         Facility.to_csv(exportPath+'Facility.csv')
         Price.to_csv(exportPath+'Price.csv')

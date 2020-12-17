@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
     #Load the file
 
-    json_file_path = '../../dataset/Formal Modeling/data/accomodations_assured.json'
+    json_file_path = '../../../dataset/Formal Modeling/data/accomodations_assured.json'
 
     with open(json_file_path, 'r') as j:
         bikesharing_areas = json.loads(j.read())
@@ -58,6 +58,7 @@ if __name__ == "__main__":
 
             location = address['location']
             contact = record['contact']
+            price = record['price']
 
             # ['AgencyID','FacilityID','Phone','Email','Website']
             Contact.loc[i] = [None, i, contact['phone'], contact['email'], contact['website']]
@@ -70,15 +71,14 @@ if __name__ == "__main__":
 
             # ['FacilityID','RouteID','Price','Contact','FacilityEnum','Address','Calendar']
             Facility.loc[i] = [i, None, None, i, 6, i, None]
-
-
-
-
-
+            
+            # ['FacilityID','TicketID','AutonomousTransportID','Cost','CurrencyType']
+            Price.loc[i] = [i, None, None, price['cost'], price['currency_type']]
+            
         
         print('Start exporting datasets...')
-        exportPath = '../../dataset/Data Integration/data/Accomodation/'
-        os.mkdir(exportPath)
+        exportPath = '../../../dataset/Data Integration/data/Accomodation/'
+        # os.mkdir(exportPath)
         Facility.to_csv(exportPath+'Facility.csv')
         Price.to_csv(exportPath+'Price.csv')
         Contact.to_csv(exportPath+'Contact.csv')

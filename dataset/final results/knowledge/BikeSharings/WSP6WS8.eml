@@ -1,0 +1,798 @@
+[
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["P.le Orsi"],
+            "45988": ["Rovereto"],
+            "39085": ["120023"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Perosi / Via Puccini"],
+            "45988": ["Rovereto"],
+            "39085": ["120011"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["2"],
+            "45807": ["piazzale Zuffo"],
+            "45988": ["Trento"],
+            "39085": ["120051"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Carducci"],
+            "45988": ["Mezzolombardo"],
+            "39085": ["120007"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["1"],
+            "45807": ["P.za Rosmini "],
+            "45988": ["Rovereto"],
+            "39085": ["120019"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Pranzelores / Via Giuseppe Gilli"],
+            "45988": ["Trento"],
+            "39085": ["120047"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["78"],
+            "45807": ["Via S. Croce "],
+            "45988": ["Trento"],
+            "39085": ["120035"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["P.za Guella / Via Montello"],
+            "45988": ["Rovereto"],
+            "39085": ["120012"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Piazza Grazioli"],
+            "45988": ["Lavis"],
+            "39085": ["120000"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Corso del Lavoro e della Scienza"],
+            "45988": ["Trento"],
+            "39085": ["120040"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["4"],
+            "45807": ["Via San Francesco"],
+            "45988": ["Mezzolombardo"],
+            "39085": ["120008"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["via Madruzzo / via Rosmini"],
+            "45988": ["Trento"],
+            "39085": ["120036"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Stazione Mori"],
+            "45988": ["Rovereto"],
+            "39085": ["120024"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["50"],
+            "45807": ["Via Rosmini "],
+            "45988": ["Trento"],
+            "39085": ["120048"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Piazza della Croce"],
+            "45988": ["Lavis"],
+            "39085": ["120001"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["30"],
+            "45807": ["P.za della Mostra "],
+            "45988": ["Trento"],
+            "39085": ["120041"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["via Della Roggia"],
+            "45988": ["Rovereto"],
+            "39085": ["120009"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Manzoni / Via Paoli"],
+            "45988": ["Rovereto"],
+            "39085": ["120025"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["2"],
+            "45807": ["Via  novembre / via Alveo"],
+            "45988": ["Rovereto"],
+            "39085": ["120013"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["piazza Dante / via Vannetti"],
+            "45988": ["Trento"],
+            "39085": ["120049"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["99"],
+            "45807": ["via Del Brennero "],
+            "45988": ["Trento"],
+            "39085": ["120037"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["P.le di Centa / Via Vannetti"],
+            "45988": ["Trento"],
+            "39085": ["120042"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Lidorno / Aeroporto Caproni"],
+            "45988": ["Trento"],
+            "39085": ["120030"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Bettini Museo Mart"],
+            "45988": ["Rovereto"],
+            "39085": ["120014"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Stazione"],
+            "45988": ["Lavis"],
+            "39085": ["120002"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via IV Novembre / Piscina"],
+            "45988": ["Trento"],
+            "39085": ["120038"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Piazzetta Scrinzi"],
+            "45988": ["Rovereto"],
+            "39085": ["120026"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Grazioli / P.za Venezia"],
+            "45988": ["Trento"],
+            "39085": ["120043"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via De Gasperi"],
+            "45988": ["Trento"],
+            "39085": ["120031"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Lidorno / Park Trento Sud"],
+            "45988": ["Trento"],
+            "39085": ["120039"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Piazza San Gottardo"],
+            "45988": ["Mezzocorona"],
+            "39085": ["120003"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Caproni Park Laghiol"],
+            "45988": ["Rovereto"],
+            "39085": ["120027"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["11"],
+            "45807": ["Via Calcinari fr. civ. "],
+            "45988": ["Rovereto"],
+            "39085": ["120015"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Bezzi / Via Vittorio Veneto"],
+            "45988": ["Trento"],
+            "39085": ["120032"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Udine"],
+            "45988": ["Rovereto"],
+            "39085": ["120020"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Fogazzaro / Via Gocciadoro"],
+            "45988": ["Trento"],
+            "39085": ["120044"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via S.F. Biasi c/o Fond. Mach"],
+            "45988": ["San Michele all'Adige"],
+            "39085": ["120028"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Noriglio / ex scuola D. Chiesa"],
+            "45988": ["Rovereto"],
+            "39085": ["120016"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["19"],
+            "45807": ["Via Cavalleggeri"],
+            "45988": ["Mezzocorona"],
+            "39085": ["120004"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["3"],
+            "45807": ["Via Palestrina "],
+            "45988": ["Rovereto"],
+            "39085": ["120021"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Pozzo / Via Torre Vanga"],
+            "45988": ["Trento"],
+            "39085": ["120045"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Alfieri / Via Torre Vanga"],
+            "45988": ["Trento"],
+            "39085": ["120033"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["1"],
+            "45807": ["Via San Francesco Biasi "],
+            "45988": ["San Michele all'Adige"],
+            "39085": ["120029"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via del Garda / Via dell\u2019Industria"],
+            "45988": ["Rovereto"],
+            "39085": ["120017"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Piazza Trento"],
+            "45988": ["Mezzocorona"],
+            "39085": ["120005"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["10"],
+            "45807": ["Via Antonio Balista "],
+            "45988": ["Rovereto"],
+            "39085": ["120010"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["75"],
+            "45807": ["Via Guardini fr. civ. "],
+            "45988": ["Trento"],
+            "39085": ["120034"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Vittoria / Via Unione"],
+            "45988": ["Rovereto"],
+            "39085": ["120022"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["1"],
+            "45807": ["piazzale Zuffo"],
+            "45988": ["Trento"],
+            "39085": ["120050"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["C.so Verona Park Ospedale Nuovo"],
+            "45988": ["Rovereto"],
+            "39085": ["120018"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "34489": ["1"],
+            "45807": ["via Cavalleggeri Udine "],
+            "45988": ["Mezzolombardo"],
+            "39085": ["120006"]
+        },
+        "type": 36400
+    },
+    {
+        "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+        "attributes": {
+            "132": [{
+                "provenance": "StarLinker import @Thu Dec 17 18:28:25 GMT 2020",
+                "attributes": {},
+                "type": 132
+            }],
+            "46567": ["Trento"],
+            "45807": ["Via Gocciadoro"],
+            "45988": ["Trento"],
+            "39085": ["120046"]
+        },
+        "type": 36400
+    }
+]

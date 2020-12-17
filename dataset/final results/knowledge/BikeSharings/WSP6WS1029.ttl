@@ -1,0 +1,260 @@
+<http://localhost:8080/api/location_120000> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.111428140771086" .
+<http://localhost:8080/api/location_120000> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.13979665068481" .
+<http://localhost:8080/api/location_120000> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120000" .
+<http://localhost:8080/api/location_120000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+
+<http://localhost:8080/api/location_120001> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.106639504499894" .
+<http://localhost:8080/api/location_120001> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120001" .
+<http://localhost:8080/api/location_120001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120001> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.15356728074421" .
+
+<http://localhost:8080/api/location_120002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120002> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.096854210493252" .
+<http://localhost:8080/api/location_120002> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.14811056416327" .
+<http://localhost:8080/api/location_120002> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120002" .
+
+<http://localhost:8080/api/location_120003> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120003" .
+<http://localhost:8080/api/location_120003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120003> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.11867249384243" .
+<http://localhost:8080/api/location_120003> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.21425992031754" .
+
+<http://localhost:8080/api/location_120004> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120004" .
+<http://localhost:8080/api/location_120004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120004> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.120071411726162" .
+<http://localhost:8080/api/location_120004> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.21604742113538" .
+
+<http://localhost:8080/api/location_120005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120005> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120005" .
+<http://localhost:8080/api/location_120005> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.20661229117257" .
+<http://localhost:8080/api/location_120005> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.127350324192488" .
+
+<http://localhost:8080/api/location_120006> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.087624429371784" .
+<http://localhost:8080/api/location_120006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120006> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.21610309842586" .
+<http://localhost:8080/api/location_120006> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120006" .
+
+<http://localhost:8080/api/location_120007> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120007" .
+<http://localhost:8080/api/location_120007> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.21245958241063" .
+<http://localhost:8080/api/location_120007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120007> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.094517706968276" .
+
+<http://localhost:8080/api/location_120008> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.093116402922714" .
+<http://localhost:8080/api/location_120008> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120008" .
+<http://localhost:8080/api/location_120008> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.21346390439162" .
+<http://localhost:8080/api/location_120008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+
+<http://localhost:8080/api/location_120009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120009> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.8805278" .
+<http://localhost:8080/api/location_120009> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.02875" .
+<http://localhost:8080/api/location_120009> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120009" .
+
+<http://localhost:8080/api/location_120010> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.03036572611154" .
+<http://localhost:8080/api/location_120010> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120010" .
+<http://localhost:8080/api/location_120010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120010> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.896175282432274" .
+
+<http://localhost:8080/api/location_120011> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.044299836454002" .
+<http://localhost:8080/api/location_120011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120011> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.90421911950808" .
+<http://localhost:8080/api/location_120011> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120011" .
+
+<http://localhost:8080/api/location_120012> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120012" .
+<http://localhost:8080/api/location_120012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120012> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.031902417860465" .
+<http://localhost:8080/api/location_120012> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.8675281353871" .
+
+<http://localhost:8080/api/location_120013> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.008448922615116" .
+<http://localhost:8080/api/location_120013> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120013" .
+<http://localhost:8080/api/location_120013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120013> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.84133938920707" .
+
+<http://localhost:8080/api/location_120014> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.89383120606002" .
+<http://localhost:8080/api/location_120014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120014> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120014" .
+<http://localhost:8080/api/location_120014> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.043776690807363" .
+
+<http://localhost:8080/api/location_120015> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.88700893072052" .
+<http://localhost:8080/api/location_120015> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.04421812261512" .
+<http://localhost:8080/api/location_120015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120015> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120015" .
+
+<http://localhost:8080/api/location_120016> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.070399481792492" .
+<http://localhost:8080/api/location_120016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120016> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.88365364364294" .
+<http://localhost:8080/api/location_120016> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120016" .
+
+<http://localhost:8080/api/location_120017> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120017" .
+<http://localhost:8080/api/location_120017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120017> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.87202945143379" .
+<http://localhost:8080/api/location_120017> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.020309774135626" .
+
+<http://localhost:8080/api/location_120018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120018> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120018" .
+<http://localhost:8080/api/location_120018> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.88226500641319" .
+<http://localhost:8080/api/location_120018> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.040281016146878" .
+
+<http://localhost:8080/api/location_120019> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.043363036887968" .
+<http://localhost:8080/api/location_120019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120019> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120019" .
+<http://localhost:8080/api/location_120019> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.89102037579931" .
+
+<http://localhost:8080/api/location_120020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120020> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.88445275840435" .
+<http://localhost:8080/api/location_120020> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.033651829062546" .
+<http://localhost:8080/api/location_120020> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120020" .
+
+<http://localhost:8080/api/location_120021> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120021" .
+<http://localhost:8080/api/location_120021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120021> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.90050916437712" .
+<http://localhost:8080/api/location_120021> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.036815184130887" .
+
+<http://localhost:8080/api/location_120022> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120022" .
+<http://localhost:8080/api/location_120022> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.88477528345004" .
+<http://localhost:8080/api/location_120022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120022> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.023286167216156" .
+
+<http://localhost:8080/api/location_120023> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120023" .
+<http://localhost:8080/api/location_120023> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.89125332494616" .
+<http://localhost:8080/api/location_120023> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.03489086508182" .
+<http://localhost:8080/api/location_120023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+
+<http://localhost:8080/api/location_120024> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.861171706692836" .
+<http://localhost:8080/api/location_120024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120024> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120024" .
+<http://localhost:8080/api/location_120024> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.001933217048647" .
+
+<http://localhost:8080/api/location_120025> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.039904616532908" .
+<http://localhost:8080/api/location_120025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120025> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120025" .
+<http://localhost:8080/api/location_120025> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.89177380040726" .
+
+<http://localhost:8080/api/location_120026> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120026" .
+<http://localhost:8080/api/location_120026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120026> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.031688259394059" .
+<http://localhost:8080/api/location_120026> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.91594639958107" .
+
+<http://localhost:8080/api/location_120027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120027> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.015673193887324" .
+<http://localhost:8080/api/location_120027> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "45.86630335827336" .
+<http://localhost:8080/api/location_120027> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120027" .
+
+<http://localhost:8080/api/location_120028> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.19131219731996" .
+<http://localhost:8080/api/location_120028> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.135137084143805" .
+<http://localhost:8080/api/location_120028> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120028" .
+<http://localhost:8080/api/location_120028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+
+<http://localhost:8080/api/location_120029> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.192586343220725" .
+<http://localhost:8080/api/location_120029> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.133782863353856" .
+<http://localhost:8080/api/location_120029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120029> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120029" .
+
+<http://localhost:8080/api/location_120030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120030> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.01983619754026" .
+<http://localhost:8080/api/location_120030> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.127080654939277" .
+<http://localhost:8080/api/location_120030> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120030" .
+
+<http://localhost:8080/api/location_120031> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120031" .
+<http://localhost:8080/api/location_120031> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.044433415996814" .
+<http://localhost:8080/api/location_120031> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.12804971230321" .
+<http://localhost:8080/api/location_120031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+
+<http://localhost:8080/api/location_120032> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120032" .
+<http://localhost:8080/api/location_120032> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.058020904033015" .
+<http://localhost:8080/api/location_120032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120032> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.119315767528406" .
+
+<http://localhost:8080/api/location_120033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120033> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.121399842327946" .
+<http://localhost:8080/api/location_120033> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.07043395910254" .
+<http://localhost:8080/api/location_120033> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120033" .
+
+<http://localhost:8080/api/location_120034> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.117693389024225" .
+<http://localhost:8080/api/location_120034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120034> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.094653868146885" .
+<http://localhost:8080/api/location_120034> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120034" .
+
+<http://localhost:8080/api/location_120035> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120035" .
+<http://localhost:8080/api/location_120035> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.12375366752849" .
+<http://localhost:8080/api/location_120035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120035> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.06345393738132" .
+
+<http://localhost:8080/api/location_120036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120036> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.063653753791996" .
+<http://localhost:8080/api/location_120036> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120036" .
+<http://localhost:8080/api/location_120036> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.119203004368615" .
+
+<http://localhost:8080/api/location_120037> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.119624973661725" .
+<http://localhost:8080/api/location_120037> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120037" .
+<http://localhost:8080/api/location_120037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120037> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.083939246923265" .
+
+<http://localhost:8080/api/location_120038> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.10407094472173" .
+<http://localhost:8080/api/location_120038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120038> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.112932473016372" .
+<http://localhost:8080/api/location_120038> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120038" .
+
+<http://localhost:8080/api/location_120039> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120039" .
+<http://localhost:8080/api/location_120039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120039> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.126252122229062" .
+<http://localhost:8080/api/location_120039> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.03316279422745" .
+
+<http://localhost:8080/api/location_120040> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120040" .
+<http://localhost:8080/api/location_120040> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.06137765005302" .
+<http://localhost:8080/api/location_120040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120040> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.116027144580812" .
+
+<http://localhost:8080/api/location_120041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120041> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120041" .
+<http://localhost:8080/api/location_120041> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.125761136176266" .
+<http://localhost:8080/api/location_120041> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.071784324082046" .
+
+<http://localhost:8080/api/location_120042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120042> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.07538723420181" .
+<http://localhost:8080/api/location_120042> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120042" .
+<http://localhost:8080/api/location_120042> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.12382177686004" .
+
+<http://localhost:8080/api/location_120043> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.126987115869156" .
+<http://localhost:8080/api/location_120043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120043> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.06753791402558" .
+<http://localhost:8080/api/location_120043> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120043" .
+
+<http://localhost:8080/api/location_120044> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120044" .
+<http://localhost:8080/api/location_120044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120044> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.05627509524844" .
+<http://localhost:8080/api/location_120044> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.13094278895494" .
+
+<http://localhost:8080/api/location_120045> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.119849430688419" .
+<http://localhost:8080/api/location_120045> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120045" .
+<http://localhost:8080/api/location_120045> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.07023563810641" .
+<http://localhost:8080/api/location_120045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+
+<http://localhost:8080/api/location_120046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120046> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120046" .
+<http://localhost:8080/api/location_120046> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.054586705531555" .
+<http://localhost:8080/api/location_120046> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.135349258821861" .
+
+<http://localhost:8080/api/location_120047> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.118583717279193" .
+<http://localhost:8080/api/location_120047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120047> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120047" .
+<http://localhost:8080/api/location_120047> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.09010372321067" .
+
+<http://localhost:8080/api/location_120048> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.06632943181332" .
+<http://localhost:8080/api/location_120048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120048> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.119020308598351" .
+<http://localhost:8080/api/location_120048> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120048" .
+
+<http://localhost:8080/api/location_120049> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120049" .
+<http://localhost:8080/api/location_120049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120049> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.121911281089751" .
+<http://localhost:8080/api/location_120049> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.072996732945235" .
+
+<http://localhost:8080/api/location_120050> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120050" .
+<http://localhost:8080/api/location_120050> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.109941605738777" .
+<http://localhost:8080/api/location_120050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120050> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.07516784166884" .
+
+<http://localhost:8080/api/location_120051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/location_120051> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "120051" .
+<http://localhost:8080/api/location_120051> <http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132> "11.109325880468887" .
+<http://localhost:8080/api/location_120051> <http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132> "46.07508100896583" .
+
