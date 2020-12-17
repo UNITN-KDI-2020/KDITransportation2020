@@ -1,0 +1,63 @@
+<http://localhost:8080/api/facility_400> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-3012> "400" .
+<http://localhost:8080/api/address_400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/contact_400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/facility_enum_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_GID-3012> .
+<http://localhost:8080/api/facility_400> <http://knowdive.disi.unitn.it/etype#has_address_GID-36400_Type-22592> <http://localhost:8080/api/address_400> .
+<http://localhost:8080/api/facility_400> <http://knowdive.disi.unitn.it/etype#has_type_GID-103418_Type-3012> <http://localhost:8080/api/facility_enum_4> .
+<http://localhost:8080/api/facility_400> <http://knowdive.disi.unitn.it/etype#has_contact_GID-39136_Type-3012> <http://localhost:8080/api/contact_400> .
+
+<http://localhost:8080/api/contact_401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/facility_401> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-3012> "401" .
+<http://localhost:8080/api/address_401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/facility_enum_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_401> <http://knowdive.disi.unitn.it/etype#has_contact_GID-39136_Type-3012> <http://localhost:8080/api/contact_401> .
+<http://localhost:8080/api/facility_401> <http://knowdive.disi.unitn.it/etype#has_address_GID-36400_Type-22592> <http://localhost:8080/api/address_401> .
+<http://localhost:8080/api/facility_401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_GID-3012> .
+<http://localhost:8080/api/facility_401> <http://knowdive.disi.unitn.it/etype#has_type_GID-103418_Type-3012> <http://localhost:8080/api/facility_enum_4> .
+
+<http://localhost:8080/api/facility_402> <http://knowdive.disi.unitn.it/etype#has_address_GID-36400_Type-22592> <http://localhost:8080/api/address_402> .
+<http://localhost:8080/api/facility_402> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_GID-3012> .
+<http://localhost:8080/api/facility_enum_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_402> <http://knowdive.disi.unitn.it/etype#has_type_GID-103418_Type-3012> <http://localhost:8080/api/facility_enum_4> .
+<http://localhost:8080/api/contact_402> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/facility_402> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-3012> "402" .
+<http://localhost:8080/api/facility_402> <http://knowdive.disi.unitn.it/etype#has_contact_GID-39136_Type-3012> <http://localhost:8080/api/contact_402> .
+<http://localhost:8080/api/address_402> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+
+<http://localhost:8080/api/address_403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/facility_enum_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_GID-3012> .
+<http://localhost:8080/api/facility_403> <http://knowdive.disi.unitn.it/etype#has_contact_GID-39136_Type-3012> <http://localhost:8080/api/contact_403> .
+<http://localhost:8080/api/facility_403> <http://knowdive.disi.unitn.it/etype#has_type_GID-103418_Type-3012> <http://localhost:8080/api/facility_enum_4> .
+<http://localhost:8080/api/facility_403> <http://knowdive.disi.unitn.it/etype#has_address_GID-36400_Type-22592> <http://localhost:8080/api/address_403> .
+<http://localhost:8080/api/facility_403> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-3012> "403" .
+<http://localhost:8080/api/contact_403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+
+<http://localhost:8080/api/facility_404> <http://knowdive.disi.unitn.it/etype#has_type_GID-103418_Type-3012> <http://localhost:8080/api/facility_enum_4> .
+<http://localhost:8080/api/facility_404> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-3012> "404" .
+<http://localhost:8080/api/address_404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/facility_enum_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/contact_404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/facility_404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_GID-3012> .
+<http://localhost:8080/api/facility_404> <http://knowdive.disi.unitn.it/etype#has_contact_GID-39136_Type-3012> <http://localhost:8080/api/contact_404> .
+<http://localhost:8080/api/facility_404> <http://knowdive.disi.unitn.it/etype#has_address_GID-36400_Type-22592> <http://localhost:8080/api/address_404> .
+
+<http://localhost:8080/api/facility_405> <http://knowdive.disi.unitn.it/etype#has_contact_GID-39136_Type-3012> <http://localhost:8080/api/contact_405> .
+<http://localhost:8080/api/facility_405> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-3012> "405" .
+<http://localhost:8080/api/facility_enum_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/facility_405> <http://knowdive.disi.unitn.it/etype#has_type_GID-103418_Type-3012> <http://localhost:8080/api/facility_enum_4> .
+<http://localhost:8080/api/facility_405> <http://knowdive.disi.unitn.it/etype#has_address_GID-36400_Type-22592> <http://localhost:8080/api/address_405> .
+<http://localhost:8080/api/facility_405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_GID-3012> .
+<http://localhost:8080/api/contact_405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/address_405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+
+<http://localhost:8080/api/facility_406> <http://knowdive.disi.unitn.it/etype#has_type_GID-103418_Type-3012> <http://localhost:8080/api/facility_enum_4> .
+<http://localhost:8080/api/facility_406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_GID-3012> .
+<http://localhost:8080/api/facility_406> <http://knowdive.disi.unitn.it/etype#has_address_GID-36400_Type-22592> <http://localhost:8080/api/address_406> .
+<http://localhost:8080/api/facility_enum_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Enumeration_GID-34789> .
+<http://localhost:8080/api/contact_406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/address_406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/facility_406> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-3012> "406" .
+<http://localhost:8080/api/facility_406> <http://knowdive.disi.unitn.it/etype#has_contact_GID-39136_Type-3012> <http://localhost:8080/api/contact_406> .
+

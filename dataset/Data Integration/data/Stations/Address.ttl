@@ -1,0 +1,89 @@
+<http://localhost:8080/api/address_0> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_0> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via Dogana,San Martino" .
+<http://localhost:8080/api/location_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/address_0> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38122" .
+<http://localhost:8080/api/address_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/address_0> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "0" .
+<http://localhost:8080/api/address_0> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/address_0> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_0> .
+
+<http://localhost:8080/api/address_1> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_1> .
+<http://localhost:8080/api/address_1> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/address_1> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via Dogana,San Martino" .
+<http://localhost:8080/api/address_1> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "1" .
+<http://localhost:8080/api/address_1> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_1> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38122" .
+<http://localhost:8080/api/location_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/address_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+
+<http://localhost:8080/api/location_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/address_2> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "2" .
+<http://localhost:8080/api/address_2> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_2> .
+<http://localhost:8080/api/address_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/address_2> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38121" .
+<http://localhost:8080/api/address_2> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_2> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/address_2> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via Giambattista Unterveger,Nord Center" .
+
+<http://localhost:8080/api/address_3> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_3> .
+<http://localhost:8080/api/address_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/address_3> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_3> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/address_3> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "3" .
+<http://localhost:8080/api/address_3> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38121" .
+<http://localhost:8080/api/location_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+
+<http://localhost:8080/api/address_4> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via Ora del Garda,Ghiaie di Gardolo" .
+<http://localhost:8080/api/address_4> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38015" .
+<http://localhost:8080/api/address_4> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_4> .
+<http://localhost:8080/api/address_4> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "4" .
+<http://localhost:8080/api/location_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/address_4> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_4> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/address_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+
+<http://localhost:8080/api/address_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/address_5> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "5" .
+<http://localhost:8080/api/address_5> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/address_5> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38015" .
+<http://localhost:8080/api/location_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/address_5> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via Alto Adige,Lamar" .
+<http://localhost:8080/api/address_5> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_5> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_5> .
+
+<http://localhost:8080/api/address_6> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_6> .
+<http://localhost:8080/api/address_6> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "6" .
+<http://localhost:8080/api/address_6> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via Gocciadoro,San Bartolameo" .
+<http://localhost:8080/api/address_6> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/location_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/address_6> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38128" .
+<http://localhost:8080/api/address_6> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+
+<http://localhost:8080/api/address_7> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_7> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "7" .
+<http://localhost:8080/api/address_7> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via della Malpensada,San Bartolameo" .
+<http://localhost:8080/api/address_7> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38128" .
+<http://localhost:8080/api/location_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/address_7> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_7> .
+<http://localhost:8080/api/address_7> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/address_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+
+<http://localhost:8080/api/address_8> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_8> .
+<http://localhost:8080/api/address_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/address_8> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38128" .
+<http://localhost:8080/api/address_8> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+<http://localhost:8080/api/address_8> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "8" .
+<http://localhost:8080/api/address_8> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_8> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via Asiago,Villazzano" .
+<http://localhost:8080/api/location_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+
+<http://localhost:8080/api/address_9> <http://knowdive.disi.unitn.it/etype#has_zip_code_GID-34110_Type-36400> "38100" .
+<http://localhost:8080/api/location_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Location_GID-132> .
+<http://localhost:8080/api/address_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Address_GID-36400> .
+<http://localhost:8080/api/address_9> <http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-36400> <http://localhost:8080/api/location_9> .
+<http://localhost:8080/api/address_9> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "9" .
+<http://localhost:8080/api/address_9> <http://knowdive.disi.unitn.it/etype#has_city_GID-45988_Type-36400> "Trento" .
+<http://localhost:8080/api/address_9> <http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-36400> "Via Mesiano,Bolghera" .
+<http://localhost:8080/api/address_9> <http://knowdive.disi.unitn.it/etype#has_state_GID-46567_Type-36400> "Trentino-Alto Adige/Südtirol" .
+
