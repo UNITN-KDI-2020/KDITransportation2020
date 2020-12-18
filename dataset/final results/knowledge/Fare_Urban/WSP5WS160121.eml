@@ -1,0 +1,242 @@
+[
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["2.50"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 607-Biglietto Urbano Giornaliero Alto Garda"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.00"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 702-Biglietto Urbano Pergine 70 Minuti"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.40"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 445-Biglietto Urbano Pda Rovereto 180 Min"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.30"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 450-Biglietto Urbano Alto Garda 120 Min"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["3.00"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 613-Biglietto Funivia Trento-Sardagna Andata"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.50"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 435-Biglietto Urbano Trento 120 Min"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["2.60"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 742-Biglietto Urbano Giornaliero Pergine"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.00"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 442-Biglietto Urbano Pda Rovereto 70 min"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["5.00"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 794-Biglietto Funivia Sardagna Andata E Ritorno"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.30"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 709-Biglietto Urbano Pergine 150 Minuti"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.20"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 318-Biglietto Urbano Trento 70 Minuti"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.00"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 314-Biglietto Urbano Alto Garda 70 Min"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["1.50"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 729-Biglietto Giornaliero Linea A Rovereto"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["2.50"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 446-Biglietto Urbano Giornaliero Pda Rovereto"]
+        },
+        "type": 111874
+    },
+    {
+        "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+        "attributes": {
+            "28431": [{
+                "provenance": "StarLinker import @Fri Dec 18 01:16:41 GMT 2020",
+                "attributes": {
+                    "120061": ["\u20ac"],
+                    "70407": ["3.00"]
+                },
+                "type": 28431
+            }],
+            "120074": ["1"],
+            "39085": ["URB_INTERA 397-Biglietto Urbano Giornaliero Trento"]
+        },
+        "type": 111874
+    }
+]

@@ -1,0 +1,17 @@
+[{
+    "provenance": "StarLinker import @Thu Dec 17 22:59:15 GMT 2020",
+    "attributes": {
+        "120058": ["Trentino trasporti esercizio S.p.A."],
+        "39136": [{
+            "provenance": "StarLinker import @Thu Dec 17 22:59:15 GMT 2020",
+            "attributes": {
+                "34485": ["+39 0461 821000"],
+                "39085": ["200012"]
+            },
+            "type": 120109
+        }],
+        "39085": ["12"],
+        "120060": ["it"]
+    },
+    "type": 45084
+}]

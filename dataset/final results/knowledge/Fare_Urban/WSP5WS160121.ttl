@@ -1,0 +1,120 @@
+<http://localhost:8080/api/ticket_URB_INTERA%20314-Biglietto%20Urbano%20Alto%20Garda%2070%20Min> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900000> .
+<http://localhost:8080/api/ticket_URB_INTERA%20314-Biglietto%20Urbano%20Alto%20Garda%2070%20Min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_URB_INTERA%20314-Biglietto%20Urbano%20Alto%20Garda%2070%20Min> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 314-Biglietto Urbano Alto Garda 70 Min" .
+<http://localhost:8080/api/price_900000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_900000> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.00" .
+<http://localhost:8080/api/ticket_URB_INTERA%20314-Biglietto%20Urbano%20Alto%20Garda%2070%20Min> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900000> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+
+<http://localhost:8080/api/price_900001> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.00" .
+<http://localhost:8080/api/ticket_URB_INTERA%20442-Biglietto%20Urbano%20Pda%20Rovereto%2070%20min> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 442-Biglietto Urbano Pda Rovereto 70 min" .
+<http://localhost:8080/api/price_900001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20442-Biglietto%20Urbano%20Pda%20Rovereto%2070%20min> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900001> .
+<http://localhost:8080/api/ticket_URB_INTERA%20442-Biglietto%20Urbano%20Pda%20Rovereto%2070%20min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_900001> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20442-Biglietto%20Urbano%20Pda%20Rovereto%2070%20min> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+
+<http://localhost:8080/api/ticket_URB_INTERA%20702-Biglietto%20Urbano%20Pergine%2070%20Minuti> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900002> .
+<http://localhost:8080/api/ticket_URB_INTERA%20702-Biglietto%20Urbano%20Pergine%2070%20Minuti> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900002> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20702-Biglietto%20Urbano%20Pergine%2070%20Minuti> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 702-Biglietto Urbano Pergine 70 Minuti" .
+<http://localhost:8080/api/ticket_URB_INTERA%20702-Biglietto%20Urbano%20Pergine%2070%20Minuti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_900002> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.00" .
+<http://localhost:8080/api/price_900002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+
+<http://localhost:8080/api/price_900003> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20318-Biglietto%20Urbano%20Trento%2070%20Minuti> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20318-Biglietto%20Urbano%20Trento%2070%20Minuti> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900003> .
+<http://localhost:8080/api/price_900003> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.20" .
+<http://localhost:8080/api/ticket_URB_INTERA%20318-Biglietto%20Urbano%20Trento%2070%20Minuti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_URB_INTERA%20318-Biglietto%20Urbano%20Trento%2070%20Minuti> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 318-Biglietto Urbano Trento 70 Minuti" .
+
+<http://localhost:8080/api/price_900004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20450-Biglietto%20Urbano%20Alto%20Garda%20120%20Min> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 450-Biglietto Urbano Alto Garda 120 Min" .
+<http://localhost:8080/api/ticket_URB_INTERA%20450-Biglietto%20Urbano%20Alto%20Garda%20120%20Min> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900004> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.30" .
+<http://localhost:8080/api/ticket_URB_INTERA%20450-Biglietto%20Urbano%20Alto%20Garda%20120%20Min> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900004> .
+<http://localhost:8080/api/ticket_URB_INTERA%20450-Biglietto%20Urbano%20Alto%20Garda%20120%20Min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_900004> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+
+<http://localhost:8080/api/ticket_URB_INTERA%20709-Biglietto%20Urbano%20Pergine%20150%20Minuti> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900005> .
+<http://localhost:8080/api/ticket_URB_INTERA%20709-Biglietto%20Urbano%20Pergine%20150%20Minuti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_900005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20709-Biglietto%20Urbano%20Pergine%20150%20Minuti> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_URB_INTERA%20709-Biglietto%20Urbano%20Pergine%20150%20Minuti> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 709-Biglietto Urbano Pergine 150 Minuti" .
+<http://localhost:8080/api/price_900005> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_900005> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.30" .
+
+<http://localhost:8080/api/ticket_URB_INTERA%20445-Biglietto%20Urbano%20Pda%20Rovereto%20180%20Min> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 445-Biglietto Urbano Pda Rovereto 180 Min" .
+<http://localhost:8080/api/price_900006> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.40" .
+<http://localhost:8080/api/ticket_URB_INTERA%20445-Biglietto%20Urbano%20Pda%20Rovereto%20180%20Min> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_900006> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20445-Biglietto%20Urbano%20Pda%20Rovereto%20180%20Min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_URB_INTERA%20445-Biglietto%20Urbano%20Pda%20Rovereto%20180%20Min> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900006> .
+
+<http://localhost:8080/api/price_900007> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.50" .
+<http://localhost:8080/api/ticket_URB_INTERA%20435-Biglietto%20Urbano%20Trento%20120%20Min> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900007> .
+<http://localhost:8080/api/ticket_URB_INTERA%20435-Biglietto%20Urbano%20Trento%20120%20Min> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 435-Biglietto Urbano Trento 120 Min" .
+<http://localhost:8080/api/ticket_URB_INTERA%20435-Biglietto%20Urbano%20Trento%20120%20Min> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_900007> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20435-Biglietto%20Urbano%20Trento%20120%20Min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
+<http://localhost:8080/api/ticket_URB_INTERA%20729-Biglietto%20Giornaliero%20Linea%20A%20Rovereto> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_URB_INTERA%20729-Biglietto%20Giornaliero%20Linea%20A%20Rovereto> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 729-Biglietto Giornaliero Linea A Rovereto" .
+<http://localhost:8080/api/price_900008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20729-Biglietto%20Giornaliero%20Linea%20A%20Rovereto> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900008> .
+<http://localhost:8080/api/price_900008> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "1.50" .
+<http://localhost:8080/api/price_900008> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20729-Biglietto%20Giornaliero%20Linea%20A%20Rovereto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
+<http://localhost:8080/api/price_900009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20446-Biglietto%20Urbano%20Giornaliero%20Pda%20Rovereto> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900009> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20446-Biglietto%20Urbano%20Giornaliero%20Pda%20Rovereto> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 446-Biglietto Urbano Giornaliero Pda Rovereto" .
+<http://localhost:8080/api/ticket_URB_INTERA%20446-Biglietto%20Urbano%20Giornaliero%20Pda%20Rovereto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_URB_INTERA%20446-Biglietto%20Urbano%20Giornaliero%20Pda%20Rovereto> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900009> .
+<http://localhost:8080/api/price_900009> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.50" .
+
+<http://localhost:8080/api/price_900010> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_900010> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.50" .
+<http://localhost:8080/api/ticket_URB_INTERA%20607-Biglietto%20Urbano%20Giornaliero%20Alto%20Garda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_URB_INTERA%20607-Biglietto%20Urbano%20Giornaliero%20Alto%20Garda> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_URB_INTERA%20607-Biglietto%20Urbano%20Giornaliero%20Alto%20Garda> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900010> .
+<http://localhost:8080/api/price_900010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20607-Biglietto%20Urbano%20Giornaliero%20Alto%20Garda> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 607-Biglietto Urbano Giornaliero Alto Garda" .
+
+<http://localhost:8080/api/ticket_URB_INTERA%20742-Biglietto%20Urbano%20Giornaliero%20Pergine> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900011> .
+<http://localhost:8080/api/ticket_URB_INTERA%20742-Biglietto%20Urbano%20Giornaliero%20Pergine> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 742-Biglietto Urbano Giornaliero Pergine" .
+<http://localhost:8080/api/ticket_URB_INTERA%20742-Biglietto%20Urbano%20Giornaliero%20Pergine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_900011> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20742-Biglietto%20Urbano%20Giornaliero%20Pergine> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_900011> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.60" .
+
+<http://localhost:8080/api/ticket_URB_INTERA%20397-Biglietto%20Urbano%20Giornaliero%20Trento> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900012> .
+<http://localhost:8080/api/ticket_URB_INTERA%20397-Biglietto%20Urbano%20Giornaliero%20Trento> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 397-Biglietto Urbano Giornaliero Trento" .
+<http://localhost:8080/api/price_900012> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_900012> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "3.00" .
+<http://localhost:8080/api/ticket_URB_INTERA%20397-Biglietto%20Urbano%20Giornaliero%20Trento> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20397-Biglietto%20Urbano%20Giornaliero%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
+<http://localhost:8080/api/ticket_URB_INTERA%20613-Biglietto%20Funivia%20Trento-Sardagna%20Andata> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 613-Biglietto Funivia Trento-Sardagna Andata" .
+<http://localhost:8080/api/ticket_URB_INTERA%20613-Biglietto%20Funivia%20Trento-Sardagna%20Andata> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_URB_INTERA%20613-Biglietto%20Funivia%20Trento-Sardagna%20Andata> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900013> .
+<http://localhost:8080/api/ticket_URB_INTERA%20613-Biglietto%20Funivia%20Trento-Sardagna%20Andata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_900013> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_900013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_900013> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "3.00" .
+
+<http://localhost:8080/api/price_900014> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "5.00" .
+<http://localhost:8080/api/ticket_URB_INTERA%20794-Biglietto%20Funivia%20Sardagna%20Andata%20E%20Ritorno> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_900014> .
+<http://localhost:8080/api/price_900014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_URB_INTERA%20794-Biglietto%20Funivia%20Sardagna%20Andata%20E%20Ritorno> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_900014> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_URB_INTERA%20794-Biglietto%20Funivia%20Sardagna%20Andata%20E%20Ritorno> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "URB_INTERA 794-Biglietto Funivia Sardagna Andata E Ritorno" .
+<http://localhost:8080/api/ticket_URB_INTERA%20794-Biglietto%20Funivia%20Sardagna%20Andata%20E%20Ritorno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
