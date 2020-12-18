@@ -1,0 +1,17 @@
+{	
+	"Landing page": "https://dati.trentino.it/dataset/car-sharing-open-data",
+	"Created": "04-05-2018",
+	"Contact": "Servizio.innovazionedigitale@comune.trento.it",
+	"Author":
+	{
+		"Name": "Municipality of Trento",
+		"IPA/VAT Code": "c_l378"
+	},
+	"Published by":
+	{
+		"Name": "Trentino Trasporti",
+		"Url": "http://www.datiopen.it/it/users/datiopenit"
+	},
+	"License": "http://creativecommons.org/publicdomain/zero/1.0/deed.it",
+	"Format": "gml,shp,kml,dxf"
+}

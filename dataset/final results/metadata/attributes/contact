@@ -1,0 +1,12 @@
+"creator":"Transportatio_group",
+"Publish_Date":"12-18-2020",
+"Language": "English",
+"EntityTypes":{
+    "english":{
+        "FacilityID":"reference to facility id",
+        "Phone":"name of the day",
+        "Email":"name of the day",
+        "Website":"name of the day"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+"creator":"Transportatio_group",
+"Publish_Date":"12-18-2020",
+"Language": "English",
+"EntityTypes":{
+    "english":{
+        "FacilityID":"reference to facility id",
+        "TicketID":"name of the day",
+        "AutonomousTransportID":"name of the day",
+        "Cost":"name of the day",
+        }
+    }
+}

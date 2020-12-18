@@ -1,0 +1,12 @@
+{	
+	"Landing page": "https://siat.provincia.tn.it/IDT/vector/public/p_tn_0211d261-70d8-485e-9265-b1c27b1a84e1.zip",
+	"Created": "30-04-2019",
+	"Coordinates":
+	{
+		"Comment": "/*missing_coordinates*/",
+		"Type": "Polygon"
+	},
+	"Contact": "serv.naturambiente@provincia.tn.it",
+	"Identifiers": "p_TN:0211d261-70d8-485e-9265-b1c27b1a84e1_resource",
+	"Format": "cpg, dbf, prj, shp, shx"
+}

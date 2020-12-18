@@ -1,0 +1,70 @@
+{
+	"Landing page": "http://www.datiopen.it/it/opendata/Mappa_dei_parcheggi_in_Italia",
+	"Created": "23-02-2016",
+	"Contact": "serv.naturambiente@provincia.tn.it",
+	"Author":
+	{
+		"Name": "OpenStreetMap",
+		"Url": "http://www.datiopen.it/it/catalogo-opendata/openstreetmap-org"
+	},
+	"Published by":
+	{
+		"Name": "Open.it",
+		"Url": "http://www.datiopen.it/it/users/datiopenit"
+	},
+	"Format": "xlsx",
+	
+	"Files Contained":[
+		{
+			"Name": "Mappa-dei-distributori-di-carburante-in-italia.csv",
+			"Fields":[
+				{
+					"Name": "Comune",
+					"Type": "string",
+					"Description": "Location's municipality"
+				},
+				{
+					"Name": "Provincia",
+					"Type": "string",
+					"Description": "Province of location."
+				},
+				{
+					"Name": "Regione",
+					"Type": "string",
+					"Description": "Region of location."
+				},
+				{
+					"Name": "Nome",
+					"Type": "string",
+					"Description": "Name of parking area."
+				},
+				{
+					"Name": "Identificatore in OpenStreetMap",
+					"Type": "int",
+					"Description": "OpenStreetMap identifier."
+				},
+				{
+					"Name": "Anno inserimento",
+					"Type": "string",
+					"Description": "Year of creation"
+				},
+				{
+					"Name": "Data e ora inserimento",
+					"Type": "string",
+					"Description": "Date and hour of creation."
+				},
+				{
+					"Name": "Longitudine",
+					"Type": "double",
+					"Description": "Longitude coordinate."
+				},
+				{
+					"Name": "Latitudine",
+					"Type": "double",
+					"Description": "Latitude coordinate."
+				}
+			],
+			"Description": "It contains information about parking areas around Italy."
+		}
+	]
+}

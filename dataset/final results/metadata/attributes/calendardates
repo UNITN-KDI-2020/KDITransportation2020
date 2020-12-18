@@ -1,0 +1,13 @@
+"creator":"Transportatio_group",
+"Publish_Date":"12-18-2020",
+"Language": "English",
+"EntityTypes":{
+    "english":{
+        "CalendarId":"reference to facility id",
+        "ServiceId":"name of the day",
+        "Date":"name of the day",
+        "ExceptionType":"name of the day",
+
+        }
+    }
+}
