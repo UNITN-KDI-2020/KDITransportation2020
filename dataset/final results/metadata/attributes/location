@@ -1,0 +1,13 @@
+"creator":"Transportatio_group",
+"Publish_Date":"12-18-2020",
+"Language": "English",
+"EntityTypes":{
+    "english":{
+        "AddressID":"reference to facility id",
+        "StopId":"name of the day",
+        "Latitude":"name of the day",
+        "Longitude":"name of the day",
+
+        }
+    }
+}

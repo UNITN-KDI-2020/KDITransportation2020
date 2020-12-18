@@ -1,0 +1,219 @@
+{
+	"Dataset Identifier": "p_TN: d3c9f167-3271-4a43-b5c1-e0879aa5ad3f",
+	"Dataset Publisher": {
+		"Name": "Public Transport Service",
+		"IPA\/VAT Code": "0OK0PZ"
+	},
+	"Date of modification": "2019-05-09",
+	"Geographic coverage": "Trento",
+	"URI of GeoNames": "https://www.geonames.org/3165241",
+	"Languages of the dataset": "Italian",
+	"Holder": "Autonomous Province of Trento",
+	"Refresh Rate": "Half yearly",
+	"Author": {
+		"Name": "Public Transport Service",
+		"IPA/VAT": "0OK0PZ"
+	},
+	"Url": "https://dati.trentino.it/dataset/6d5c2000-972e-4c21-aef6-fdbba94418a8/resource/10e93dd1-3463-4664-8c24-300a7403780a/download/tariffegtfsextraurbano.zip",
+	"License": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+	"License_Type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+	"Format": "CSV",
+	
+	"Files Contained":[
+		{
+			"Name": "fare_attributes_extraurbano.txt",
+			"Fields":[
+				{
+					"Name": "FARE_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "PRICE",
+					"Type": "double"
+				},
+				{
+					"Name": "CURRENCY_TYPE",
+					"Type": "string"
+				},
+				{
+					"Name": "PAYMENT_METHOD",
+					"Type": "int"
+				},
+				{
+					"Name": "TRANSFERS",
+					"Type": "string"
+				},
+				{
+					"Name": "TRANSFER_DURATION",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "fare_attributes_extraurbano_cartascalare.txt",
+			"Fields":[
+				{
+					"Name": "FARE_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "PRICE",
+					"Type": "double"
+				},
+				{
+					"Name": "CURRENCY_TYPE",
+					"Type": "string"
+				},
+				{
+					"Name": "PAYMENT_METHOD",
+					"Type": "int"
+				},
+				{
+					"Name": "TRANSFERS",
+					"Type": "string"
+				},
+				{
+					"Name": "TRANSFER_DURATION",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "fare_attributes_extraurbano_mobile.txt",
+			"Fields":[
+				{
+					"Name": "FARE_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "PRICE",
+					"Type": "double"
+				},
+				{
+					"Name": "CURRENCY_TYPE",
+					"Type": "string"
+				},
+				{
+					"Name": "PAYMENT_METHOD",
+					"Type": "int"
+				},
+				{
+					"Name": "TRANSFERS",
+					"Type": "string"
+				},
+				{
+					"Name": "TRANSFER_DURATION",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "fare_rules_extraurbano.txt",
+			"Fields":[
+				{
+					"Name": "FARE_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "ROUTE_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "ORIGIN_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "DESTINATION_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "CONTAINS_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "INSTR_ID",
+					"Type": "string"
+				}
+			]
+		},
+		{
+			"Name": "fare_rules_extraurbano_cartascalare.txt",
+			"Fields":[
+				{
+					"Name": "FARE_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "ROUTE_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "ORIGIN_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "DESTINATION_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "CONTAINS_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "INSTR_ID",
+					"Type": "string"
+				}
+			]
+		},
+		{
+			"Name": "fare_rules_extraurbano_mobile.txt",
+			"Fields":[
+				{
+					"Name": "FARE_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "ROUTE_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "ORIGIN_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "DESTINATION_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "CONTAINS_ID",
+					"Type": "string"
+				},
+				{
+					"Name": "INSTR_ID",
+					"Type": "string"
+				}
+			]
+		},
+		{
+			"Name": "zones_estraurbano.txt",
+			"Fields":[
+				{
+					"Name": "ZONE_ID",
+					"Type": "int"
+				},
+				{
+					"Name": "ZONE_NAME",
+					"Type": "string"
+				},
+				{
+					"Name": "ZONE_LAT",
+					"Type": "double"
+				},
+				{
+					"Name": "ZONE_LON",
+					"Type": "double"
+				}
+			]
+		}
+	]
+}

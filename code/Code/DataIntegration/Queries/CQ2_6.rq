@@ -1,0 +1,14 @@
+# Returns the longest path in Trentino
+
+prefix onto:<http://www.ontotext.com/> 
+prefix ontology:<http://knowdive.disi.unitn.it/etype#>
+PREFIX omgeo:<http://www.ontotext.com/owlim/geo#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+select ?road ?lengthF ?length
+where
+{
+    ?road ontology:has_length_GID-28259_Type-22592 ?length .    
+    BIND(REPLACE(STR(?length), ",", "") AS ?lengthF) FILTER (xsd:float(?lengthF) > 1).
+} 
+ORDER BY DESC(xsd:float(?lengthF)) LIMIT 1

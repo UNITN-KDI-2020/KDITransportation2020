@@ -1,0 +1,16 @@
+"creator":"Transportatio_group",
+"Publish_Date":"12-18-2020",
+"Language": "English",
+"EntityTypes":{
+    "english":{
+        "RouteID":"reference to facility id",
+        "SpeedLimit":"name of the day",
+        "ArrivalPoint":"name of the day",
+        "ModeOfTransport":"name of the day",
+        "TimeSpent":"name of the day",
+        "Facility":"name of the day",
+        "Length":"name of the day",
+
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<http://localhost:8080/api/agency_12> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "12" .
+<http://localhost:8080/api/contact_200012> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "200012" .
+<http://localhost:8080/api/contact_200012> <http://knowdive.disi.unitn.it/etype#has_phonebook_GID-34485_Type-120109> "+39 0461 821000" .
+<http://localhost:8080/api/agency_12> <http://knowdive.disi.unitn.it/etype#has_agency_language_GID-120060_Type-45084> "it" .
+<http://localhost:8080/api/contact_200012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/agency_12> <http://knowdive.disi.unitn.it/etype#has_contact_GID-39136_Type-45084> <http://localhost:8080/api/contact_200012> .
+<http://localhost:8080/api/agency_12> <http://knowdive.disi.unitn.it/etype#has_agency_name_GID-120058_Type-45084> "Trentino trasporti esercizio S.p.A." .
+<http://localhost:8080/api/agency_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Agency_GID-45084> .
+

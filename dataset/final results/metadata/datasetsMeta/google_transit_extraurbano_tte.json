@@ -1,0 +1,335 @@
+{
+	"Dataset Identifier": "p_TN: d3c9f167-3271-4a43-b5c1-e0879aa5ad3f",
+	"Dataset Publisher": {
+		"Name": "Public Transport Service",
+		"IPA\/VAT Code": "0OK0PZ"
+	},
+	"Date of modification": "2017-10-24",
+	"Geographic coverage": "Trento",
+	"URI of GeoNames": "https://www.geonames.org/3165241",
+	"Languages of the dataset": "Italian",
+	"Holder": "Autonomous Province of Trento",
+	"Refresh Rate": "Half yearly",
+	"Author": {
+		"Name": "Public Transport Service",
+		"IPA/VAT": "0OK0PZ"
+	},
+	"Url": "https://www.trentinotrasporti.it/opendata/google_transit_extraurbano_tte.zip",
+	"License": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+	"License_Type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+	"Format": "txt",
+	
+	"Files Contained":[
+		{
+			"Name": "agency.txt",
+			"Fields":[
+				{
+					"Name": "agency_id",
+					"Type": "int",
+					"Required": "Conditionally Required",
+					"Description": "This contains the information of the transit agency."
+				},
+				{
+					"Name": "agency_name",
+					"Type": "string",
+					"Required": "Required",
+					"Description": "Full name of the transit agency."
+				},
+				{
+					"Name": "agency_url",
+					"Type": "string",
+					"Required": "Required",
+					"Description": "URL of the transit agency"
+				},
+				{
+					"Name": "agency_timezone",
+					"Type": "string",
+					"Required": "Required",
+					"Description": "imezone where the transit agency is located"
+				},
+				{
+					"Name": "agency_phone",
+					"Type": "string",
+					"Required": "Optional",
+					"Description": ""
+				},
+				{
+					"Name": "agency_lang",
+					"Type": "string",
+					"Required": "Optional",
+					"Description": ""
+				}
+			],
+			"Description": "this file contains the agency information that provides the data."
+		},
+		{
+			"Name": "calendar.txt",
+			"Fields":[
+				{
+					"Name": "service_id",
+					"Type": "int",
+					"Description": ""
+				},
+				{
+					"Name": "monday",
+					"Type": "bool",
+					"Description": ""
+				},
+				{
+					"Name": "tuesday",
+					"Type": "bool",
+					"Description": ""
+				},
+				{
+					"Name": "wednesday",
+					"Type": "bool",
+					"Description": ""
+				},
+				{
+					"Name": "thursday",
+					"Type": "bool",
+					"Description": ""
+				},
+				{
+					"Name": "friday",
+					"Type": "bool",
+					"Description": ""
+				},
+				{
+					"Name": "saturday",
+					"Type": "bool",
+					"Description": ""
+				},
+				{
+					"Name": "sunday",
+					"Type": "bool",
+					"Description": ""
+				},
+				{
+					"Name": "start_day",
+					"Type": "int",
+					"Description": ""
+				},
+				{
+					"Name": "end_data",
+					"Type": "int",
+					"Description": ""
+				}
+			],
+			"Description": ""
+		},
+		{
+			"Name": "calendar_dates.txt",
+			"Fields":[
+				{
+					"Name": "service_id",
+					"Type": "int"
+				},
+				{
+					"Name": "date",
+					"Type": "int"
+				},
+				{
+					"Name": "exception_type",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "feed_info.txt",
+			"Fields":[
+				{
+					"Name": "feed_publisher_name",
+					"Type": "string"
+				},
+				{
+					"Name": "feed_publisher_url",
+					"Type": "string"
+				},
+				{
+					"Name": "feed_lang",
+					"Type": "string"
+				},
+				{
+					"Name": "feed_start_date",
+					"Type": "int"
+				},
+				{
+					"Name": "feed_end_date",
+					"Type": "int"
+				},
+				{
+					"Name": "feed_version",
+					"Type": "double"
+				}
+			]
+		},
+		{
+			"Name": "routes.txt",
+			"Fields":[
+				{
+					"Name": "route_id",
+					"Type": "int"
+				},
+				{
+					"Name": "agency_id",
+					"Type": "int"
+				},
+				{
+					"Name": "route_short_name",
+					"Type": "string"
+				},
+				{
+					"Name": "route_long_name",
+					"Type": "string"
+				},
+				{
+					"Name": "route_type",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "shapes.txt",
+			"Fields":[
+				{
+					"Name": "shape_id",
+					"Type": "string"
+				},
+				{
+					"Name": "shape_pt_lat",
+					"Type": "double"
+				},
+				{
+					"Name": "shape_pt_lon",
+					"Type": "double"
+				},
+				{
+					"Name": "shape_pt_sequence",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "stop_times.txt",
+			"Fields":[
+				{
+					"Name": "trip_id",
+					"Type": "int"
+				},
+				{
+					"Name": "arrival_time",
+					"Type": "string"
+				},
+				{
+					"Name": "departure_time",
+					"Type": "string"
+				},
+				{
+					"Name": "stop_id",
+					"Type": "int"
+				},
+				{
+					"Name": "stop_sequence",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "stops.txt",
+			"Fields":[
+				{
+					"Name": "stop_id",
+					"Type": "int"
+				},
+				{
+					"Name": "stop_code",
+					"Type": "string"
+				},
+				{
+					"Name": "stop_name",
+					"Type": "string"
+				},
+				{
+					"Name": "stop_desc",
+					"Type": "string"
+				},
+				{
+					"Name": "stop_lat",
+					"Type": "double"
+				},
+				{
+					"Name": "stop_lon",
+					"Type": "double"
+				},
+				{
+					"Name": "zone_id",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "stopslevel.txt",
+			"Fields":[
+				{
+					"Name": "stop_id",
+					"Type": "int"
+				},
+				{
+					"Name": "stop_level",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "transfers.txt",
+			"Fields":[
+				{
+					"Name": "from_stop_id",
+					"Type": "int"
+				},
+				{
+					"Name": "to_stop_id",
+					"Type": "int"
+				},
+				{
+					"Name": "transfer_type",
+					"Type": "int"
+				},
+				{
+					"Name": "min_transfer_time",
+					"Type": "int"
+				}
+			]
+		},
+		{
+			"Name": "trips.txt",
+			"Fields":[
+				{
+					"Name": "route_id",
+					"Type": "int"
+				},
+				{
+					"Name": "service_id",
+					"Type": "int"
+				},
+				{
+					"Name": "trip_id",
+					"Type": "int"
+				},
+				{
+					"Name": "trip_headsign",
+					"Type": "string"
+				},
+				{
+					"Name": "direction_id",
+					"Type": "int"
+				},
+				{
+					"Name": "shape_id",
+					"Type": "string"
+				}
+			]
+		}
+	]
+}

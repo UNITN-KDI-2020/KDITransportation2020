@@ -1,0 +1,42 @@
+<http://localhost:8080/api/contact_400> <http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-120109> "info@carsharing.tn.it" .
+<http://localhost:8080/api/contact_400> <http://knowdive.disi.unitn.it/etype#has_phonebook_GID-34485_Type-120109> "+39 046 116 10202" .
+<http://localhost:8080/api/contact_400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/contact_400> <http://knowdive.disi.unitn.it/etype#has_web_site_GID-34126_Type-120109> "https://www.carsharing.tn.it/" .
+<http://localhost:8080/api/contact_400> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "400" .
+
+<http://localhost:8080/api/contact_401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/contact_401> <http://knowdive.disi.unitn.it/etype#has_web_site_GID-34126_Type-120109> "https://www.carsharing.tn.it/" .
+<http://localhost:8080/api/contact_401> <http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-120109> "info@carsharing.tn.it" .
+<http://localhost:8080/api/contact_401> <http://knowdive.disi.unitn.it/etype#has_phonebook_GID-34485_Type-120109> "+39 046 116 10202" .
+<http://localhost:8080/api/contact_401> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "401" .
+
+<http://localhost:8080/api/contact_402> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "402" .
+<http://localhost:8080/api/contact_402> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/contact_402> <http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-120109> "info@carsharing.tn.it" .
+<http://localhost:8080/api/contact_402> <http://knowdive.disi.unitn.it/etype#has_web_site_GID-34126_Type-120109> "https://www.carsharing.tn.it/" .
+<http://localhost:8080/api/contact_402> <http://knowdive.disi.unitn.it/etype#has_phonebook_GID-34485_Type-120109> "+39 046 116 10202" .
+
+<http://localhost:8080/api/contact_403> <http://knowdive.disi.unitn.it/etype#has_web_site_GID-34126_Type-120109> "https://www.carsharing.tn.it/" .
+<http://localhost:8080/api/contact_403> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "403" .
+<http://localhost:8080/api/contact_403> <http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-120109> "info@carsharing.tn.it" .
+<http://localhost:8080/api/contact_403> <http://knowdive.disi.unitn.it/etype#has_phonebook_GID-34485_Type-120109> "+39 046 116 10202" .
+<http://localhost:8080/api/contact_403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+
+<http://localhost:8080/api/contact_404> <http://knowdive.disi.unitn.it/etype#has_web_site_GID-34126_Type-120109> "https://www.carsharing.tn.it/" .
+<http://localhost:8080/api/contact_404> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "404" .
+<http://localhost:8080/api/contact_404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/contact_404> <http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-120109> "info@carsharing.tn.it" .
+<http://localhost:8080/api/contact_404> <http://knowdive.disi.unitn.it/etype#has_phonebook_GID-34485_Type-120109> "+39 046 116 10202" .
+
+<http://localhost:8080/api/contact_405> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "405" .
+<http://localhost:8080/api/contact_405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/contact_405> <http://knowdive.disi.unitn.it/etype#has_web_site_GID-34126_Type-120109> "https://www.carsharing.tn.it/" .
+<http://localhost:8080/api/contact_405> <http://knowdive.disi.unitn.it/etype#has_phonebook_GID-34485_Type-120109> "+39 046 116 10202" .
+<http://localhost:8080/api/contact_405> <http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-120109> "info@carsharing.tn.it" .
+
+<http://localhost:8080/api/contact_406> <http://knowdive.disi.unitn.it/etype#has_phonebook_GID-34485_Type-120109> "+39 046 116 10202" .
+<http://localhost:8080/api/contact_406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Contact_GID-120109> .
+<http://localhost:8080/api/contact_406> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "406" .
+<http://localhost:8080/api/contact_406> <http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-120109> "info@carsharing.tn.it" .
+<http://localhost:8080/api/contact_406> <http://knowdive.disi.unitn.it/etype#has_web_site_GID-34126_Type-120109> "https://www.carsharing.tn.it/" .
+

@@ -1,0 +1,224 @@
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20100%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 100 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20100%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000000> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000000> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20100%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000000> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20100%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
+<http://localhost:8080/api/price_1000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2011%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000001> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000001> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2011%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 11 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2011%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2011%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000001> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20110%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 110 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20110%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000002> .
+<http://localhost:8080/api/price_1000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000002> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000002> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20110%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20110%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20120%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20120%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20120%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 120 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20120%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000003> .
+<http://localhost:8080/api/price_1000003> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000003> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20130%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 130 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20130%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000004> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20130%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000004> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000004> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20130%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20140%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 140 KM" .
+<http://localhost:8080/api/price_1000005> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20140%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20140%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000005> .
+<http://localhost:8080/api/price_1000005> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20140%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2015%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000006> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2015%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2015%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 15 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2015%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000006> .
+<http://localhost:8080/api/price_1000006> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+
+<http://localhost:8080/api/price_1000007> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20150%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 150 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20150%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20150%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000007> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20150%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000007> .
+<http://localhost:8080/api/price_1000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20160%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 160 KM" .
+<http://localhost:8080/api/price_1000008> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000008> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20160%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20160%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000008> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20160%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20170%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 170 KM" .
+<http://localhost:8080/api/price_1000009> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20170%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20170%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000009> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20170%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000009> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20180%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000010> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20180%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 180 KM" .
+<http://localhost:8080/api/price_1000010> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20180%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20180%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000010> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20190%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20190%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 190 KM" .
+<http://localhost:8080/api/price_1000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20190%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000011> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000011> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20190%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000011> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2020%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 20 KM" .
+<http://localhost:8080/api/price_1000012> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2020%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2020%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000012> .
+<http://localhost:8080/api/price_1000012> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2020%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
+<http://localhost:8080/api/price_1000013> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20200%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 200 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20200%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20200%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000013> .
+<http://localhost:8080/api/price_1000013> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20200%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
+<http://localhost:8080/api/price_1000014> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20210%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 210 KM" .
+<http://localhost:8080/api/price_1000014> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20210%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20210%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000014> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20210%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20220%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20220%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000015> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20220%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 220 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%20220%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000015> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000015> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2025%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2025%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 25 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2025%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000016> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000016> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2025%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000016> .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2030%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000017> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2030%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000017> .
+<http://localhost:8080/api/price_1000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2030%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000017> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2030%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 30 KM" .
+
+<http://localhost:8080/api/price_1000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2035%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2035%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000018> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2035%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000018> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000018> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2035%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 35 KM" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%204%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000019> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%204%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%204%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 4 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%204%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000019> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000019> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2040%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 40 KM" .
+<http://localhost:8080/api/price_1000020> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000020> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2040%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000020> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2040%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2040%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+
+<http://localhost:8080/api/price_1000021> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2045%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000021> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2045%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2045%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 45 KM" .
+<http://localhost:8080/api/price_1000021> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2045%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+
+<http://localhost:8080/api/price_1000022> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000022> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2050%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 50 KM" .
+<http://localhost:8080/api/price_1000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2050%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000022> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2050%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2050%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2060%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 60 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2060%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000023> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2060%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000023> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2060%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000023> .
+
+<http://localhost:8080/api/price_1000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%207%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%207%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 7 KM" .
+<http://localhost:8080/api/price_1000024> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%207%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000024> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%207%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000024> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2070%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000025> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2070%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2070%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+<http://localhost:8080/api/price_1000025> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000025> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2070%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 70 KM" .
+
+<http://localhost:8080/api/price_1000026> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/price_1000026> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2080%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 80 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2080%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2080%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000026> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2080%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2090%20KM> <http://knowdive.disi.unitn.it/etype#has_price_GID-28431_Type-111874> <http://localhost:8080/api/price_1000027> .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2090%20KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Ticket_GID-111874> .
+<http://localhost:8080/api/price_1000027> <http://knowdive.disi.unitn.it/etype#has_currency_type_GID-120061_Type-28431> "€" .
+<http://localhost:8080/api/price_1000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Price_GID-28431> .
+<http://localhost:8080/api/price_1000027> <http://knowdive.disi.unitn.it/etype#has_cost_GID-70407_Type-28431> "2.00" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2090%20KM> <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "EXT_INTERA ENTRO 90 KM" .
+<http://localhost:8080/api/ticket_EXT_INTERA%20ENTRO%2090%20KM> <http://knowdive.disi.unitn.it/etype#has_paymentmethod_GID-120074_Type-111874> "1" .
+

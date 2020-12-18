@@ -1,0 +1,15 @@
+"creator":"Transportatio_group",
+"Publish_Date":"12-18-2020",
+"Language": "English",
+"EntityTypes":{
+    "english":{
+        "FacilityID":"unique id",
+        "Province":"name of the province",
+        "City":"name of the city",
+        "Street":"name of the street",
+        "Number":"number of the street",
+        "Cap":"zip code",
+        "Location":"refrence id to location",
+        }
+    }
+}

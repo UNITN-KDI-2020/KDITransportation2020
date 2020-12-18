@@ -1,0 +1,75 @@
+{
+	"Landing page": "http://www.datiopen.it/it/opendata/Mappa_dei_distributori_di_carburante_in_italia",
+	"Created": "23-02-2016",
+	"Contact": "Servizio.innovazionedigitale@comune.trento.it",
+	"Author":
+	{
+		"Name": "OpenStreetMap"
+	},
+	"Published by":
+	{
+		"Name": "DatiOpen.it",
+		"Url": "http://www.datiopen.it/it/opendata/@authorAlias"
+	},
+	"License": "http://opendatacommons.org/licenses/odbl/",
+	"Format": "xlsx",
+	
+	"Files Contained":[
+		{
+			"Name": "Mappa-dei-distributori-di-carburante-in-italia.csv",
+			"Fields":[
+				{
+					"Name": "Comune",
+					"Type": "string",
+					"Description": "Gas Station's municipality"
+				},
+				{
+					"Name": "Provincia",
+					"Type": "string",
+					"Description": "Gas Station's Province"
+				},
+				{
+					"Name": "Regione",
+					"Type": "string",
+					"Description": "Gas Station's Region"
+				},
+				{
+					"Name": "Nome",
+					"Type": "string",
+					"Description": "Gas Station's Name"
+				},
+				{
+					"Name": "Anno",
+					"Type": "int",
+					"Description": "Gas Station's Year"
+				},
+				{
+					"Name": "Anno inserimento",
+					"Type": "string",
+					"Description": "Year of entry creation"
+				},
+				{
+					"Name": "Data e ora inserimento",
+					"Type": "string",
+					"Description": "Date and hour of entry creation"
+				},
+				{
+					"Name": "Identificatore in OpenStreetMap",
+					"Type": "int",
+					"Description": "OpenStreetMap Identifier"
+				},
+				{
+					"Name": "Longitudine",
+					"Type": "double",
+					"Description": "Gas Station's location longitude"
+				},
+				{
+					"Name": "Latitudine",
+					"Type": "double",
+					"Description": "Gas Station's location latitude"
+				}
+			],
+			"Description": "This dataset contains information about gas stations around italy"
+		}
+	]
+}

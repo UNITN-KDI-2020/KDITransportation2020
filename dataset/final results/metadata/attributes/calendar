@@ -1,0 +1,19 @@
+"creator":"Transportatio_group",
+"Publish_Date":"12-18-2020",
+"Language": "English",
+"EntityTypes":{
+    "english":{
+        "FacilityID":"reference to facility id",
+        "Monday":"name of the day",
+        "Tuesday":"name of the day",
+        "Wednesday":"name of the day",
+        "Thursday":"name of the day",
+        "Friday":"name of the day",
+        "Saturday":"name of the day",
+        "Sunday":"name of the day",
+        "StartDate":"starting date",
+        "EndDate":"finished date",
+        "Exceptions":"refrence id to location",
+        }
+    }
+}
