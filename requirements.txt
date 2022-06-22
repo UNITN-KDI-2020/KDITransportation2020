@@ -46,7 +46,7 @@ nbclient @ file:///tmp/build/80754af9/nbclient_1602783176460/work
 nbconvert @ file:///C:/ci/nbconvert_1601914925608/work
 nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work
 nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1601499549014/work
-numpy==1.19.4
+numpy==1.22.0
 numpydoc @ file:///tmp/build/80754af9/numpydoc_1594166760263/work
 packaging==20.4
 pandas==1.1.4
