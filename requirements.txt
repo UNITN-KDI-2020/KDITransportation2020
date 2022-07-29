@@ -41,7 +41,7 @@ keyring @ file:///C:/ci/keyring_1601489747083/work
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
-mistune==0.8.4
+mistune==2.0.3
 nbclient @ file:///tmp/build/80754af9/nbclient_1602783176460/work
 nbconvert @ file:///C:/ci/nbconvert_1601914925608/work
 nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work
